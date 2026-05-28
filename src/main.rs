@@ -2,7 +2,7 @@ use std::{
     collections::BTreeMap,
     fs::{self, File},
     io::BufReader,
-    process::{Command, Stdio},
+    process::Command,
     sync::LazyLock,
 };
 
@@ -20,9 +20,19 @@ struct Index {
 #[derive(Debug, serde::Deserialize)]
 struct World {
     name: String,
-    home: String,
+    display_name: String,
+    #[serde(default)]
+    tags: Vec<Tag>,
+    discord: Option<String>,
     default_url: Option<String>,
     versions: BTreeMap<Version, String>,
+}
+
+#[derive(Debug, Clone, Copy, serde::Serialize, serde::Deserialize)]
+#[non_exhaustive]
+enum Tag {
+    #[serde(rename = "ad")]
+    AfterDark,
 }
 
 #[derive(Debug, serde::Serialize, serde::Deserialize)]
@@ -31,7 +41,14 @@ struct WorldSchema {
     game: String,
     version: Version,
     hidden: bool,
-    // and other unimportant fields
+
+    #[serde(default)]
+    display_name: String,
+    #[serde(default)]
+    tags: Vec<Tag>,
+    #[serde(default)]
+    wiki: String,
+    discord: Option<String>,
 }
 
 fn main() -> Result<()> {
@@ -40,13 +57,13 @@ fn main() -> Result<()> {
         .nth(1)
         .unwrap_or_else(|| "index.toml".into());
     let toml_text = fs::read_to_string(toml_path)?;
-    let index: Index = toml::from_str(&toml_text)?;
+    let toml: Index = toml::from_str(&toml_text)?;
 
     println!("downloading worlds");
     fs::create_dir_all("custom_worlds")?;
-    for world in index.worlds {
+    for world in &toml.worlds {
         println!("downloading {}", world.name);
-        download_world(&world).with_context(|| format!("downloading {}.apworld", world.name))?;
+        download_world(world).with_context(|| format!("downloading {}.apworld", world.name))?;
     }
 
     println!("generating schema");
@@ -63,11 +80,23 @@ fn main() -> Result<()> {
             .file_name()
             .is_some_and(|f| f.to_string_lossy().ends_with(".json") && f != "index.json")
         {
-            let schema: WorldSchema = serde_json::from_reader(BufReader::new(
+            let mut schema: WorldSchema = serde_json::from_reader(BufReader::new(
                 File::open(entry.path())
                     .with_context(|| format!("opening {}", entry.path().display()))?,
             ))
             .with_context(|| format!("reading {}", entry.path().display()))?;
+            let info = toml.worlds.iter().find(|w| w.name == schema.name);
+            schema.display_name = info.map(|w| w.display_name.clone()).unwrap_or_default();
+            schema.tags = info.map(|w| w.tags.clone()).unwrap_or_default();
+            schema.wiki = info
+                .map(|w| {
+                    format!(
+                        "https://archipelago.miraheze.org/wiki/{}",
+                        w.display_name.replace(' ', "_")
+                    )
+                })
+                .unwrap_or_default();
+            schema.discord = info.and_then(|w| w.discord.clone());
             index.push(schema);
         }
     }
