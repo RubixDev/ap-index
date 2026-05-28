@@ -1,0 +1,12 @@
+[package]
+name = "ap-index"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+reqwest = { version = "0.13.4", features = ["blocking"] }
+semver = { version = "1.0.28", features = ["serde"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+toml = "1.1.2"
