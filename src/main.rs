@@ -71,6 +71,7 @@ fn main() -> Result<()> {
             index.push(schema);
         }
     }
+    index.sort_unstable_by_key(|w| w.name);
     serde_json::to_writer(
         File::create("schema/index.json").context("creating index.json")?,
         &index,
