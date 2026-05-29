@@ -2,6 +2,7 @@ use std::{
     collections::BTreeMap,
     fs::{self, File},
     io::BufReader,
+    path::PathBuf,
     process::Command,
     sync::LazyLock,
 };
@@ -9,6 +10,8 @@ use std::{
 use anyhow::{Context, Result};
 use reqwest::blocking::Client;
 use semver::Version;
+use serde_with::{NoneAsEmptyString, serde_as};
+use zip::ZipArchive;
 
 static CLIENT: LazyLock<Client> = LazyLock::new(Client::new);
 
@@ -25,7 +28,21 @@ struct World {
     tags: Vec<Tag>,
     discord: Option<String>,
     default_url: Option<String>,
-    versions: BTreeMap<Version, String>,
+    default_path_in_zip: Option<PathBuf>,
+    versions: BTreeMap<Version, WorldVersion>,
+}
+
+#[serde_as]
+#[derive(Debug, serde::Deserialize)]
+#[serde(untagged)]
+enum WorldVersion {
+    Url(#[serde_as(as = "NoneAsEmptyString")] Option<String>),
+    Full {
+        url: Option<String>,
+        path_in_zip: Option<PathBuf>,
+        #[serde(rename = "as")]
+        as_version: Option<String>,
+    },
 }
 
 #[derive(Debug, Clone, Copy, serde::Serialize, serde::Deserialize)]
@@ -59,7 +76,6 @@ fn main() -> Result<()> {
     let toml_text = fs::read_to_string(toml_path)?;
     let toml: Index = toml::from_str(&toml_text)?;
 
-    println!("downloading worlds");
     fs::create_dir_all("custom_worlds")?;
     for world in &toml.worlds {
         println!("downloading {}", world.name);
@@ -111,21 +127,52 @@ fn main() -> Result<()> {
 }
 
 fn download_world(world: &World) -> Result<()> {
-    let (version, version_url) = world
+    let (version, version_info) = world
         .versions
         .last_key_value()
         .context("at least one version is required")?;
-    let url = match version_url.as_str() {
-        "" => world
+    let url = match version_info {
+        WorldVersion::Url(Some(url)) | WorldVersion::Full { url: Some(url), .. } => url.clone(),
+        WorldVersion::Url(None) => world
             .default_url
             .as_ref()
             .context("default_url must be set when version-specific url is missing")?
             .replace("{{version}}", &version.to_string()),
-        _ => version_url.clone(),
+        WorldVersion::Full {
+            url: None,
+            as_version,
+            ..
+        } => world
+            .default_url
+            .as_ref()
+            .context("default_url must be set when version-specific url is missing")?
+            .replace(
+                "{{version}}",
+                &as_version.clone().unwrap_or_else(|| version.to_string()),
+            ),
     };
     let mut resp = CLIENT.get(url).send()?.error_for_status()?;
     let mut file = File::create(format!("custom_worlds/{}.apworld", world.name))?;
-    std::io::copy(&mut resp, &mut file)?;
+
+    match (&world.default_path_in_zip, version_info) {
+        (
+            _,
+            WorldVersion::Full {
+                path_in_zip: Some(path),
+                ..
+            },
+        )
+        | (Some(path), _) => {
+            let mut tmpfile = tempfile::spooled_tempfile_in(20 * 1024 * 1024, ".");
+            std::io::copy(&mut resp, &mut tmpfile)?;
+            let mut zip = ZipArchive::new(&mut tmpfile)?;
+            let mut zipped_file = zip
+                .by_path(path)
+                .context("opening apworld inside zip file")?;
+            std::io::copy(&mut zipped_file, &mut file)?;
+        }
+        _ => _ = std::io::copy(&mut resp, &mut file)?,
+    }
 
     Ok(())
 }

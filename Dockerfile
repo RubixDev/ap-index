@@ -8,7 +8,7 @@ WORKDIR /app
 # so we do it the long way
 RUN git init && \
   git remote add origin https://github.com/RubixDev/Archipelago.git && \
-  git fetch --depth 1 origin 9eda4d590625c04d0cb2a1ae5e4c6449bc50014c && \
+  git fetch --depth 1 origin 5de364362b7eed6ee0d55d9d74da9a97a8864ed5 && \
   git checkout FETCH_HEAD
 
 RUN python ModuleUpdate.py --yes

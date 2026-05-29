@@ -15,14 +15,15 @@ default_url = "https://github.com/Ishigh1/Archipelago/releases/download/2048-{{v
 name = "actraiser"
 display_name = "Actraiser"
 discord = "https://discord.com/channels/731205301247803413/1113529234800005181"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v{{version}}/actraiser.apworld"
 
   [worlds.versions]
-  "1.2.1" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v121/actraiser.apworld"
-  "1.3.0" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v130/actraiser.apworld"
-  "1.3.1" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v131/actraiser.apworld"
-  "1.3.2" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v132/actraiser.apworld"
-  "1.3.3" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v133/actraiser.apworld"
-  "1.3.4" = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v134/actraiser.apworld"
+  "1.2.1" = { as = "121" }
+  "1.3.0" = { as = "130" }
+  "1.3.1" = { as = "131" }
+  "1.3.2" = { as = "132" }
+  "1.3.3" = { as = "133" }
+  "1.3.4" = { as = "134" }
 
 [[worlds]]
 name = "against_the_storm"
@@ -48,19 +49,20 @@ default_url = "https://github.com/dmwever/Ageipelago/releases/download/{{version
   "0.1.3" = ""
   "0.1.4" = ""
 
-[[worlds]]
-name = "aom"
-display_name = "Age Of Mythology Retold"
-discord = "https://discord.com/channels/731205301247803413/1302047515482390588"
-default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
+# somehow breaks the jackanddaxter world
+# [[worlds]]
+# name = "aom"
+# display_name = "Age Of Mythology Retold"
+# discord = "https://discord.com/channels/731205301247803413/1302047515482390588"
+# default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
 
-  [worlds.versions]
-  "1.0.0" = ""
-  "1.0.1" = ""
-  "1.0.2" = ""
-  "1.1.0" = ""
-  "1.1.1" = ""
-  "1.1.2" = ""
+#   [worlds.versions]
+#   "1.0.0" = ""
+#   "1.0.1" = ""
+#   "1.0.2" = ""
+#   "1.1.0" = ""
+#   "1.1.1" = ""
+#   # "1.1.2" = "" # has invalid backslash separators, which breaks on linux
 
 [[worlds]]
 name = "air_delivery"
@@ -223,7 +225,7 @@ default_url = "https://github.com/galdiuz/archipeladoku/releases/download/v{{ver
   "0.0.0" = "https://galdiuz.github.io/archipeladoku/archipeladoku.apworld"
 
 [[worlds]]
-name = "archipidle-2024"
+name = "archipidle"
 display_name = "ArchipIDLE"
 
   [worlds.versions]
@@ -286,14 +288,315 @@ default_url = "https://github.com/airbreather/Archipelago/releases/download/v{{v
 [[worlds]]
 name = "axiomverge"
 display_name = "Axiom Verge"
+default_url = "https://github.com/mail-liam/Archipelago/releases/download/{{version}}/axiomverge.apworld"
 
   [worlds.versions]
-  "0.0.0-beta" = "https://github.com/mail-liam/Archipelago/releases/download/beta/axiomverge.apworld"
-  "0.0.0-beta2" = "https://github.com/mail-liam/Archipelago/releases/download/beta2/axiomverge.apworld"
-  "0.0.0-beta2.1" = "https://github.com/mail-liam/Archipelago/releases/download/beta2.1/axiomverge.apworld"
-  "0.0.0-beta3" = "https://github.com/mail-liam/Archipelago/releases/download/beta3/axiomverge.apworld"
-  "0.0.0-beta3.2" = "https://github.com/mail-liam/Archipelago/releases/download/beta3.2/axiomverge.apworld"
-  "0.0.0-beta3.3" = "https://github.com/mail-liam/Archipelago/releases/download/beta3.3/axiomverge.apworld"
+  "0.0.0-beta" = { as = "beta" }
+  "0.0.0-beta2" = { as = "beta2" }
+  "0.0.0-beta2.1" = { as = "beta2.1" }
+  "0.0.0-beta3" = { as = "beta3" }
+  "0.0.0-beta3.2" = { as = "beta3.2" }
+  "0.0.0-beta3.3" = { as = "beta3.3" }
+
+[[worlds]]
+name = "baba_is_you"
+display_name = "Baba Is You"
+discord = "https://discord.com/channels/731205301247803413/1192341208505262080"
+default_url = "https://github.com/EmilyEmmi/Babapelago/releases/download/{{version}}/baba_is_you.apworld"
+
+  [worlds.versions]
+  "0.0.0-beta1.0" = { as = "b1.0" }
+  "0.0.0-beta1.1" = { as = "b1.1" }
+  "0.0.0-beta1.2" = { as = "b1.2" }
+  "0.0.0-beta1.2h" = { as = "b1.2h" }
+  "0.0.0-beta2.0" = { as = "b2.0" }
+  "0.0.0-beta2.0h" = { as = "b2.0h" }
+
+[[worlds]]
+name = "backlog_expedition"
+display_name = "Backlog Expedition"
+discord = "https://discord.com/channels/731205301247803413/1493318144213778472"
+default_url = "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/releases/download/v{{version}}/backlog_expedition.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+
+[[worlds]]
+name = "balatro"
+display_name = "Balatro"
+discord = "https://discord.com/channels/731205301247803413/1424479033261031474"
+default_url = "https://github.com/BurndiL/BalatroAP/releases/download/v{{version}}/balatro.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9-a" = { as = "0.1.9" }
+  "0.1.9-b" = { as = "0.1.9b" }
+  "0.1.9-c" = { as = "0.1.9c" }
+  "0.1.9-d" = { as = "0.1.9d" }
+  "0.1.9-e" = { as = "0.1.9e" }
+  "0.1.9-f" = { as = "0.1.9f" }
+
+[[worlds]]
+name = "bg3"
+display_name = "Baldur's Gate 3"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1419417116842393821"
+default_url = "https://github.com/zane31415/ArchipelagoBG3/releases/download/v{{version}}/bg3.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.2.0-1" = { as = "0.2.0.1" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = { as = "0.3" }
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.3.8" = ""
+  "0.3.9" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+
+[[worlds]]
+name = "bg3tot"
+display_name = "Baldur's Gate 3 - ToT"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1487979178463854732"
+default_url = "https://github.com/Zoltun456/Archipelago-BG3-ToT/releases/download/v{{version}}/bg3tot.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.1.7" = ""
+  "1.2.0" = ""
+
+[[worlds]]
+name = "BKBK_But_It's_Only_Furnace_Fun"
+display_name = "BK - Furnace Fun Only"
+
+  [worlds.versions]
+  "1.0.0" = "https://github.com/PixelShake92/BKBK_But_It-s_Only_Furnace_Fun-Apworld/releases/download/V1/BKBK_But_It.s_Only_Furnace_Fun.apworld"
+
+[[worlds]]
+name = "banjo_tooie"
+display_name = "Banjo-Tooie"
+discord = "https://discord.com/channels/731205301247803413/1380609128753532948"
+default_url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V{{version}}/banjo_tooie.apworld"
+
+  [worlds.versions]
+  "1.0.0-beta" = ""
+  "1.0.1-beta" = ""
+  "1.0.2-beta" = ""
+  "1.0.3-beta" = ""
+  "1.0.4-beta" = ""
+  "1.1.0" = { as = "1.1" }
+  "1.1.1-beta" = ""
+  "1.1.2-beta" = ""
+  "1.2.0-beta" = { as = "1.2-beta" }
+  "1.3.0-beta" = { as = "1.3-beta" }
+  "1.3.1-beta" = ""
+  "1.4.0-beta" = { as = "1.4-beta" }
+  "1.4.1-beta" = ""
+  "1.5.0-beta" = { as = "1.5-beta" }
+  "1.5.1-beta" = ""
+  "1.6.0-beta" = { as = "1.6-beta" }
+  "1.6.1-beta" = ""
+  "1.6.2-beta" = ""
+  "1.7.0-beta" = { as = "1.7-beta" }
+  "1.7.1-beta" = ""
+  "1.8.0-beta" = { as = "1.8-beta" }
+  "1.8.1-beta" = ""
+  "1.8.2-beta" = ""
+  "1.8.3-beta" = ""
+  "1.9.0-beta" = { as = "1.9-beta" }
+  "1.9.1-beta" = ""
+  "1.9.2-beta" = ""
+  "2.0.0-beta" = { as = "2.0-beta" }
+  "2.1.0-beta" = { as = "2.1-beta" }
+  "2.1.1-beta" = ""
+  "2.1.2-beta" = ""
+  "2.1.3-beta" = ""
+  "2.1.4-beta" = ""
+  "3.0.0-beta" = { as = "3.0-beta" }
+  "3.1.0-beta" = { as = "3.1-beta" }
+  "3.1.1-beta" = ""
+  "3.1.2-beta" = ""
+  "3.2.0" = { as = "3.2" }
+  "3.3.0-beta" = { as = "3.3-beta" }
+  "3.3.1-beta" = ""
+  "3.3.2-beta" = ""
+  "3.3.3-beta" = ""
+  "3.4.0-beta" = { as = "3.4-beta" }
+  "3.4.1-beta" = ""
+  "3.5.0-beta" = { as = "3.5-beta" }
+  "3.5.1" = ""
+  "3.5.2-beta" = ""
+  "3.5.3-beta" = ""
+  "4.0.0" = { as = "4.0" }
+  "4.0.1" = ""
+  "4.1.0" = { as = "4.1" }
+  "4.2.0" = { as = "4.2" }
+  "4.3.0" = { as = "4.3" }
+  "4.4.0" = { as = "4.4" }
+  "4.4.1" = ""
+  "4.4.2" = ""
+  "4.5.0" = { as = "4.5" }
+  "4.5.1" = ""
+  "4.6.0" = { as = "4.6" }
+  "4.6.1" = ""
+  "4.6.2" = ""
+  "4.7.0" = { as = "4.7" }
+  "4.8.0" = { as = "4.8" }
+  "4.8.1" = ""
+  "4.9.0" = { as = "4.9" }
+  "4.10.0" = { as = "4.10" }
+  "4.10.1" = ""
+  "4.10.2" = ""
+  "4.11.0" = ""
+  "4.11.1" = ""
+  "4.11.2" = ""
+  "4.11.3" = ""
+  "4.11.4" = ""
+  "4.11.5" = ""
+  "4.11.6" = ""
+
+[[worlds]]
+name = "bfbb"
+display_name = "Battle for Bikini Bottom"
+discord = "https://discord.com/channels/731205301247803413/1098766534035386458"
+default_path_in_zip = "bfbb.apworld"
+
+  [worlds.versions]
+  "1.0.0" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.0.0/bfbb_apworld-v1_0_0-win_amd64.zip"
+  "1.0.1" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.0.1/bfbb_apworld-v1_0_1-win_amd64.zip"
+  "1.0.2" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.0.2/bfbb_apworld-v1_0_2-win_amd64_hotfix_py38.zip"
+  "1.1.0" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.0/bfbb_apworld-v1_1_0-win_amd64.zip"
+  "1.1.1" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.1/bfbb_apworld-v1_1_1_hotfix1-win_amd64.zip"
+  "1.1.2" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.2/bfbb_apworld-v1_1_2-win_amd64.zip"
+  "1.1.3" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.3/bfbb_apworld-v1_1_3-win_amd64.zip"
+  "1.1.4" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.4/bfbb_apworld-v1_1_4-win_amd64.zip"
+  "1.1.5" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.5/bfbb_apworld-v1_1_5-win_amd64.zip"
+  "1.1.6" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.1.6/bfbb_apworld-v1_1_6-win_amd64.zip"
+  "1.2.0" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.0/bfbb_apworld-v1_2_0-win_amd64_py3_12.zip"
+  "1.2.1" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.1/bfbb_apworld-v1_2_1-win_amd64_py3_12.zip"
+  "1.2.2" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.2/bfbb_apworld-v1_2_2-win_amd64_py3_12.zip"
+  "1.2.3" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.3/bfbb_apworld-v1_2_3-win_amd64_py3_12.zip"
+  "1.2.4" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.4/bfbb_apworld-v1_2_4-win_amd64_py3_13.zip"
+  "1.2.5" = "https://github.com/Cyb3RGER/bfbb_ap_world/releases/download/v1.2.5/bfbb_apworld-v1_2_5-win_amd64_py3_13.zip"
+
+[[worlds]]
+name = "beat_saber"
+display_name = "Beat Saber"
+discord = "https://discord.com/channels/731205301247803413/1305538189070700604"
+default_url = "https://github.com/CurrentlyPending/BeatSaberAP/releases/download/v{{version}}/beat_saber.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = "https://github.com/CurrentlyPending/BeatSaberAP/releases/download/0.0.4/beat_saber.apworld"
+  "0.0.5" = ""
+  "0.1.0-alpha" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "tboir"
+display_name = "The Binding of Isaac Repentance"
+discord = "https://discord.com/channels/731205301247803413/1454262765047775326"
+default_url = "https://github.com/NaveTK/Archipelago/releases/download/v{{version}}/tboir.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "APBingo"
+display_name = "APBingo"
+discord = "https://discord.com/channels/731205301247803413/1252051532971638784"
+default_url = "https://github.com/Cynichill/APBingo/releases/download/{{version}}/APBingo.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+
+[[worlds]]
+name = "bits_and_bops"
+display_name = "Bits & Bops"
+discord = "https://discord.com/channels/731205301247803413/1457256322624917524"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-Bits-and-Bops/releases/download/{{version}}/bits_and_bops.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = ""
+
+[[worlds]]
+name = "bksim"
+display_name = "BK Simulator"
+discord = "https://discord.com/channels/731205301247803413/1445553022917808302"
+default_url = "https://github.com/BK-Simulator/BK-Simulator/releases/download/{{version}}/bksim.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
 
 [[worlds]]
 name = "outer_wilds"
