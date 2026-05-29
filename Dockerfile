@@ -7,11 +7,12 @@ WORKDIR /app
 # RUN git clone --depth 1 --revision <rev> https://github.com/RubixDev/Archipelago.git .
 # so we do it the long way
 RUN git init && \
-  git remote add origin https://github.com/RubixDev/Archipelago.git && \
-  git fetch --depth 1 origin 5de364362b7eed6ee0d55d9d74da9a97a8864ed5 && \
+  git remote add origin https://github.com/ArchipelagoMW/Archipelago.git && \
+  git fetch --depth 1 origin 0.6.7 && \
   git checkout FETCH_HEAD
 
 RUN python ModuleUpdate.py --yes
+COPY GenerateOptionSchema.py .
 
 #### Rust ####
 
