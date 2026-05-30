@@ -50,19 +50,20 @@ default_url = "https://github.com/dmwever/Ageipelago/releases/download/{{version
   "0.1.4" = ""
 
 # somehow breaks the jackanddaxter world
-# [[worlds]]
-# name = "aom"
-# display_name = "Age Of Mythology Retold"
-# discord = "https://discord.com/channels/731205301247803413/1302047515482390588"
-# default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
+[[worlds]]
+name = "aom"
+display_name = "Age Of Mythology Retold"
+discord = "https://discord.com/channels/731205301247803413/1302047515482390588"
+default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/download/v{{version}}/aom.apworld"
 
-#   [worlds.versions]
-#   "1.0.0" = ""
-#   "1.0.1" = ""
-#   "1.0.2" = ""
-#   "1.1.0" = ""
-#   "1.1.1" = ""
-#   # "1.1.2" = "" # has invalid backslash separators, which breaks on linux
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  # "1.1.2" = "" # has invalid backslash separators, which breaks on linux
+  "1.2.0" = ""
 
 [[worlds]]
 name = "air_delivery"
@@ -2514,6 +2515,501 @@ default_url = "https://github.com/The1stBurb/EvolveAPWorld/releases/download/v{{
   "0.3.15" = ""
   "0.3.16" = ""
   "0.3.17" = ""
+
+[[worlds]]
+name = "factorio_bobs"
+display_name = "Factorio Bob's"
+discord = "https://discord.com/channels/731205301247803413/1426234278462750860"
+default_url = "https://github.com/Osiris32-and-a-half/BobFactorioAP/releases/download/V{{version}}/factorio_bobs.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "2.0.0" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.1.3" = ""
+  "2.1.4" = ""
+  "2.1.5" = ""
+  "2.2.0" = ""
+  "2.2.1" = ""
+  "2.2.2" = ""
+
+[[worlds]]
+name = "factorio_platformer"
+display_name = "Factorio: Platformer"
+discord = "https://discord.com/channels/731205301247803413/1493358480218788041"
+default_url = "https://github.com/lepideble/factorio-apworld/releases/download/platformer-{{version}}/factorio_platformer.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "factorio_space_age"
+display_name = "Factorio: Space Age"
+default_url = "https://github.com/thejoshwolfe/Archipelago/releases/download/space-age-v{{version}}/factorio_space_age.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.1.0" = ""
+  "2.2.0" = ""
+  "2.2.1" = ""
+
+[[worlds]]
+name = "factorio_saws"
+display_name = "Factorio: Space Age Without Space"
+discord = "https://discord.com/channels/731205301247803413/1311946326040383589"
+default_url = "https://github.com/silasary/Archipelago/releases/download/factorio_saws-{{version}}/factorio_saws.apworld"
+
+  [worlds.versions]
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.0.7" }
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+
+[[worlds]]
+name = "fakutori"
+display_name = "Fakutori"
+default_url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v{{version}}/fakutori.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "feeding_frenzy_2"
+display_name = "Feeding Frenzy 2"
+discord = "https://discord.com/channels/731205301247803413/1491357143389962280"
+default_url = "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/download/v{{version}}/feeding_frenzy_2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+
+# see https://github.com/nhyldmar/fez-ap/issues/13
+# [[worlds]]
+# name = "fez"
+# display_name = "Fez"
+# discord = "https://discord.com/channels/731205301247803413/1210606519297773638"
+# default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}/fez.apworld"
+
+#   [worlds.versions]
+#   "0.1.0" = ""
+#   "0.1.1" = ""
+#   "0.2.0" = ""
+#   "0.3.0" = ""
+#   "0.4.0" = ""
+#   "0.5.0" = ""
+
+[[worlds]]
+name = "ff1pr"
+display_name = "FF1 Pixel Remaster"
+discord = "https://discord.com/channels/731205301247803413/1195372952166879262"
+default_url = "https://github.com/wildham0/FF1PRAP/releases/download/{{version}}/ff1pr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9" = ""
+  "0.1.10" = ""
+  "0.1.11" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.8" = ""
+  "0.2.9" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.5.6" = ""
+  "0.5.7" = ""
+  "0.5.8" = ""
+  "0.5.9" = ""
+  "0.5.10" = ""
+  "0.5.11" = ""
+  "0.5.12" = ""
+  "0.5.13" = ""
+  "0.5.14" = ""
+  "0.5.15" = ""
+  "0.5.16" = ""
+  "0.5.17" = ""
+
+[[worlds]]
+name = "ff4fe"
+display_name = "Final Fantasy IV Free Enterprise"
+default_url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFIV-{{version}}/ff4fe.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+  "4.0.0" = { as = "AP-v1" }
+  "5.0.0" = { as = "AP-v5" }
+  "6.0.0" = { as = "AP-v6" }
+  "7.0.0" = { as = "AP-v7" }
+
+[[worlds]]
+name = "ff5pr"
+display_name = "Final Fantasy V PR"
+discord = "https://discord.com/channels/731205301247803413/1475311051204726966"
+default_url = "https://github.com/sorlok/FF5Rando/releases/download/v{{version}}/FF5Rando_Release_{{version}}.zip"
+default_path_in_zip = "ff5pr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5-pre.1" = { as = "0.1.4.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = { as = "0.5" }
+
+[[worlds]]
+name = "ff6wc"
+display_name = "Final Fantasy 6 Worlds Collide"
+
+  [worlds.versions]
+  "0.0.0" = "https://bigmalletman.com/dl/ff6wc.apworld"
+
+[[worlds]]
+name = "ffx"
+display_name = "Final Fantasy X"
+discord = "https://discord.com/channels/731205301247803413/1304953414148554824"
+default_url = "https://github.com/FFX-AP/Archipelago/releases/download/v{{version}}/ffx.apworld"
+
+  [worlds.versions]
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+
+[[worlds]]
+name = "ff12_open_world"
+display_name = "Final Fantasy 12 Open World"
+discord = "https://discord.com/channels/731205301247803413/1229091295465570456"
+default_url = "https://github.com/Bartz24/Archipelago/releases/download/{{version}}/ff12_open_world.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.3.8" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.4-pre.1" = { as = "0.5.3.1" }
+  "0.6.0" = ""
+  "0.6.1-pre.1" = { as = "0.6.0.1" }
+  "0.6.1-pre.2" = { as = "0.6.0.2" }
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+
+[[worlds]]
+name = "ffxiitm"
+display_name = "Final Fantasy XII Trial Mode"
+default_url = "https://github.com/silasary/Archipelago/releases/download/ffxiitm-{{version}}/ffxiitm.apworld"
+
+  [worlds.versions]
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+
+[[worlds]]
+name = "fftii"
+display_name = "Final Fantasy Tactics Ivalice Island"
+discord = "https://discord.com/channels/731205301247803413/1451730887136903240"
+default_url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v{{version}}/fftii.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+
+[[worlds]]
+name = "ffta"
+display_name = "Final Fantasy Tactics Advance"
+discord = "https://discord.com/channels/731205301247803413/1100823015819837449"
+default_url = "https://github.com/spicynun/Archipelago/releases/download/{{version}}/ffta.apworld"
+
+  [worlds.versions]
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+
+[[worlds]]
+name = "ffta2"
+display_name = "Final Fantasy Tactics A2"
+discord = "https://discord.com/channels/731205301247803413/1296095764518277143"
+default_url = "https://github.com/Rurusachi/Archipelago/releases/download/{{version}}/ffta2.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = { as = "FFTA2_0.0.9" }
+
+[[worlds]]
+name = "fe8"
+display_name = "Fire Emblem Sacred Stones"
+discord = "https://discord.com/channels/731205301247803413/1098762105445953546"
+default_url = "https://github.com/CT075/Archipelago/releases/download/fe8-{{version}}/fe8.apworld"
+
+  [worlds.versions]
+  "0.0.1" = { as = "alpha-0.0.1" }
+  "0.0.2" = { as = "alpha-0.0.2" }
+  "0.1.0" = { as = "alpha-0.1.0" }
+  "0.2.0" = { as = "alpha-0.2.0" }
+  "0.3.0-rc.1" = { as = "alpha-0.3.0-rc1" }
+  "0.3.0" = { as = "alpha-0.3.0" }
+  "0.3.1" = { as = "alpha-0.3.1" }
+  "0.3.2" = { as = "alpha-0.3.2" }
+  "0.3.3-rc.1" = { as = "alpha-0.3.3-rc1" }
+  "0.4.0-rc.2" = { as = "alpha-0.4.0-rc2" }
+  "0.4.0-rc.3" = { as = "0.4.0-rc3" }
+  "0.4.0-rc.4" = { as = "0.4.0-rc4" }
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+
+[[worlds]]
+name = "flipwitch"
+display_name = "Flipwitch Forbidden Sex Hex"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1303773960873185320"
+default_url = "https://github.com/Witchybun/FlipwitchAPClient/releases/download/{{version}}/flipwitch.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9" = ""
+  "0.1.10" = ""
+  "0.1.11" = ""
+  "0.1.12" = ""
+  "0.1.13" = ""
+  "0.2.0-pre.1" = { as = "0.2.0pre1" }
+  "0.2.0-pre.2" = { as = "0.2.0pre2" }
+  "0.2.0-pre.3" = { as = "0.2.0pre3" }
+  "0.2.0-pre.4" = { as = "0.2.0pre4" }
+  "0.2.0-pre.5" = { as = "0.2.0pre5" }
+  "0.2.0-pre.6" = { as = "0.2.0pre6" }
+  "0.2.0-pre.7" = { as = "0.2.0pre7" }
+  "0.2.0-pre.8" = { as = "0.2.0pre8" }
+  "0.2.0-pre.9" = { as = "0.2.0pre9" }
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "0.2.8" = ""
+  "0.2.9" = ""
+  "0.2.10" = ""
+  "0.2.11" = ""
+  "0.3.0-pre.1" = { as = "0.3.0-pre1" }
+  "0.3.0-pre.2" = { as = "0.3.0-pre2" }
+  "1.0.0-pre.1" = { as = "1.0.0-pre1" }
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6-pre.1" = { as = "1.0.6-pre" }
+  "1.0.6" = ""
+  "1.0.7" = ""
+  "1.0.8" = ""
+  "1.0.9" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.1.7" = ""
+
+[[worlds]]
+name = "forgedcurse"
+display_name = "Forged Curse"
+default_url = "https://github.com/cheesepak/ap-forged-curse/releases/download/v{{version}}/forgedcurse.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.1.0-beta.0" = { as = "1.1.0-beta" }
+  "1.1.0-beta.1" = ""
+
+[[worlds]]
+name = "forty-five"
+display_name = "Forty-Five"
+default_url = "https://github.com/IveBenGamin/Archipelago---APWorld-For-Forty-Five/releases/download/v{{version}}/forty-five.apworld"
+
+  [worlds.versions]
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+
+[[worlds]]
+name = "fp2"
+display_name = "Freedom Planet 2"
+discord = "https://discord.com/channels/731205301247803413/1204965442494660608"
+default_url = "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases/download/{{version}}/fp2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "frogmonster"
+display_name = "Frogmonster"
+discord = "https://discord.com/channels/731205301247803413/1271323478779363398"
+default_url = "https://github.com/Rooby-Roo/FrogmonsterAPWorld/releases/download/v{{version}}/frogmonster.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+
+[[worlds]]
+name = "funi_raccoon"
+display_name = "Funi Raccoon Game"
+discord = "https://discord.com/channels/731205301247803413/1482650071987130379"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/download/{{version}}/funi_raccoon.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.3" = ""
+  "1.2.4" = ""
+  "1.2.5" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+  "1.5.0" = ""
 
 [[worlds]]
 name = "outer_wilds"
