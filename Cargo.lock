@@ -39,11 +39,14 @@ name = "ap-index"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "digest-io",
+ "io_tee",
  "reqwest",
  "semver",
  "serde",
  "serde_json",
  "serde_with",
+ "sha2",
  "tempfile",
  "toml",
  "zip",
@@ -347,6 +350,15 @@ dependencies = [
  "crypto-common",
  "ctutils",
  "zeroize",
+]
+
+[[package]]
+name = "digest-io"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2de63d600bc7fab91180bc17385f29b342468dc8ef2af09dceba450a293de3da"
+dependencies = [
+ "digest",
 ]
 
 [[package]]
@@ -877,6 +889,12 @@ checksum = "4250ce6452e92010fdf7268ccc5d14faa80bb12fc741938534c58f16804e03c7"
 dependencies = [
  "hybrid-array",
 ]
+
+[[package]]
+name = "io_tee"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4b3f7cef34251886990511df1c61443aa928499d598a9473929ab5a90a527304"
 
 [[package]]
 name = "ipnet"

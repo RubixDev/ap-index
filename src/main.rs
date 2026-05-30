@@ -1,6 +1,7 @@
 use std::{
-    collections::BTreeMap,
+    collections::{BTreeMap, HashMap},
     fs::{self, File},
+    hash::{DefaultHasher, Hash, Hasher as _},
     io::BufReader,
     path::PathBuf,
     process::Command,
@@ -8,9 +9,12 @@ use std::{
 };
 
 use anyhow::{Context, Result};
+use digest_io::IoWrapper;
+use io_tee::TeeReader;
 use reqwest::blocking::Client;
 use semver::Version;
-use serde_with::{NoneAsEmptyString, serde_as};
+use serde_with::{NoneAsEmptyString, hex::Hex, serde_as};
+use sha2::{Digest as _, Sha256};
 use zip::ZipArchive;
 
 static CLIENT: LazyLock<Client> = LazyLock::new(Client::new);
@@ -20,7 +24,7 @@ struct Index {
     worlds: Vec<World>,
 }
 
-#[derive(Debug, serde::Deserialize)]
+#[derive(Debug, Hash, serde::Deserialize)]
 struct World {
     name: String,
     display_name: String,
@@ -33,7 +37,7 @@ struct World {
 }
 
 #[serde_as]
-#[derive(Debug, serde::Deserialize)]
+#[derive(Debug, Hash, serde::Deserialize)]
 #[serde(untagged)]
 enum WorldVersion {
     Url(#[serde_as(as = "NoneAsEmptyString")] Option<String>),
@@ -45,11 +49,21 @@ enum WorldVersion {
     },
 }
 
-#[derive(Debug, Clone, Copy, serde::Serialize, serde::Deserialize)]
+#[derive(Debug, Clone, Copy, Hash, serde::Serialize, serde::Deserialize)]
 #[non_exhaustive]
 enum Tag {
     #[serde(rename = "ad")]
     AfterDark,
+}
+
+type Cache = HashMap<String, CacheEntry>;
+
+#[serde_as]
+#[derive(Debug, serde::Serialize, serde::Deserialize)]
+struct CacheEntry {
+    info: u64,
+    #[serde_as(as = "Hex")]
+    file: [u8; 32],
 }
 
 #[derive(Debug, serde::Serialize, serde::Deserialize)]
@@ -79,10 +93,16 @@ fn main() -> Result<()> {
     let toml_text = fs::read_to_string(toml_path)?;
     let toml: Index = toml::from_str(&toml_text)?;
 
+    let mut cache: Cache = serde_json::from_str(
+        &fs::read_to_string("custom_worlds/cache.json").unwrap_or_else(|_| "{}".into()),
+    )
+    .context("reading world cache")?;
+
     fs::create_dir_all("custom_worlds")?;
     for world in &toml.worlds {
         println!("downloading {}", world.name);
-        download_world(world).with_context(|| format!("downloading {}.apworld", world.name))?;
+        download_world(world, &mut cache)
+            .with_context(|| format!("downloading {}.apworld", world.name))?;
     }
 
     println!("generating schema");
@@ -135,7 +155,32 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-fn download_world(world: &World) -> Result<()> {
+fn hash<T: Hash>(t: &T) -> u64 {
+    let mut hasher = DefaultHasher::new();
+    t.hash(&mut hasher);
+    hasher.finish()
+}
+
+fn hash_file(file: &mut File) -> Result<[u8; 32]> {
+    let mut hasher = IoWrapper(Sha256::new());
+    std::io::copy(file, &mut hasher).context("computing hash of file")?;
+    Ok(hasher.0.finalize().0)
+}
+
+fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
+    let filename = format!("custom_worlds/{}.apworld", world.name);
+    let world_hash = hash(world);
+    if let Some(hashes) = cache.get(&world.name)
+        && hashes.info == world_hash
+        && let Ok(mut file) = File::open(&filename)
+    {
+        let file_hash = hash_file(&mut file)?;
+        if file_hash == hashes.file {
+            println!("..skipping");
+            return Ok(());
+        }
+    }
+
     let (version, version_info) = world
         .versions
         .last_key_value()
@@ -160,8 +205,10 @@ fn download_world(world: &World) -> Result<()> {
                 &as_version.clone().unwrap_or_else(|| version.to_string()),
             ),
     };
+
     let mut resp = CLIENT.get(url).send()?.error_for_status()?;
-    let mut file = File::create(format!("custom_worlds/{}.apworld", world.name))?;
+    let mut file = File::create(&filename)?;
+    let mut file_hasher = IoWrapper(Sha256::new());
 
     match (&world.default_path_in_zip, version_info) {
         (
@@ -178,10 +225,29 @@ fn download_world(world: &World) -> Result<()> {
             let mut zipped_file = zip
                 .by_path(path)
                 .context("opening apworld inside zip file")?;
-            std::io::copy(&mut zipped_file, &mut file)?;
+            std::io::copy(
+                &mut TeeReader::new(&mut zipped_file, &mut file_hasher),
+                &mut file,
+            )?;
         }
-        _ => _ = std::io::copy(&mut resp, &mut file)?,
+        _ => _ = std::io::copy(&mut TeeReader::new(&mut resp, &mut file_hasher), &mut file)?,
     }
 
+    let file_hash = file_hasher.0.finalize().0;
+    cache.insert(
+        world.name.clone(),
+        CacheEntry {
+            info: world_hash,
+            file: file_hash,
+        },
+    );
+    _ = save_cache(cache);
+
+    Ok(())
+}
+
+fn save_cache(cache: &Cache) -> Result<()> {
+    let file = File::create("custom_worlds/cache.json")?;
+    serde_json::to_writer(file, cache)?;
     Ok(())
 }
