@@ -1657,6 +1657,740 @@ default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/down
   "0.5.0" = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/Latest/cyberpunk2077.apworld"
 
 [[worlds]]
+name = "adofai"
+display_name = "A Dance of Fire and Ice"
+discord = "https://discord.com/channels/731205301247803413/1194141971644682412"
+default_url = "https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases/download/v{{version}}/adofai.apworld"
+
+  [worlds.versions]
+  "1.0.0-beta" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "2.0.0-beta" = ""
+
+[[worlds]]
+name = "dc1"
+display_name = "Dark Cloud 1"
+discord = "https://discord.com/channels/731205301247803413/1176970562032128192"
+default_url = "https://github.com/Lizardman175/DC1AP/releases/download/v{{version}}/dc1.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3-pre.1" = { as = "0.4.2_update" }
+  "0.4.3" = ""
+  "0.4.4-pre.1" = { as = "0.4.3.1" }
+  "0.4.4" = ""
+  "0.4.5-pre.1" = { as = "0.4.4.1" }
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+
+[[worlds]]
+name = "dc2"
+display_name = "Dark Cloud 2"
+discord = "https://discord.com/channels/731205301247803413/1220482938957729933"
+default_url = "https://github.com/ArsonAssassin/DC2AP/releases/download/{{version}}/dc2.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = { as = "0.0.4.0" }
+
+[[worlds]]
+name = "dsr"
+display_name = "Dark Souls Remastered"
+discord = "https://discord.com/channels/731205301247803413/1367143578576621670"
+default_url = "https://github.com/tathxo/DSAP/releases/download/v{{version}}/dsr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1.0-backup" }
+  "0.1.1" = { as = "0.1.1-backup" }
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+
+[[worlds]]
+name = "dark_souls_2"
+display_name = "Dark Souls II"
+discord = "https://discord.com/channels/731205301247803413/1490830760251232366"
+default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/download/v0.5.5-hotfix/dark_souls_2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.5.0-alpha.1" = ""
+  "0.5.0-alpha.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.5.6-pre.1" = { as = "0.5.5-hotfix" }
+  "0.6.0-alpha.1" = ""
+  "0.6.0-alpha.2" = ""
+
+[[worlds]]
+name = "dawnsbury"
+display_name = "Dawnsbury Days"
+default_url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v{{version}}/dawnsbury.apworld"
+
+  [worlds.versions]
+  "1.0.1" = ""
+  "1.1.0" = { as = "1.1" }
+  "1.1.1" = ""
+  "1.2.0" = { as = "1.2" }
+  "1.3.0" = { as = "1.3" }
+
+[[worlds]]
+name = "dead_cells"
+display_name = "Dead Cells"
+discord = "https://discord.com/channels/731205301247803413/1237901328005730405"
+default_url = "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/download/{{version}}/dead_cells.apworld"
+
+  [worlds.versions]
+  "0.0.1" = { as = "FirstRelease" }
+  "0.0.2" = { as = "BugFix" }
+  "0.0.3" = { as = "NewFeatures" }
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.0.12" = ""
+  "0.0.13" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "drdr"
+display_name = "Dead Rising Deluxe Remaster"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1443984282656968914"
+default_url = "https://github.com/Str8UpWHITE64/DRAP/releases/download/{{version}}/drdr.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.0.12" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "deadlock"
+display_name = "Deadlock"
+discord = "https://discord.com/channels/731205301247803413/1476976528171597875"
+default_url = "https://github.com/ArchipelagoBrad/deadlockipelago/releases/download/{{version}}/deadlock.apworld"
+
+  [worlds.versions]
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4-beta" = { as = "1.1.4-unstable" }
+
+[[worlds]]
+name = "death_road_to_canada"
+display_name = "Death Road to Canada"
+discord = "https://discord.com/channels/731205301247803413/1426343694658834452"
+default_url = "https://github.com/PixelShake92/DR2C-AP/releases/download/{{version}}/death_road_to_canada.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "Alpha_0.1" }
+
+# see https://github.com/roseasromeo/DeathsDoorAPWorld/issues/62
+# [[worlds]]
+# name = "deaths_door"
+# display_name = "Death's Door"
+# discord = "https://discord.com/channels/731205301247803413/1126418897827020800"
+# default_url = "https://github.com/roseasromeo/DeathsDoorAPWorld/releases/download/v{{version}}/deaths_door.apworld"
+
+#   [worlds.versions]
+#   "0.1.0" = ""
+#   "0.2.1" = ""
+
+[[worlds]]
+name = "deathlinkipelago"
+display_name = "DeathLinkipelago"
+discord = "https://discord.com/channels/731205301247803413/1358292614386024538"
+default_url = "https://github.com/SWCreeperKing/DeathLinkipelago/releases/download/v.{{version}}/deathlinkipelago.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "0.5.1" = { as = "0.5.1hf" }
+  "0.5.2" = { as = "0.5.2hf" }
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.7" }
+  "0.7.1" = { as = "0.7.1hf" }
+  "0.7.2" = { as = "0.7.2hf" }
+  "0.8.0" = { as = "0.8" }
+  "0.9.0" = { as = "0.9" }
+  "0.9.1" = { as = "0.9.1hf" }
+  "0.10.0" = { as = "0.10" }
+  "0.11.0" = { as = "0.11" }
+  "0.11.1" = { as = "0.11.1hf" }
+  "0.11.2" = { as = "0.11.2hf" }
+  "0.11.3" = { as = "0.11.3hf" }
+  "0.12.0" = { as = "0.12" }
+  "0.12.1" = { as = "0.12.1hf" }
+  "0.13.0" = ""
+
+[[worlds]]
+name = "deep_rock_galactic"
+display_name = "Deep Rock Galactic"
+discord = "https://discord.com/channels/731205301247803413/1195162433292087358"
+default_url = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/download/{{version}}/deep_rock_galactic.apworld"
+
+  [worlds.versions]
+  "0.12.0-alpha" = { as = "0.12-alpha" }
+  "0.13.0-beta" = { as = "Beta" }
+  "0.13.2-beta" = { as = "0.13.2" }
+  "0.14.0" = { as = "0.14" }
+  "0.14.1" = ""
+  "0.14.2" = ""
+  "0.14.3" = ""
+  "0.15.0" = { as = "0.15" }
+  "0.15.1" = ""
+  "0.15.2" = ""
+  "0.16.0" = { as = "0.16" }
+  "0.16.1" = ""
+  "0.16.2" = ""
+  "0.16.3" = ""
+  "0.16.4" = ""
+  "0.16.5-pre.1" = { as = "0.16.4.1" }
+  "0.17.0-beta" = { as = "0.17-Beta" }
+  "0.17.0" = { as = "0.17" }
+  "0.18.0" = { as = "0.18" }
+  "0.18.1" = { as = "V0.18.1" }
+  "0.18.2" = ""
+  "0.18.3" = ""
+  "0.18.4" = ""
+  "0.18.5-pre.1" = { as = "0.18.4.1" }
+
+[[worlds]]
+name = "DeliveringHope"
+display_name = "Delivering Hope"
+default_url = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases/download/v{{version}}/DeliveringHope.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "deltarune"
+display_name = "DELTARUNE"
+discord = "https://discord.com/channels/731205301247803413/1481971897024516250"
+default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v{{version}}/deltarune.apworld"
+
+  [worlds.versions]
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = ""
+  "1.0.7" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "2.0.0-beta.1" = { as = "2.0.0+beta-1" }
+  "2.0.0-beta.2" = { as = "2.0.0+beta2" }
+  "2.0.0-beta.2.a" = { as = "2.0.0+beta2a" }
+  "2.0.0-beta.2.b" = { as = "2.0.0+beta2b" }
+  "2.0.0-beta.2.c" = { as = "2.0.0+beta2c" }
+  "2.0.0-beta.2.d" = { as = "2.0.0+beta2d" }
+  "2.0.0-beta.3" = { as = "2.0.0+beta3" }
+  "2.0.0-beta.3.a" = { as = "2.0.0+beta3a" }
+  "2.0.0-beta.3.b" = { as = "2.0.0+beta3b" }
+  "2.0.0-beta.3.b.hotfix" = { as = "2.0.0+beta3b-hotfix" }
+  "2.0.0-beta.3.c" = { as = "2.0.0+beta3c" }
+  "2.0.0-pre.1" = { as = "2.0.0+pre-release-1" }
+  "2.0.0-pre.1.b" = { as = "2.0.0+pre-release-1b" }
+  "2.0.0-pre.1.c" = { as = "2.0.0+pre-release-1c" }
+  "2.0.0-pre.2" = { as = "2.0.0+pre-release-2" }
+
+[[worlds]]
+name = "dmc3"
+display_name = "Devil May Cry 3"
+discord = "https://discord.com/channels/731205301247803413/1255822049163612271"
+default_url = "https://github.com/AshIndigo/Archipelago/releases/download/v{{version}}/dmc3.apworld"
+
+  [worlds.versions]
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+
+[[worlds]]
+name = "diablo2_archipelago"
+display_name = "Diablo II Archipelago"
+discord = "https://discord.com/channels/731205301247803413/1141778504380330065"
+default_url = "https://github.com/solida1987/Diablo-II-Archipelago/releases/download/{{version}}/game_package.zip"
+default_path_in_zip = "apworld/diablo2_archipelago.apworld"
+
+  [worlds.versions]
+  "1.6.3-beta" = { as = "Beta-1.6.3" }
+  "1.7.0-beta" = { as = "Beta-1.7.0" }
+  "1.7.1-beta" = { as = "Beta-1.7.1" }
+  "1.8.0-beta" = { as = "Beta-1.8.0" }
+  "1.8.1-beta" = { as = "Beta-1.8.1" }
+  "1.8.2-beta" = { as = "Beta-1.8.2" }
+  "1.8.3-beta" = { as = "Beta-1.8.3" }
+  "1.8.4-beta" = { as = "Beta-1.8.4" }
+  "1.8.5-beta" = { as = "Beta-1.8.5" }
+  "1.9.0-beta" = { as = "Beta-1.9.0" }
+  "1.9.1-beta" = { as = "Beta-1.9.1" }
+  "1.9.2-beta" = { as = "Beta-1.9.2" }
+  "1.9.3-beta" = { as = "Beta-1.9.3" }
+  "1.9.4-beta" = { as = "Beta-1.9.4" }
+  "1.9.5-beta" = { as = "Beta-1.9.5" }
+  "1.9.6-beta" = { as = "Beta-1.9.6" }
+  "1.9.7-beta" = { as = "Beta-1.9.7" }
+  "1.9.8-beta" = { as = "Beta-1.9.8" }
+  "1.9.9-beta" = { as = "Beta-1.9.9" }
+  "1.9.10-beta" = { as = "Beta-1.9.10" }
+  "1.9.11-beta" = { as = "Beta-1.9.11" }
+  "1.9.12-beta" = { as = "Beta-1.9.12" }
+
+[[worlds]]
+name = "diceydungeons"
+display_name = "Dicey Dungeons"
+discord = "https://discord.com/channels/731205301247803413/1172783536474947595"
+default_url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v{{version}}/diceydungeons.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = ""
+  "0.0.2-alpha" = ""
+  "0.0.3-alpha" = ""
+  "0.0.4-alpha" = ""
+  "0.1.0-beta" = ""
+  "0.1.1-beta" = ""
+  "0.1.2-beta" = ""
+  "0.1.2-beta.1" = { as = "0.1.2.1-beta" }
+  "0.2.0-beta" = ""
+  "0.2.1-beta" = ""
+  "0.2.2-beta" = ""
+  "0.2.2-beta.1" = { as = "0.2.2.1-beta" }
+  "0.2.3-beta" = ""
+  "0.2.4-beta" = ""
+  "0.2.5-beta" = ""
+  "0.3.0-beta" = ""
+  "0.3.1-beta" = ""
+  "0.3.2-beta" = ""
+  "0.4.0-beta" = ""
+
+[[worlds]]
+name = "diddy_kong_racing"
+display_name = "Diddy Kong Racing"
+discord = "https://discord.com/channels/731205301247803413/1057754627795337387"
+default_url = "https://github.com/zakwiz/DiddyKongRacingAP/releases/download/v{{version}}/diddy_kong_racing.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+
+[[worlds]]
+name = "difficult_climbing"
+display_name = "A Difficult Game About Climbing"
+discord = ""
+default_url = "https://github.com/BlastSlimey/GrabbingChecks/releases/download/{{version}}/difficult_climbing.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "dw1"
+display_name = "Digimon World"
+discord = "https://discord.com/channels/731205301247803413/1224418923861118977"
+default_url = "https://github.com/ArsonAssassin/DWAP/releases/download/{{version}}/dw1.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.3.8" = ""
+  "0.3.9" = ""
+
+[[worlds]]
+name = "dome_keeper"
+display_name = "Dome Keeper"
+discord = "https://discord.com/channels/731205301247803413/1195385214877306921"
+default_url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v{{version}}/dome_keeper.apworld"
+
+  [worlds.versions]
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.6.0" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+
+[[worlds]]
+name = "dontstarvetogether"
+display_name = "Don't Starve Together"
+discord = "https://discord.com/channels/731205301247803413/1149971904447385751"
+default_url = "https://github.com/DragonWolfLeo/Archipelago-DST/releases/download/{{version}}/dontstarvetogether.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "v1.0" }
+  "1.0.1" = { as = "v1.0.1" }
+  "1.0.2" = { as = "v1.0.2" }
+  "1.1.0" = { as = "v1.1" }
+  "1.1.1" = { as = "v1.1.1" }
+  "1.1.2-pre.1" = { as = "v1.1.1.1" }
+  "1.1.2" = { as = "v1.1.2" }
+  "1.1.3-pre.1" = { as = "v1.1.2.1" }
+  "1.1.3-pre.2" = { as = "v1.1.2.2" }
+  "1.1.3-pre.3" = { as = "v1.1.2.3" }
+  "1.2.0" = { as = "v1.2" }
+  "1.2.1-pre.1" = { as = "v1.2.0.1" }
+  "1.2.1" = { as = "v1.2.1" }
+  "1.2.2-pre.1" = { as = "v1.2.1.1" }
+  "1.2.2" = { as = "v1.2.2" }
+  "1.2.3-pre.1" = { as = "v1.2.2.1" }
+  "1.2.3-pre.2" = { as = "v1.2.2.2" }
+  "1.2.3-pre.3" = { as = "v1.2.2.3" }
+  "1.2.3-pre.4" = { as = "v1.2.2.4" }
+  "1.3.0" = { as = "v1.3" }
+  "1.3.1-pre.1" = { as = "v1.3.0.1" }
+  "1.3.1-pre.2" = { as = "v1.3.0.2" }
+  "1.3.1" = { as = "v1.3.1" }
+  "1.3.2-pre.1" = { as = "v1.3.1.1" }
+  "1.3.2" = { as = "dst-v1.3.2" }
+  "1.3.3" = { as = "dst-v1.3.3" }
+
+[[worlds]]
+name = "dk64"
+display_name = "Donkey Kong 64"
+discord = "https://discord.com/channels/731205301247803413/1409624528912650360"
+default_url = "https://github.com/2dos/DK64-Randomizer-Release/releases/download/v{{version}}/dk64.apworld"
+
+  [worlds.versions]
+  "1.0.50" = ""
+  "1.0.51" = ""
+  "1.0.54" = ""
+  "1.0.55" = ""
+  "1.0.56" = ""
+  "1.4.49" = ""
+  "1.5.0" = ""
+  "1.5.1" = ""
+  "1.5.3" = ""
+  "1.5.5" = ""
+
+[[worlds]]
+name = "dkc"
+display_name = "Donkey Kong Country"
+discord = "https://discord.com/channels/731205301247803413/1364840991755997244"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc-v{{version}}/dkc.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+
+[[worlds]]
+name = "dkc2"
+display_name = "Donkey Kong Country 2"
+discord = "https://discord.com/channels/731205301247803413/1023381145565548646"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v{{version}}/dkc2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "2.0.0" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.2.0" = ""
+  "2.3.0" = ""
+  "3.0.0" = ""
+  "3.0.1" = ""
+  "3.0.2" = ""
+  "3.0.3" = ""
+  "3.0.4" = ""
+  "3.1.0" = ""
+  "3.1.1" = ""
+  "3.1.2" = ""
+
+[[worlds]]
+name = "dktoluca"
+display_name = "Donkey Kong Toluca"
+discord = "https://discord.com/channels/731205301247803413/1488984041637019812"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/toluca-v{{version}}/dktoluca.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "doronko_wanko"
+display_name = "DORONKO WANKO"
+default_url = "https://github.com/Vendily/DoronkoWankoArchipelago/releases/download/{{version}}/doronko_wanko.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+
+[[worlds]]
+name = "dhinfection"
+display_name = ".hack//INFECTION"
+default_url = "https://github.com/isaiahfuller/Archipelago-Infection/releases/download/v{{version}}/dhinfection.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+
+[[worlds]]
+name = "dracomino"
+display_name = "Dracomino"
+discord = "https://discord.com/channels/731205301247803413/1458225573552848908"
+default_url = "https://github.com/DragonWolfLeo/DracominoAPWorld/releases/download/v{{version}}/dracomino.apworld"
+
+  [worlds.versions]
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "dq2"
+display_name = "DQ2"
+discord = "https://discord.com/channels/731205301247803413/1481440820941946953"
+default_url = "https://github.com/BigBomba88/Archipelago/releases/download/{{version}}/dq2.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+
+[[worlds]]
+name = "dqix"
+display_name = "Dragon Quest IX"
+discord = "https://discord.com/channels/731205301247803413/1427594624389742716"
+default_url = "https://github.com/kid2407/ArchipelagoDQIX/releases/download/{{version}}/dqix.apworld"
+
+  [worlds.versions]
+  "0.0.6" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "dragon_warrior"
+display_name = "Dragon Warrior"
+discord = "https://discord.com/channels/731205301247803413/1132150057852997733"
+default_url = "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/download/V{{version}}/dragon_warrior.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+
+[[worlds]]
+name = "dreamdazia"
+display_name = "Dream Dazia"
+
+  [worlds.versions]
+  "1.0.0" = "https://gitlab.com/Warr1024/dream-dazia-archipelago/-/raw/main/dreamdazia.apworld"
+
+[[worlds]]
+name = "dredge"
+display_name = "DREDGE"
+discord = "https://discord.com/channels/731205301247803413/1323663496566542336"
+default_url = "https://github.com/alextric234/ArchipelagoDredge/releases/download/dredge_{{version}}/dredge.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+
+[[worlds]]
+name = "DuckLife4"
+display_name = "Duck Life 4"
+default_url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/{{version}}/DuckLife4.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1-pre.1" = { as = "1.0.0_HF1" }
+
+[[worlds]]
+name = "duke3d"
+display_name = "Duke Nukem 3D"
+discord = "https://discord.com/channels/731205301247803413/1223230842130796544"
+default_url = "https://github.com/randomcodegen/NBloodAP/releases/download/{{version}}/duke3d.apworld"
+
+  [worlds.versions]
+  "0.0.5" = ""
+  "0.0.6" = ""
+
+# see https://github.com/agilbert1412/Clawrchipelago/issues/1
+# [[worlds]]
+# name = "dungeon_clawler"
+# display_name = "Dungeon Clawler"
+# default_url = "https://github.com/agilbert1412/Clawrchipelago/releases/download/{{version}}/dungeon_clawler_{{version}}.apworld"
+
+#   [worlds.versions]
+#   "1.0.0" = ""
+#   "1.0.1" = ""
+#   "1.0.2" = ""
+#   "1.0.3" = ""
+
+[[worlds]]
+name = "dsp"
+display_name = "Dyson Sphere Program"
+discord = "https://discord.com/channels/731205301247803413/1209684747694121002"
+default_url = "https://github.com/BloodStainedCrow/Archipelago-DSP/releases/download/v{{version}}/dsp.apworld"
+
+  [worlds.versions]
+  "0.2.0-rc.1" = { as = "0.2.0rc1" }
+  "0.2.0-rc.2" = { as = "0.2.0rc2" }
+  "0.2.0-rc.3" = { as = "0.2.0rc3" }
+  "0.2.0-rc.4" = { as = "0.2.0rc4" }
+
+[[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
 discord = "https://discord.com/channels/731205301247803413/1462820272012005489"
