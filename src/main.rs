@@ -116,7 +116,12 @@ fn main() -> Result<()> {
             index.push(schema);
         }
     }
-    index.sort_unstable_by_key(|w| w.name.clone());
+    index.sort_unstable_by_key(|w| {
+        let game = &w.game;
+        let game_sort = game.strip_prefix("The ").unwrap_or(game);
+        let game_sort = game_sort.strip_prefix("A ").unwrap_or(game_sort);
+        game_sort.to_owned()
+    });
     serde_json::to_writer(
         File::create("schema/index.json").context("creating index.json")?,
         &index,
