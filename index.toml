@@ -269,11 +269,11 @@ discord = "https://discord.com/channels/1085716850370957462/1325009807031144448"
 default_url = "https://github.com/AzraeL0534/ATLYSS-Archipelago-WIP/releases/download/V{{version}}/Atlyss.apworld"
 
   [worlds.versions]
-  "1.0.1-PreRelease" = ""
-  "1.0.2-PreRelease" = ""
-  "1.0.3-PreRelease" = ""
-  "1.0.4-PreRelease" = ""
-  "1.0.5-PreRelease" = ""
+  "1.0.1-pre" = { as = "1.0.1-PreRelease" }
+  "1.0.2-pre" = { as = "1.0.2-PreRelease" }
+  "1.0.3-pre" = { as = "1.0.3-PreRelease" }
+  "1.0.4-pre" = { as = "1.0.4-PreRelease" }
+  "1.0.5-pre" = { as = "1.0.5-PreRelease" }
 
 [[worlds]]
 name = "autopelago"
@@ -291,12 +291,12 @@ display_name = "Axiom Verge"
 default_url = "https://github.com/mail-liam/Archipelago/releases/download/{{version}}/axiomverge.apworld"
 
   [worlds.versions]
-  "0.0.0-beta" = { as = "beta" }
-  "0.0.0-beta2" = { as = "beta2" }
-  "0.0.0-beta2.1" = { as = "beta2.1" }
-  "0.0.0-beta3" = { as = "beta3" }
-  "0.0.0-beta3.2" = { as = "beta3.2" }
-  "0.0.0-beta3.3" = { as = "beta3.3" }
+  "0.0.0-beta.1" = { as = "beta" }
+  "0.0.0-beta.2" = { as = "beta2" }
+  "0.0.0-beta.2.1" = { as = "beta2.1" }
+  "0.0.0-beta.3" = { as = "beta3" }
+  "0.0.0-beta.3.2" = { as = "beta3.2" }
+  "0.0.0-beta.3.3" = { as = "beta3.3" }
 
 [[worlds]]
 name = "baba_is_you"
@@ -305,12 +305,12 @@ discord = "https://discord.com/channels/731205301247803413/1192341208505262080"
 default_url = "https://github.com/EmilyEmmi/Babapelago/releases/download/{{version}}/baba_is_you.apworld"
 
   [worlds.versions]
-  "0.0.0-beta1.0" = { as = "b1.0" }
-  "0.0.0-beta1.1" = { as = "b1.1" }
-  "0.0.0-beta1.2" = { as = "b1.2" }
-  "0.0.0-beta1.2h" = { as = "b1.2h" }
-  "0.0.0-beta2.0" = { as = "b2.0" }
-  "0.0.0-beta2.0h" = { as = "b2.0h" }
+  "0.0.0-beta.1.0" = { as = "b1.0" }
+  "0.0.0-beta.1.1" = { as = "b1.1" }
+  "0.0.0-beta.1.2" = { as = "b1.2" }
+  "0.0.0-beta.1.2.hotfix" = { as = "b1.2h" }
+  "0.0.0-beta.2.0" = { as = "b2.0" }
+  "0.0.0-beta.2.0.hotfix" = { as = "b2.0h" }
 
 [[worlds]]
 name = "backlog_expedition"
@@ -342,12 +342,12 @@ default_url = "https://github.com/BurndiL/BalatroAP/releases/download/v{{version
   "0.1.6" = ""
   "0.1.7" = ""
   "0.1.8" = ""
-  "0.1.9-a" = { as = "0.1.9" }
-  "0.1.9-b" = { as = "0.1.9b" }
-  "0.1.9-c" = { as = "0.1.9c" }
-  "0.1.9-d" = { as = "0.1.9d" }
-  "0.1.9-e" = { as = "0.1.9e" }
-  "0.1.9-f" = { as = "0.1.9f" }
+  "0.1.9-rc.1" = { as = "0.1.9" }
+  "0.1.9-rc.2" = { as = "0.1.9b" }
+  "0.1.9-rc.3" = { as = "0.1.9c" }
+  "0.1.9-rc.4" = { as = "0.1.9d" }
+  "0.1.9-rc.5" = { as = "0.1.9e" }
+  "0.1.9-rc.6" = { as = "0.1.9f" }
 
 [[worlds]]
 name = "bg3"
@@ -359,7 +359,7 @@ default_url = "https://github.com/zane31415/ArchipelagoBG3/releases/download/v{{
   [worlds.versions]
   "0.1.0" = { as = "0.1" }
   "0.2.0" = { as = "0.2" }
-  "0.2.0-1" = { as = "0.2.0.1" }
+  "0.2.1-pre.1" = { as = "0.2.0.1" }
   "0.2.1" = ""
   "0.2.2" = ""
   "0.3.0" = { as = "0.3" }
@@ -604,22 +604,22 @@ display_name = "Black Market of Bulletphilia ~ 100th Black Market"
 default_url = "https://github.com/furret78/Archipelago/releases/download/{{version}}/th185.apworld"
 
   [worlds.versions]
-  "0.1.0-unstable" = { as = "unstable-0.1.0" }
-  "0.1.1-unstable" = { as = "unstable-0.1.1" }
-  "0.1.2-unstable" = { as = "unstable-0.1.2" }
-  "0.1.3-unstable" = { as = "unstable-0.1.3" }
-  "0.1.4-unstable" = { as = "unstable-0.1.4" }
-  "0.2.0-unstable" = { as = "unstable-0.2.0" }
-  "0.2.1-unstable" = { as = "unstable-0.2.1" }
-  "0.2.2-unstable" = { as = "unstable-0.2.2" }
-  "0.2.3-unstable" = { as = "unstable-0.2.3" }
-  "0.2.4-unstable" = { as = "unstable-0.2.4" }
-  "0.3.0-unstable" = { as = "unstable-0.3.0" }
-  "0.3.1-unstable" = { as = "unstable-0.3.1" }
-  "0.3.2-unstable" = { as = "unstable-0.3.2" }
-  "0.3.3-unstable" = { as = "unstable-0.3.3" }
-  "0.4.0-unstable" = { as = "unstable-0.4.0" }
-  "0.4.1-unstable" = { as = "unstable-0.4.1" }
+  "0.1.0-beta" = { as = "unstable-0.1.0" }
+  "0.1.1-beta" = { as = "unstable-0.1.1" }
+  "0.1.2-beta" = { as = "unstable-0.1.2" }
+  "0.1.3-beta" = { as = "unstable-0.1.3" }
+  "0.1.4-beta" = { as = "unstable-0.1.4" }
+  "0.2.0-beta" = { as = "unstable-0.2.0" }
+  "0.2.1-beta" = { as = "unstable-0.2.1" }
+  "0.2.2-beta" = { as = "unstable-0.2.2" }
+  "0.2.3-beta" = { as = "unstable-0.2.3" }
+  "0.2.4-beta" = { as = "unstable-0.2.4" }
+  "0.3.0-beta" = { as = "unstable-0.3.0" }
+  "0.3.1-beta" = { as = "unstable-0.3.1" }
+  "0.3.2-beta" = { as = "unstable-0.3.2" }
+  "0.3.3-beta" = { as = "unstable-0.3.3" }
+  "0.4.0-beta" = { as = "unstable-0.4.0" }
+  "0.4.1-beta" = { as = "unstable-0.4.1" }
 
 [[worlds]]
 name = "cod_bo3"
@@ -895,6 +895,766 @@ default_url = "https://github.com/Metasura/Burnout3Archipelago/releases/download
   "0.0.5" = ""
   "0.0.6" = ""
   "0.1.0" = ""
+
+[[worlds]]
+name = "candybox2"
+display_name = "Candy Box 2"
+discord = "https://discord.com/channels/731205301247803413/1351112920398037015"
+# uses dates as version number, which aren't semver
+default_url = "https://github.com/vicr123/Archipelago/releases/download/{{version}}/candybox2.apworld"
+
+  [worlds.versions]
+  "0.0.0" = "https://github.com/vicr123/Archipelago/releases/latest/download/candybox2.apworld"
+
+[[worlds]]
+name = "ccs"
+display_name = "Cash Cleaner Simulator"
+discord = "https://discord.com/channels/731205301247803413/1463976861435695218"
+default_url = "https://github.com/aymeric-duchein/Archipelago-ccs/releases/download/{{version}}/ccs.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+
+[[worlds]]
+name = "cassette_beasts"
+display_name = "Cassette Beasts"
+discord = "https://discord.com/channels/731205301247803413/1110831824546050101"
+default_url = "https://github.com/sitskin/apCassetteBeasts/releases/download/v{{version}}/cassette_beasts.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+
+[[worlds]]
+name = "cvhodis"
+display_name = "Castlevania - Harmony of Dissonance"
+discord = "https://discord.com/channels/731205301247803413/1356897465046929498"
+default_url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvhodis_v{{version}}/cvhodis.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.1.0" = { as = "1.1" }
+  "1.2.0" = { as = "1.2" }
+  "2.0.0" = { as = "2.0" }
+  "2.0.1-pre" = { as = "2.0hotfix" }
+
+[[worlds]]
+name = "cv_dos"
+display_name = "Castlevania: Dawn of Sorrow"
+discord = "https://discord.com/channels/731205301247803413/1441671319690412052"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvdos{{version}}/cv_dos.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.1.0" = { as = "1.1" }
+  "1.2.0" = { as = "1.2" }
+  "1.2.1" = ""
+  "1.3.0" = { as = "1.3" }
+  "1.4.0" = { as = "1.4" }
+  "2.0.0" = { as = "2.0" }
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
+
+[[worlds]]
+name = "cvlod"
+display_name = "Castlevania: Legacy of Darkness"
+discord = "https://discord.com/channels/731205301247803413/1178601625078738985"
+default_url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v{{version}}/cvlod.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1-pre" = { as = "1.0hotfix" }
+  "1.1.0" = { as = "1.1" }
+
+[[worlds]]
+name = "cv_por"
+display_name = "Castlevania: Portrait of Ruin"
+discord = "https://discord.com/channels/731205301247803413/1499830100886032466"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvpor{{version}}/cv_por.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.1.0" = { as = "1.1" }
+  "1.1.1" = ""
+  "1.2.0" = { as = "1.2" }
+  "1.2.1" = ""
+  "1.2.2" = ""
+
+[[worlds]]
+name = "casualtiesunknown"
+display_name = "Casualties: Unknown"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1409902818952745051"
+default_url = "https://github.com/Nichologeam/CUAP/releases/download/v{{version}}/casualtiesunknown.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.6.0-pre.1" = { as = "0.6.0-pre1" }
+  "0.6.0-pre.2" = { as = "0.6.0-pre2" }
+  "0.6.0-pre.3" = { as = "0.6.0-pre3" }
+  "0.6.0-pre.4" = { as = "0.6.0-pre4" }
+  "0.6.0" = ""
+  "0.6.1-pre.1" = { as = "0.6.0-hotfix1" }
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.8.0" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2" = ""
+  "0.9.3" = ""
+
+[[worlds]]
+name = "cat_quest"
+display_name = "Cat Quest"
+discord = "https://discord.com/channels/731205301247803413/1319965826601844736"
+default_url = "https://github.com/Nikkilites/Archipelago-CatQuest/releases/download/{{version}}/cat_quest.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.3.0-alpha" = ""
+
+[[worlds]]
+name = "cave_story"
+display_name = "Cave Story"
+discord = "https://discord.com/channels/731205301247803413/1083474864150695956"
+default_url = "https://github.com/kl3cks7r/CaveStoryArchipelago/releases/download/{{version}}/cave_story.apworld"
+
+  [worlds.versions]
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.6.7" = ""
+
+[[worlds]]
+name = "cavern_of_dreams"
+display_name = "Cavern of Dreams"
+discord = "https://discord.com/channels/731205301247803413/1189647737210286080"
+default_url = "https://github.com/wu4/Archipelago/releases/download/v{{version}}/cavern_of_dreams.apworld"
+
+  [worlds.versions]
+  "0.0.0-beta.1" = { as = "0-beta" }
+  "0.0.0-beta.2" = { as = "0-beta.2" }
+  "0.0.0-beta.7" = { as = "0-beta.7" }
+  "0.0.0-beta.8" = { as = "0-beta.8" }
+  "0.0.0-beta.8.1" = { as = "0-beta.8.1" }
+  "0.0.0-beta.9" = { as = "0-beta.9" }
+  "0.0.0-beta.10" = { as = "0-beta.10" }
+  "0.0.0-beta.10.1" = { as = "0-beta.10.1" }
+  "0.0.0-beta.10.2" = { as = "0-beta.10.2" }
+  "0.0.0-beta.10.3" = { as = "0-beta.10.3" }
+
+[[worlds]]
+name = "cavesofqud"
+display_name = "Caves of Qud"
+discord = "https://discord.com/channels/731205301247803413/1368279310317654087"
+default_url = "https://github.com/lonesurv1vor/CavesOfQudArchipelagoRandomizer/releases/download/v{{version}}/cavesofqud.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = { as = ".0.2.0" }
+  "0.3.0" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.7.0" = ""
+
+[[worlds]]
+name = "celeste"
+display_name = "Celeste"
+discord = "https://discord.com/channels/731205301247803413/1367624611256205443"
+default_url = "https://github.com/doshyw/CelesteArchipelago/releases/download/{{version}}/celeste.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "chainedechoes"
+display_name = "Chained Echoes"
+discord = "https://discord.com/channels/731205301247803413/1306059155899154493"
+default_url = "https://github.com/Samupo/ChainedEchoesAPWorld/releases/download/v{{version}}/chainedechoes.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+
+[[worlds]]
+name = "checksmate"
+display_name = "ChecksMate"
+discord = "https://discord.com/channels/731205301247803413/1033159819114319892"
+default_url = "https://github.com/chesslogic/chessv/releases/download/v{{version}}/checksmate.apworld"
+
+  [worlds.versions]
+  "0.0.0" = { as = "0.0" }
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "0.2.8" = ""
+  "0.2.9" = ""
+  "0.2.10" = ""
+  "0.2.11" = ""
+  "0.2.12" = ""
+  "0.2.13" = ""
+  "0.2.14" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+
+[[worlds]]
+name = "chibi_robo"
+display_name = "Chibi Robo"
+discord = "https://discord.com/channels/731205301247803413/1221244183247847434"
+default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/{{version}}/chibi_robo.apworld"
+
+  [worlds.versions]
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.1.7" = ""
+  "1.2.0" = ""
+
+[[worlds]]
+name = "ctjot"
+display_name = "Chrono Trigger Jets of Time"
+discord = "https://discord.com/channels/731205301247803413/1063559984148906035"
+default_url = "https://github.com/Anguirel86/Archipelago/releases/download/v{{version}}/ctjot.apworld"
+
+  [worlds.versions]
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+
+[[worlds]]
+name = "civv"
+display_name = "Civilization V"
+discord = "https://discord.com/channels/731205301247803413/1342924294757552229"
+default_url = "https://github.com/1313e/Civ-V-AP-World/releases/download/v{{version}}/civv.apworld"
+
+  [worlds.versions]
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.7.1" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2" = ""
+  "0.9.3" = ""
+  "0.9.4" = ""
+  "0.9.5" = ""
+  "0.9.6" = ""
+  "0.9.7" = ""
+  "0.9.8" = ""
+
+[[worlds]]
+name = "clair_obscur"
+display_name = "Clair Obscur Expedition 33"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1492683567627768089"
+default_url = "https://github.com/Demorck/ClairObscur_APWorld/releases/download/v{{version}}/clair_obscur.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "1.0" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.8" = ""
+  "0.2.0" = ""
+
+[[worlds]]
+name = "cloverpit"
+display_name = "CloverPit"
+discord = "https://discord.com/channels/731205301247803413/1423372513957908662"
+default_url = "https://github.com/Syntheal/CloverPit.Archipelago/releases/download/v{{version}}/cloverpit.apworld"
+
+  [worlds.versions]
+  "1.1.3" = ""
+  "1.1.4" = { as = ".1.1.4" }
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+
+[[worlds]]
+name = "cluster_truck"
+display_name = "ClusterTruck"
+default_url = "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases/download/{{version}}/cluster_truck.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.3.0-pre.1" = { as = "1.3.0-prerelease1" }
+  "1.3.0-pre.2" = { as = "1.3.0-prerelease2" }
+  "1.3.0" = ""
+  "1.3.1" = ""
+
+[[worlds]]
+name = "cobalt_core"
+display_name = "Cobalt Core"
+discord = "https://discord.com/channels/731205301247803413/1190007746641272912"
+default_url = "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/download/release%2F{{version}}/cobalt_core.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0-rc.1" = { as = "1.1.0-rc1" }
+  "1.1.0-rc.2" = { as = "1.1.0-rc2" }
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.2.0-rc.1" = { as = "1.2.0-rc1" }
+  "1.2.0-rc.2" = { as = "1.2.0-rc2" }
+
+[[worlds]]
+name = "codeforces"
+display_name = "Codeforces"
+default_url = "https://github.com/glipR/Archipelago/releases/download/codeforces-v{{version}}/codeforces.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+
+[[worlds]]
+name = "keen"
+display_name = "Commander Keen"
+discord = "https://discord.com/channels/731205301247803413/1478939374727987294"
+default_url = "https://github.com/kodbyte/Archipelago-Keen/releases/download/v{{version}}/keen.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = { as = ".0.0.4" }
+
+[[worlds]]
+name = "conbunn_cardboard"
+display_name = "Conbunn Cardboard"
+discord = "https://discord.com/channels/731205301247803413/1458387231902531676"
+default_url = "https://github.com/SWCreeperKing/Conbunnipelago/releases/download/v{{version}}/conbunn_cardboard.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+
+[[worlds]]
+name = "content_warning"
+display_name = "Content Warning"
+discord = "https://discord.com/channels/731205301247803413/1291395204254928916"
+default_url = "https://github.com/Jakeodude/cw-apworld/releases/download/{{version}}/content_warning.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "cookieclicker"
+display_name = "Cookie Clicker"
+discord = "https://discord.com/channels/731205301247803413/1121903341593694268"
+default_url = "https://github.com/Charlignon/AP_CookieClicker/releases/download/{{version}}/cookieclicker.apworld"
+
+  [worlds.versions]
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.7" }
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.8.0-alpha.1" = { as = "0.8.0-alpha" }
+  "0.8.0-alpha.2" = { as = "0.8.0-alpha-2" }
+  "0.8.0-alpha.3" = { as = "0.8.0-alpha-3" }
+  "0.8.0-beta.1" = { as = "0.8.0-beta" }
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+
+[[worlds]]
+name = "cornkidz64"
+display_name = "Corn Kidz 64"
+discord = "https://discord.com/channels/731205301247803413/1282470024560508990"
+default_url = "https://github.com/Cyb3RGER/cornkidz64_apworld/releases/download/v{{version}}/cornkidz64.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+
+[[worlds]]
+name = "corruobserver"
+display_name = "CorruObserver"
+discord = "https://discord.com/channels/731205301247803413/1440076408482435215"
+default_url = "https://github.com/Adrthegamedev/ArchipelagoCorruObserver/releases/download/v{{version}}/corruobserver.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+
+[[worlds]]
+name = "crabchampions"
+display_name = "Crab Champions"
+discord = "https://discord.com/channels/731205301247803413/1295008123131658270"
+default_url = "https://github.com/Str8UpWHITE64/CrabChampionsAP/releases/download/{{version}}/crabchampions.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+
+[[worlds]]
+name = "crash2"
+display_name = "Crash2"
+discord = "https://discord.com/channels/731205301247803413/1371461990794657863"
+default_url = "https://github.com/Sim10XXX/C2AP/releases/download/v{{version}}/crash2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0-pre.1" = { as = "0.2.0-pre" }
+  "0.2.0" = ""
+  "0.2.1-pre.1" = { as = "0.2.0-fix" }
+  "0.3.0-pre.1" = { as = "0.3.0-pre" }
+  "0.3.0-pre.2.1" = { as = "0.3.0-pre2-1" }
+  "0.3.0" = ""
+  "0.4.0-pre.1" = { as = "0.4.0-pre" }
+
+[[worlds]]
+name = "crazy_taxi"
+display_name = "Crazy Taxi"
+discord = "https://discord.com/channels/731205301247803413/1504734028132257813"
+default_url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download/v{{version}}/crazy_taxi.apworld"
+
+  [worlds.versions]
+  "0.6.0-beta.1" = ""
+  "0.6.5" = ""
+
+[[worlds]]
+name = "creature_kitchen"
+display_name = "Creature Kitchen"
+
+  [worlds.versions]
+  "0.5.0" = "https://github.com/stroodlydoodles/Creature-Kitchen-Randomizer-Mod/releases/download/Archipelago/creature_kitchen.apworld"
+
+[[worlds]]
+name = "crosscode"
+display_name = "CrossCode"
+discord = "https://discord.com/channels/731205301247803413/1128180904926396437"
+default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/download/{{version}}/crosscode.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0-pre.8" = { as = "0.3.0-pre8" }
+  "0.3.0" = ""
+  "0.3.1-pre.1" = { as = "0.3.0.1" }
+  "0.4.0-pre.1" = { as = "0.4.0-pre1" }
+  "0.4.0-pre.2" = { as = "0.4.0-pre2" }
+  "0.4.0-pre.3" = { as = "0.4.0-pre3" }
+  "0.4.0-pre.4" = { as = "0.4.0-pre4" }
+  "0.4.0-pre.5" = { as = "0.4.0-pre5" }
+  "0.4.0-pre.6" = { as = "0.4.0-pre6" }
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
+  "0.5.0-pre.1" = { as = "0.5.0-pre1" }
+  "0.5.0-pre.2" = { as = "0.5.0-pre2" }
+  "0.5.0-pre.4" = { as = "0.5.0-pre4" }
+  "0.5.0-pre.5" = { as = "0.5.0-pre5" }
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.6.0-pre.1" = ""
+  "0.6.0-pre.2" = ""
+  "0.6.0-pre.3" = ""
+  "0.6.0-pre.4" = ""
+  "0.6.0-pre.5" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.6.7" = ""
+  "0.6.8" = ""
+  "0.6.9" = ""
+  "0.7.0-pre.1" = ""
+  "0.7.0-pre.2" = ""
+  "0.7.0-pre.3" = ""
+  "0.6.10" = ""
+  "0.6.11" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.7.3" = ""
+  "0.7.4" = ""
+  "0.8.0-pre.1" = ""
+  "0.7.5" = ""
+  "0.8.0-pre.2" = ""
+  "0.7.6" = ""
+  "0.7.7" = ""
+  "0.8.0-pre.3" = ""
+  "0.7.8" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2-pre.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.9.0-pre.1" = ""
+  "0.8.4" = ""
+  "0.9.0-pre.2" = ""
+  "0.8.5" = ""
+  "0.9.0-pre.3" = ""
+
+[[worlds]]
+name = "cotnd"
+display_name = "Crypt of the NecroDancer"
+discord = "https://discord.com/channels/731205301247803413/1192775219740422176"
+default_url = "https://github.com/lastingParadox/Archipelago-CotND/releases/download/v{{version}}/cotnd.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.6.0" = ""
+
+[[worlds]]
+name = "crystal_project"
+display_name = "Crystal Project"
+discord = "https://discord.com/channels/731205301247803413/1193008693827076106"
+default_url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v{{version}}/crystal_project.apworld"
+
+  [worlds.versions]
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.9.0" = ""
+  "0.10.0" = ""
+  "0.11.0" = ""
+  "0.11.1" = ""
+  "0.11.2" = ""
+  "0.11.3" = ""
+  "0.11.4" = ""
+  "0.12.0" = ""
+  "0.12.1" = ""
+  "0.12.2" = ""
+  "0.13.0" = ""
+  "0.14.0" = ""
+  "0.15.0" = ""
+  "0.15.1" = ""
+
+[[worlds]]
+name = "crystalis"
+display_name = "Crystalis"
+default_url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v{{version}}/crystalis.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = { as = "2.0.4-Crystalis" }
+
+[[worlds]]
+name = "cuphead"
+display_name = "Cuphead"
+discord = "https://discord.com/channels/731205301247803413/1497318235438186566"
+default_url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/{{version}}/cuphead.apworld"
+
+  [worlds.versions]
+  "0.0.0-alpha.0.1.a" = { as = "alpha01a.1" }
+  "0.0.0-alpha.0.1.b" = { as = "alpha01b" }
+  "0.0.0-alpha.0.1.c" = { as = "alpha01c" }
+  "0.0.0-alpha.0.1.d" = { as = "alpha01d" }
+  "0.0.0-alpha.0.1.e" = { as = "alpha01e" }
+  "0.0.0-alpha.0.1.f" = { as = "alpha01f" }
+  "0.0.0-alpha.0.2.a" = { as = "alpha02a" }
+  "0.0.0-alpha.0.2.b" = { as = "alpha02b" }
+  "0.0.0-alpha.0.2.c" = { as = "alpha02c" }
+  "0.0.0-alpha.0.2.d" = { as = "alpha02d" }
+  "0.0.0-alpha.0.2.e" = { as = "alpha02e" }
+  "0.0.0-alpha.0.2.f" = { as = "alpha02f" }
+  "0.0.0-alpha.0.2.g" = { as = "alpha02g" }
+  "0.0.0-alpha.0.2.h" = { as = "alpha02h.1" }
+  "0.0.0-alpha.0.2.i" = { as = "alpha02i.1" }
+  "0.0.0-alpha.0.3.a" = { as = "alpha03a" }
+  "0.0.0-alpha.0.3.b" = { as = "alpha03b" }
+  "0.0.0-alpha.0.3.c" = { as = "alpha03c" }
+  "0.0.0-alpha.0.3.d" = { as = "alpha03d" }
+
+[[worlds]]
+name = "Cursed_Mario_64"
+display_name = "Cursed Mario 64"
+default_url = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/{{version}}/Cursed_Mario_64.apworld"
+
+  [worlds.versions]
+  "0.1.1" = { as = "Apworld" }
+  "0.1.2" = { as = "newapworld" }
+  "0.1.3" = { as = "nextone" }
+  "0.1.4-pre" = { as = "Hotfix" }
+  "0.1.4" = { as = "Bowser-Soul-Update" }
+  "0.1.5" = { as = "Bowser-Bombs" }
+  "0.1.6-pre" = { as = "Filler" }
+  "0.1.6" = { as = "Colorful-Update" }
+  "0.1.7" = { as = "Poor-Toad" }
+  "0.1.8" = { as = "More-Boo" }
+  "0.1.9" = { as = "Toxic-Waters" }
+  "0.1.10" = { as = "Not-so-healthy" }
+  "0.2.0" = { as = "More-colours" }
+  "0.2.1" = { as = "Its-a-Sign" }
+  "0.2.2" = { as = "more-signs" }
+  "0.2.3" = { as = "Climbsanity" }
+
+[[worlds]]
+name = "custom_robo"
+display_name = "Custom Robo"
+discord = "https://discord.com/channels/731205301247803413/1413746302113546250"
+default_url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V{{version}}/custom_robo.apworld"
+
+  [worlds.versions]
+  "0.1.2" = ""
+  "0.1.1" = ""
+  "0.1.0" = ""
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+
+[[worlds]]
+name = "cyberpunk2077"
+display_name = "Cyberpunk 2077"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1315514026331082833"
+default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/v{{version}}/cyberpunk2077.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/Latest/cyberpunk2077.apworld"
 
 [[worlds]]
 name = "outer_wilds"
