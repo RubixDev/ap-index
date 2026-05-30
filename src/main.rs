@@ -1,5 +1,5 @@
 use std::{
-    collections::{BTreeMap, HashMap},
+    collections::BTreeMap,
     fs::{self, File},
     hash::{DefaultHasher, Hash, Hasher as _},
     io::BufReader,
@@ -56,7 +56,7 @@ enum Tag {
     AfterDark,
 }
 
-type Cache = HashMap<String, CacheEntry>;
+type Cache = BTreeMap<String, CacheEntry>;
 
 #[serde_as]
 #[derive(Debug, serde::Serialize, serde::Deserialize)]
