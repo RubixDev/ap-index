@@ -2391,6 +2391,131 @@ default_url = "https://github.com/BloodStainedCrow/Archipelago-DSP/releases/down
   "0.2.0-rc.4" = { as = "0.2.0rc4" }
 
 [[worlds]]
+name = "easy_delivery_co"
+display_name = "Easy Delivery Co."
+discord = "https://discord.com/channels/731205301247803413/1423575768302358569"
+default_url = "https://github.com/Aeromaze/Archipelago/releases/download/v{{version}}/easy_delivery_co.apworld"
+
+  [worlds.versions]
+  "0.0.4" = ""
+  "0.1.0" = ""
+
+[[worlds]]
+name = "eso"
+display_name = "Elder Scrolls Online"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1349852220434415626"
+default_url = "https://github.com/spencer2585/APESO/releases/download/{{version}}/eso.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0-pre.1" = { as = "0.3.0_PR1" }
+  "0.3.0-pre.2" = { as = "0.3.0_PR2" }
+  "0.3.0-pre.3" = { as = "0.3.0_PR3" }
+  "0.3.0-pre.4" = { as = "0.3.0_PR4" }
+  "0.3.0-pre.5" = { as = "0.3.0_PR5" }
+  "0.3.0-pre.6" = { as = "0.3.0_PR6" }
+  "0.3.0-pre.7" = { as = "0.3.0_PR7" }
+  "0.3.0" = ""
+
+[[worlds]]
+name = "elementipelago"
+display_name = "Elementipelago"
+discord = "https://discord.com/channels/731205301247803413/1397584087493115934"
+default_url = "https://github.com/peppidesu/elementipelago/releases/download/v{{version}}/elementipelago.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "1.0.0-rc.1" = { as = "1.0.0-rc1" }
+  "1.0.0-rc.2" = { as = "1.0.0-rc2" }
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+
+[[worlds]]
+name = "enderlilies"
+display_name = "Ender Lilies"
+discord = "https://discord.com/channels/731205301247803413/1093030832886792242"
+default_url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/v{{version}}/enderlilies.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.4.0" = { as = "0.4" }
+  "0.4.1" = { as = "0.4b" }
+  "0.5.0" = { as = "0.5" }
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.7" }
+  "0.8.0" = { as = "0.8" }
+
+[[worlds]]
+name = "enter_the_gungeon"
+display_name = "Enter The Gungeon"
+discord = "https://discord.com/channels/731205301247803413/1191767250257055785"
+default_url = "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases/download/v{{version}}/enter_the_gungeon.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "etrian_odyssey"
+display_name = "Etrian Odyssey"
+discord = "https://discord.com/channels/731205301247803413/1463329745797124218"
+default_url = "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago/releases/download/v{{version}}/etrian_odyssey.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0-rc.1" = { as = "0.2.0-rc1" }
+
+[[worlds]]
+name = "everhood_2"
+display_name = "Everhood 2"
+discord = "https://discord.com/channels/731205301247803413/1365278588219424828"
+default_url = "https://github.com/DeamonHunter/ArchipelagoEverhood2/releases/download/v{{version}}/everhood_2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
+  "0.4.7" = ""
+
+[[worlds]]
+name = "evolve"
+display_name = "Evolve"
+discord = "https://discord.com/channels/731205301247803413/1480281342687055993"
+default_url = "https://github.com/The1stBurb/EvolveAPWorld/releases/download/v{{version}}/evolve.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.4" = ""
+  "0.2.6" = ""
+  "0.3.14" = ""
+  "0.3.15" = ""
+  "0.3.16" = ""
+  "0.3.17" = ""
+
+[[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
 discord = "https://discord.com/channels/731205301247803413/1462820272012005489"
