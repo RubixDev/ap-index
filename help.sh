@@ -6,6 +6,11 @@ while true; do
 
   printf "Discord: "
   read -r discord
+  tags=""
+  if [[ "$discord" =~ '/1085716850370957462/' ]]; then
+    tags='
+tags = ["ad"]'
+  fi
 
   printf "Download URL: "
   read -r url
@@ -24,7 +29,7 @@ while true; do
 
 [[worlds]]
 name = "$name"
-display_name = "$display"
+display_name = "$display"$tags
 discord = "$discord"
 default_url = "$url"
 
