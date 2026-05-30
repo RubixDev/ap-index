@@ -2719,12 +2719,13 @@ default_path_in_zip = "ff5pr.apworld"
   "0.4.2" = ""
   "0.5.0" = { as = "0.5" }
 
-[[worlds]]
-name = "ff6wc"
-display_name = "Final Fantasy 6 Worlds Collide"
+# download gets 403 in pipeline
+# [[worlds]]
+# name = "ff6wc"
+# display_name = "Final Fantasy 6 Worlds Collide"
 
-  [worlds.versions]
-  "0.0.0" = "https://bigmalletman.com/dl/ff6wc.apworld"
+#   [worlds.versions]
+#   "0.0.0" = "https://bigmalletman.com/dl/ff6wc.apworld"
 
 [[worlds]]
 name = "ffx"
