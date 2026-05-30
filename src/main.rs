@@ -59,12 +59,15 @@ struct WorldSchema {
     version: Version,
     hidden: bool,
 
-    #[serde(default)]
-    display_name: String,
-    #[serde(default)]
+    #[serde(skip_serializing_if = "Option::is_none")]
+    sane_version: Option<Version>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    display_name: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
     tags: Vec<Tag>,
-    #[serde(default)]
-    wiki: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    wiki: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     discord: Option<String>,
 }
 
@@ -102,16 +105,17 @@ fn main() -> Result<()> {
             ))
             .with_context(|| format!("reading {}", entry.path().display()))?;
             let info = toml.worlds.iter().find(|w| w.name == schema.name);
-            schema.display_name = info.map(|w| w.display_name.clone()).unwrap_or_default();
+            schema.sane_version = info
+                .and_then(|w| w.versions.last_key_value())
+                .map(|entry| entry.0.clone());
+            schema.display_name = info.map(|w| w.display_name.clone());
             schema.tags = info.map(|w| w.tags.clone()).unwrap_or_default();
-            schema.wiki = info
-                .map(|w| {
-                    format!(
-                        "https://archipelago.miraheze.org/wiki/{}",
-                        w.display_name.replace(' ', "_")
-                    )
-                })
-                .unwrap_or_default();
+            schema.wiki = info.map(|w| {
+                format!(
+                    "https://archipelago.miraheze.org/wiki/{}",
+                    w.display_name.replace(' ', "_")
+                )
+            });
             schema.discord = info.and_then(|w| w.discord.clone());
             index.push(schema);
         }
