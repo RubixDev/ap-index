@@ -2076,7 +2076,6 @@ default_url = "https://github.com/zakwiz/DiddyKongRacingAP/releases/download/v{{
 [[worlds]]
 name = "difficult_climbing"
 display_name = "A Difficult Game About Climbing"
-discord = ""
 default_url = "https://github.com/BlastSlimey/GrabbingChecks/releases/download/{{version}}/difficult_climbing.apworld"
 
   [worlds.versions]
@@ -3343,6 +3342,368 @@ default_path_in_zip = "GuildWars2Archipelago/gw2.apworld"
   "0.4.8-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.8-alpha/GuildWars2Archipelago-0-4-8.zip" }
   "0.4.9-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.9-alpha/GuildWars2Archipelago-0-4-9.zip" }
   "0.4.10-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.10-alpha/GuildWars2Archipelago-0-4-10.zip", path_in_zip = "GuildWars2Archipelago-0-4-10/gw2.apworld" }
+
+[[worlds]]
+name = "hacknet"
+display_name = "Hacknet"
+default_url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-{{version}}/hacknet.apworld"
+
+  [worlds.versions]
+  "0.0.2" = { as = "alpha-2" }
+  "0.0.3-pre.1" = { as = "alpha-2-hotfix1" }
+  "0.0.3" = { as = "alpha-3" }
+  "0.0.4-pre.1" = { as = "alpha-3-hotfix-1" }
+  "0.0.4-pre.2" = { as = "alpha-3-hotfix-2" }
+  "0.0.4" = ""
+
+[[worlds]]
+name = "hades"
+display_name = "Hades"
+discord = "https://discord.com/channels/731205301247803413/1367914798519550024"
+default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{version}}/hades.apworld"
+
+  [worlds.versions]
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2-pre.1" = { as = "0.4.1.1" }
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.10.0" = ""
+  "0.10.1" = ""
+  "0.11.0" = ""
+  "0.11.1" = ""
+  "0.11.2" = ""
+  "0.11.3" = ""
+  "0.11.4" = ""
+  "0.12.0" = ""
+  "0.12.1" = ""
+  "0.12.2" = ""
+  "0.12.3" = ""
+  "0.13.0-pre.1" = { as = "pre-0.13.0" }
+  "0.13.0" = ""
+  "0.13.1" = ""
+  "0.13.2" = ""
+  "0.14.0" = ""
+  "0.15.0" = ""
+  "0.15.1-pre.1" = { as = "0.15.0-hotfix" }
+  "0.15.1" = ""
+
+[[worlds]]
+name = "hammerwatch"
+display_name = "Hammerwatch"
+default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/download/v{{version}}/hammerwatch.apworld"
+
+  [worlds.versions]
+  "4.1.0" = { as = "4.1" }
+
+[[worlds]]
+name = "hangman"
+display_name = "Hangman"
+default_url = "https://github.com/pointfivetee/Archipelago-Hangman/releases/download/v{{version}}/hangman.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "haste"
+display_name = "Haste"
+discord = "https://discord.com/channels/731205301247803413/1356638437872111687"
+default_url = "https://github.com/WritingHusky/haste_apworld/releases/download/v{{version}}/haste.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "megamix"
+display_name = "Hatsune Miku Project Diva Mega Mix+"
+discord = "https://discord.com/channels/731205301247803413/1241134454391443580"
+default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}/megamix.apworld"
+
+  [worlds.versions]
+  "1.0.0-beta" = { as = "Beta" }
+  "1.0.1-beta" = { as = "1.0.1B" }
+  "1.0.2-beta" = { as = "1.0.2B" }
+  "1.0.3-beta" = { as = "1.0.3B" }
+  "1.0.4-beta" = { as = "1.0.4B" }
+  "1.0.5-beta" = { as = "1.0.5B" }
+  "1.0.6-beta" = { as = "1.0.6B" }
+  "1.0.7-beta" = { as = "1.0.7B" }
+  "1.0.8-beta" = { as = "1.0.8B" }
+  "1.0.9-beta" = { as = "1.0.9B" }
+  "1.1.0-beta" = { as = "1.1.0B" }
+  "1.1.1-beta" = { as = "1.1.1B" }
+  "1.1.2-beta" = { as = "1.1.2B" }
+  "1.1.3-beta" = { as = "1.1.3B" }
+  "1.1.4-beta" = { as = "1.1.4B" }
+  "1.1.5-beta" = { as = "1.1.5B" }
+  "1.1.6-beta" = { as = "1.1.6B" }
+  "1.1.7-beta" = { as = "1.1.7B" }
+  "1.1.8-beta" = { as = "1.1.8B" }
+  "1.1.9-beta" = { as = "1.1.9B" }
+  "1.2.0-beta" = { as = "1.2.0B" }
+  "1.3.0-beta" = { as = "1.3.0B" }
+  "1.3.1-beta" = { as = "1.3.1B" }
+  "1.4.0-beta" = { as = "1.4.0B" }
+  "1.4.2-beta" = { as = "1.4.2B" }
+  "1.4.3-beta" = { as = "1.4.3B" }
+  "1.4.4-beta" = { as = "1.4.4B" }
+  "1.5.0-beta" = { as = "1.5.0B" }
+
+[[worlds]]
+name = "hcniko"
+display_name = "Here Comes Niko!"
+discord = "https://discord.com/channels/731205301247803413/1289974001434886287"
+default_url = "https://github.com/niieli/Niko-Archipelago/releases/download/{{version}}/hcniko.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.7.4" = ""
+  "0.7.5" = ""
+  "0.7.7" = ""
+  "0.7.8" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+
+[[worlds]]
+name = "herocore"
+display_name = "Hero Core"
+default_url = "https://github.com/Minish-Link/HeroCore-Archipelago/releases/download/v{{version}}/herocore.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "1.0.0-pre" = { as = "1.0.0p" }
+  "1.0.1-pre" = { as = "1.0.1p" }
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+
+[[worlds]]
+name = "hexcells_infinite"
+display_name = "Hexcells Infinite"
+default_url = "https://github.com/Heaxeus/Archipelago/releases/download/v{{version}}/hexcells_infinite.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/Heaxeus/Archipelago/releases/download/Release/hexcells_infinite.apworld"
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "1.0.0" = { as = "1.0" }
+  "1.1.0" = { as = "1.1" }
+  "1.2.0" = { as = "1.2" }
+
+[[worlds]]
+name = "hi_fi_rush"
+display_name = "Hi-Fi RUSH"
+discord = "https://discord.com/channels/731205301247803413/1223862313145073674"
+default_url = "https://github.com/TRPG0/HbkArchipelago/releases/download/{{version}}/hi_fi_rush.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "high_roller"
+display_name = "High Roller"
+discord = "https://discord.com/channels/731205301247803413/1470104360682917961"
+default_url = "https://github.com/ElireFeltores/High-Roller/releases/download/v{{version}}/high_roller.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.3.0" = { as = "0.3" }
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+
+[[worlds]]
+name = "hitman_woa"
+display_name = "HITMAN World of Assassination"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1183989489782235168"
+default_url = "https://github.com/BenDipp/Archipelago/releases/download/{{version}}/hitman_woa.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "v0.1" }
+  "0.2.0" = { as = "v0.2" }
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+
+[[worlds]]
+name = "holo8"
+display_name = "holo8"
+default_url = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/download/v{{version}}/holo8.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/download/alpha_v0.1.0/holo8.apworld"
+  "0.1.1-alpha" = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/download/alpha_v0.1.1/holo8.apworld"
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.3.0-alpha" = ""
+
+[[worlds]]
+name = "HololiveTreasureMountain"
+display_name = "Hololive Treasure Mountain"
+default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/v{{version}}/HololiveTreasureMountain.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "1.0.0" = ""
+
+[[worlds]]
+name = "huniecamstudio"
+display_name = "Hunie Cam Studio"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1419033544793001984"
+default_url = "https://github.com/DotsofdarknessArchipelago/Hunie-Cam-Studio-Archipelago/releases/download/V{{version}}/huniecamstudio.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+
+[[worlds]]
+name = "huniepop"
+display_name = "Hunie Pop"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1357251322964869201"
+default_url = "https://github.com/DotsofdarknessArchipelago/HuniePopArchipelago/releases/download/V{{version}}/huniepop.apworld"
+
+  [worlds.versions]
+  "2.0.0" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.2.0" = ""
+
+[[worlds]]
+name = "huniepop2"
+display_name = "Hunie Pop 2"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1302838551679074415"
+default_url = "https://github.com/DotsofdarknessArchipelago/HuniePop2Archipelago/releases/download/v{{version}}/huniepop2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = "https://github.com/DotsofdarknessArchipelago/HuniePop2Archipelago/releases/download/0.1.1/huniepop2.apworld"
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.3.0" = { as = "0.3" }
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.7.0" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
+  "3.0.0" = ""
+  "3.0.1" = ""
+  "3.0.2" = ""
+  "3.0.3" = ""
+  "3.1.0" = ""
+
+[[worlds]]
+name = "nep_rb3"
+display_name = "Hyperdimension Neptunia Re;Birth3 V GENERATION"
+discord = "https://discord.com/channels/731205301247803413/1420461188990369863"
+default_url = "https://github.com/vegemiiBG/Archipelago-NepRb3/releases/download/v{{version}}/nep_rb3.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+
+[[worlds]]
+name = "hyperrogue"
+display_name = "Hyperrogue"
+discord = "https://discord.com/channels/731205301247803413/1502436726440984706"
+default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/download/v{{version}}/hyperrogue.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
 
 [[worlds]]
 name = "outer_wilds"
