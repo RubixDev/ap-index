@@ -3013,6 +3013,338 @@ default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelag
   "1.5.0" = ""
 
 [[worlds]]
+name = "garfkart"
+display_name = "Garfield Kart - Furious Racing"
+discord = "https://discord.com/channels/731205301247803413/1315673680155639848"
+default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{version}}/garfkart.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "v0.1-alpha" }
+  "0.2.0-alpha" = { as = "v0.2-alpha" }
+  "0.3.0-alpha" = { as = "v0.3.0-alpha" }
+  "0.3.1-alpha" = { as = "v0.3.1-alpha" }
+  "0.3.2-alpha" = { as = "v0.3.2-alpha" }
+  "0.4.0-beta" = { as = "v0.4.0-beta" }
+  "0.4.1-beta" = { as = "v0.4.1-beta" }
+  "0.4.2-beta" = { as = "v0.4.2-beta" }
+  "0.4.3-beta" = { as = "v0.4.3-beta" }
+  "0.4.4-beta" = ""
+  "0.5.0-beta" = { as = "v0.5.0-beta" }
+  "0.5.1-beta" = ""
+  "0.5.2-beta" = ""
+
+[[worlds]]
+name = "gmod_apadv"
+display_name = "GMod - apAdventure"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1492516400747778159"
+default_url = "https://github.com/ChrisCj8/ap_adventure/releases/download/{{version}}/gmod_apadv.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "Main" }
+  "0.1.1" = { as = "v1_1" }
+  "0.1.2" = { as = "v0.1.2" }
+  "0.2.0" = { as = "v0.2.0" }
+
+[[worlds]]
+name = "gatoroboto"
+display_name = "Gato Roboto"
+default_url = "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld/releases/download/v{{version}}/gatoroboto.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "gatoroboto_b_side"
+display_name = "Gato Roboto B-Side"
+discord = "https://discord.com/channels/731205301247803413/1466872819433607248"
+default_url = "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago/releases/download/{{version}}/gatoroboto_b_side.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+
+[[worlds]]
+name = "gl"
+display_name = "Gauntlet Legends"
+discord = "https://discord.com/channels/731205301247803413/1195336830258778183"
+default_url = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/v{{version}}/gl.apworld"
+
+  [worlds.versions]
+  "1.0.0-alpha.1" = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/Alpha-1/gl.apworld"
+  "1.0.0-alpha.2" = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/Alpha-2/gl.apworld"
+  "1.0.0-alpha.3" = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/Alpha-3/gl.apworld"
+  "1.0.0-alpha.4" = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/Alpha-4/gl.apworld"
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+  "1.5.0" = ""
+  "1.5.1" = ""
+  "1.6.0" = ""
+  "1.6.1" = ""
+  "1.6.2" = ""
+  "1.6.3" = ""
+  "1.6.4" = ""
+  "1.7.0" = ""
+  "1.7.1" = ""
+  "1.7.2" = ""
+  "2.0.0-beta" = { as = "2.0.0-BETA" }
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.1.3" = ""
+  "2.1.4" = ""
+  "2.1.5" = ""
+
+[[worlds]]
+name = "gcfw"
+display_name = "GemCraft: Frostborn Wrath"
+discord = "https://discord.com/channels/731205301247803413/1387972504685121546"
+default_url = "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/download/v{{version}}/gcfw.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = { as = "0.0.1-pre-alpha" }
+  "0.0.2-alpha" = { as = ".0.02-pre-alpha" }
+  "0.0.3-alpha" = { as = "0.0.3-pre-alpha" }
+  "0.0.4-alpha" = ""
+  "0.0.5" = "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/download/V0.0.5/gcfw.apworld"
+  "0.0.6-pre.1" = { as = "0.0.5.1" }
+
+[[worlds]]
+name = "geometrydash"
+display_name = "Geometry Dash"
+discord = "https://discord.com/channels/731205301247803413/1195348290754072640"
+default_url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/download/v{{version}}/geometrydash.apworld"
+
+  [worlds.versions]
+  "1.0.0-alpha.1" = ""
+  "1.0.0-alpha.2" = ""
+  "1.0.0-alpha.3" = ""
+  "1.0.0-alpha.4" = ""
+  "1.0.0-alpha.5" = ""
+  "1.0.0-alpha.6" = ""
+  "1.0.0-alpha.7" = ""
+  "1.0.0-alpha.8" = ""
+  "1.0.0-alpha.8.5" = ""
+  "1.0.0-alpha.9" = ""
+  "1.0.0-alpha.10" = ""
+  "1.0.0-alpha.11" = ""
+  "1.0.0-alpha.12.pre" = { as = "1.0.0-alpha.12-pr" }
+
+[[worlds]]
+name = "getting_over_it"
+display_name = "Getting Over It"
+default_url = "https://github.com/BlastSlimey/CheckingOverIt/releases/download/{{version}}/getting_over_it.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "glover"
+display_name = "Glover"
+discord = "https://discord.com/channels/731205301247803413/1203432460847677461"
+default_url = "https://github.com/Smg065/GloverArchipelago/releases/download/v{{version}}/glover.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/Smg065/GloverArchipelago/releases/download/beta/glover.apworld"
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "glyphs"
+display_name = "GLYPHS"
+default_url = "https://github.com/BuffYoda21/ap-glyphs/releases/download/v{{version}}/glyphs.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+
+[[worlds]]
+name = "gnosia"
+display_name = "Gnosia"
+discord = "https://discord.com/channels/731205301247803413/1425147593851273346"
+default_url = "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/download/v{{version}}/gnosia.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "gstla"
+display_name = "Golden Sun: The Lost Age"
+discord = "https://discord.com/channels/731205301247803413/1055515261270241320"
+default_url = "https://github.com/cjmang/Archipelago/releases/download/{{version}}/gstla.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.1.3-alpha" = ""
+  "0.1.4-alpha" = ""
+  "0.2.0-beta" = ""
+  "0.2.1-beta" = ""
+  "0.2.2-beta" = ""
+  "0.2.3-beta" = ""
+
+[[worlds]]
+name = "goldeneye"
+display_name = "GoldenEye 007"
+discord = "https://discord.com/channels/731205301247803413/1168391642282201219"
+default_url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/{{version}}/goldeneye.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "alpha_v0.1" }
+
+[[worlds]]
+name = "grappledog"
+display_name = "Grapple Dog"
+default_url = "https://github.com/ProfDeCube-org/Archipelago-GrappleDog/releases/download/{{version}}/grappledog.apworld"
+
+  [worlds.versions]
+  "1.2.1" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+
+[[worlds]]
+name = "grim_dawn"
+display_name = "Grim Dawn"
+discord = "https://discord.com/channels/731205301247803413/1114646643225137224"
+default_url = "https://github.com/routhken/Archipelago/releases/download/v{{version}}/grim_dawn.apworld"
+
+  [worlds.versions]
+  "0.1.5" = "https://github.com/routhken/Archipelago/releases/download/grimdawn-v0.1.5/grim_dawn.apworld"
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "grinch"
+display_name = "The Grinch"
+discord = "https://discord.com/channels/731205301247803413/1279837475338190999"
+default_url = "https://github.com/MarioSpore/Grinch-AP/releases/download/v{{version}}/grinch.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.3.4" = ""
+  "1.4.0" = ""
+  "1.5.0-pre.1" = { as = "1.5.0-PR" }
+  "1.5.0-pre.2" = { as = "1.5.0-PR2" }
+  "1.5.0-pre.3" = { as = "1.5.0-PR3" }
+  "1.5.0-pre.4" = { as = "1.5.0-PR4" }
+  "1.5.0-pre.5" = { as = "1.5.0-PR5" }
+  "1.5.0-pre.6" = { as = "1.5.0-PR6" }
+  "1.5.0-pre.7" = { as = "1.5.0-PR7" }
+  "1.5.0" = ""
+  "1.5.1" = ""
+  "1.5.2" = ""
+  "1.5.3" = ""
+  "1.5.4" = ""
+  "1.5.5" = ""
+  "1.5.6" = ""
+
+[[worlds]]
+name = "gtfo"
+display_name = "GTFO"
+discord = "https://discord.com/channels/731205301247803413/1269239559212761160"
+default_url = "https://github.com/RoboRyGuy/Archipelago-GTFO/releases/download/{{version}}/gtfo.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+
+[[worlds]]
+name = "guardianlegend"
+display_name = "The Guardian Legend"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1218013523943231579"
+default_url = "https://github.com/CoreZer0/TheGuardianLegend-AP/releases/download/v{{version}}/guardianlegend.apworld"
+
+  [worlds.versions]
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = { as = "0.5.1-maprando-test" }
+  "0.6.0" = ""
+  "0.7.0" = ""
+
+[[worlds]]
+name = "gw2"
+display_name = "Guild Wars 2"
+discord = "https://discord.com/channels/731205301247803413/1247738360160587787"
+default_url = "https://github.com/Feldar99/Archipelago/releases/download/{{version}}/Gw2.Archipelago.Binaries.zip"
+default_path_in_zip = "GuildWars2Archipelago/gw2.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.1.0-alpha/Gw2ArchipelagoBinaries.zip", path_in_zip = "Gw2 Archipelago Binaries/gw2_world.zip" }
+  # "0.1.1-alpha" = { url = "", path_in_zip = "" } # zip contains world as subdir
+  "0.2.0-alpha" = { path_in_zip = "Gw2 Archipelago Binaries/gw2.apworld" }
+  "0.2.1-alpha" = { path_in_zip = "Gw2 Archipelago Binaries/gw2.apworld" }
+  "0.2.2-alpha" = { path_in_zip = "Gw2 Archipelago Binaries/gw2.apworld" }
+  "0.3.0-alpha" = { path_in_zip = "Gw2 Archipelago Binaries/gw2.apworld" }
+  "0.3.1-alpha" = { path_in_zip = "Gw2 Archipelago Binaries/gw2.apworld" }
+  "0.4.0-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.0-alpha/GuildWars2Archipelago-0-4-0.zip" }
+  "0.4.1-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.1-alpha/GuildWars2Archipelago-0-4-1.zip" }
+  "0.4.2-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.2-alpha/GuildWars2Archipelago-0-4-2.zip" }
+  "0.4.3-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.3-alpha/GuildWars2Archipelago-0-4-3.zip" }
+  "0.4.4-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.4-alpha/GuildWars2Archipelago-0-4-4.zip" }
+  "0.4.5-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.5-alpha/GuildWars2Archipelago-0-4-5.zip" }
+  "0.4.6-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.6-alpha/GuildWars2Archipelago-0-4-6.zip" }
+  "0.4.7-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.7-alpha/GuildWars2Archipelago-0-4-7.zip" }
+  "0.4.8-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.8-alpha/GuildWars2Archipelago-0-4-8.zip" }
+  "0.4.9-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.9-alpha/GuildWars2Archipelago-0-4-9.zip" }
+  "0.4.10-alpha" = { url = "https://github.com/Feldar99/Archipelago/releases/download/0.4.10-alpha/GuildWars2Archipelago-0-4-10.zip", path_in_zip = "GuildWars2Archipelago-0-4-10/gw2.apworld" }
+
+[[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
 discord = "https://discord.com/channels/731205301247803413/1462820272012005489"

@@ -99,6 +99,7 @@ fn main() -> Result<()> {
     .context("reading world cache")?;
 
     fs::create_dir_all("custom_worlds")?;
+    _ = fs::create_dir_all("Players");
     for world in &toml.worlds {
         println!("downloading {}", world.name);
         download_world(world, &mut cache)
