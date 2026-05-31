@@ -70,7 +70,7 @@ def create_type(option: type[Option], world: type[World]):
             ],
         }
     if issubclass(option, FreeText):
-        return {"type": "FreeText", "default": option.default}
+        return {"type": "FreeText", "default": str(option.default)}
     if issubclass(option, VerifyKeys):
         valid_keys = sorted(option.valid_keys)
         if option.verify_item_name:
