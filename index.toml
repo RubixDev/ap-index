@@ -4155,6 +4155,645 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/kss_{{ve
   "0.1.9" = ""
 
 [[worlds]]
+name = "lamulana2"
+display_name = "La-Mulana 2"
+discord = "https://discord.com/channels/731205301247803413/1495328589460144128"
+default_url = "https://github.com/Crownmuri/Archipelago/releases/download/v{{version}}/lamulana2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.5.0" = ""
+  "0.5.5" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.7.3-pre.1" = { as = "0.7.2a" }
+  "0.7.3" = ""
+  "0.7.4" = ""
+  "0.7.5" = ""
+
+[[worlds]]
+name = "laika_aged_through_blood"
+display_name = "Laika: Aged Through Blood"
+discord = "https://discord.com/channels/731205301247803413/1491947867345129522"
+default_url = "https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/download/v-{{version}}/laika_aged_through_blood.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+# broken due to backslashes for now
+# [[worlds]]
+# name = "lol"
+# display_name = "League of Legends"
+# discord = "https://discord.com/channels/731205301247803413/1184691812099686492"
+# default_url = "https://github.com/kbab13reel/Archipelago/releases/download/lol_{{version}}/lol.apworld"
+
+#   [worlds.versions]
+#   "0.2.0" = ""
+#   "0.2.1" = ""
+#   "0.2.2" = ""
+#   "0.2.3" = ""
+
+[[worlds]]
+name = "L4D2"
+display_name = "Left 4 Dead 2"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1388521652597428374"
+default_url = "https://github.com/yufiievershade/Left-4-Dead-2-Archipelago/releases/download/{{version}}/Left4dead2testing.zip"
+default_path_in_zip = "L4D2.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = { as = "Public_Testing_Build_1" }
+  "0.0.2-alpha" = { as = "Public_Testing_Build_2" }
+
+[[worlds]]
+name = "legend_of_dragoon"
+display_name = "The Legend of Dragoon"
+discord = "https://discord.com/channels/731205301247803413/1334988609249345567"
+default_url = "https://github.com/pkolb-dev/Archipelago/releases/download/{{version}}/legend_of_dragoon.apworld"
+
+  [worlds.versions]
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.2-alpha.2" = ""
+  "1.3.1" = ""
+
+[[worlds]]
+name = "spyro_dotd"
+display_name = "The Legend of Spyro: Dawn of the Dragon"
+discord = "https://discord.com/channels/731205301247803413/1445437839259996224"
+default_url = "https://github.com/IcyPenguin28/DotDAP/releases/download/{{version}}/spyro_dotd.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+
+[[worlds]]
+name = "tloz_ooa"
+display_name = "The Legend of Zelda - Oracle of Ages"
+discord = "https://discord.com/channels/731205301247803413/1492540520462024774"
+default_url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v{{version}}/tloz_ooa.apworld"
+
+  [worlds.versions]
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+
+[[worlds]]
+name = "tloz_oos"
+display_name = "The Legend of Zelda - Oracle of Seasons"
+discord = "https://discord.com/channels/731205301247803413/1439343546615206019"
+default_url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-{{version}}/tloz_oos.apworld"
+
+  [worlds.versions]
+  "0.9.1" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9a/tloz_oos.apworld"
+  "0.9.2" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9b/tloz_oos.apworld"
+  "0.9.3" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9c/tloz_oos.apworld"
+  "0.9.4" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9d/tloz_oos.apworld"
+  "0.9.5" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9e/tloz_oos.apworld"
+  "0.9.6" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/0.9f/tloz_oos.apworld"
+  "6.0.0" = { as = "6.0" }
+  "6.1.0" = { as = "6.1" }
+  "6.2.0" = { as = "6.2" }
+  "6.3.0" = { as = "6.3" }
+  "7.0.0" = { as = "7.0" }
+  "7.0.1" = { as = "7.0d" }
+  "7.1.0" = { as = "7.1" }
+  "7.2.0" = { as = "7.2" }
+  "7.2.1" = { as = "7.2b" }
+  "8.0.0" = { as = "8.0" }
+  "9.0.0" = { as = "9.0" }
+  "9.2.0" = { as = "9.2" }
+  "9.3.0" = { as = "9.3" }
+  "9.4.0" = { as = "9.4" }
+  "10.0.0" = { as = "10.0" }
+  "10.1.0" = { as = "10.1" }
+  "10.2.0" = { as = "10.2" }
+  "12.0.0" = { as = "12.0" }
+  "12.1.0" = { as = "12.1" }
+  "12.2.0" = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/12.2/tloz_oos.apworld"
+  "12.3.0" = { as = "12.3" }
+  "12.4.0" = { as = "12.4" }
+  "13.6.0" = ""
+  "13.6.1" = ""
+  "13.7.3" = ""
+  "13.7.4" = ""
+  "17.0.0" = { as = "17.0.0-2" }
+  "17.0.1" = ""
+  "17.0.2" = ""
+  "17.0.4" = ""
+  "17.0.5" = ""
+  "17.1.2" = ""
+  "18.0.0" = ""
+  "18.0.1" = ""
+  "19.0.0" = ""
+  "19.0.1" = ""
+  "19.0.2" = ""
+  "20.0.0" = ""
+  "20.0.1" = ""
+  "20.0.2" = ""
+  "20.1.1" = ""
+  "20.1.2" = ""
+  "20.1.3" = ""
+  "20.1.4" = ""
+  "20.1.5" = ""
+  "20.1.6" = ""
+  "20.1.7" = ""
+  "20.1.8" = ""
+  "20.1.9" = ""
+  "20.1.10" = ""
+  "20.1.11" = ""
+  "20.1.12" = ""
+  "20.1.13" = ""
+
+[[worlds]]
+name = "tloz_ph"
+display_name = "The Legend of Zelda - Phantom Hourglass"
+discord = "https://discord.com/channels/731205301247803413/1256012365049233438"
+default_url = "https://github.com/carrotinator/Archipelago/releases/download/{{version}}/tloz_ph.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "v0.1.0-demo" }
+  "0.1.1-alpha" = { as = "v0.1.1-demo" }
+  "0.2.0-alpha" = { as = "v0.2.0-demo" }
+  "0.3.0-alpha" = { as = "v0.3.0-demo" }
+  "0.4.0-alpha" = { as = "v0.4.0-demo" }
+  "0.5.0-alpha" = { as = "v0.5.0-alpha" }
+  "0.5.1-alpha" = { as = "v0.5.1-alpha" }
+  "0.5.2-alpha" = { as = "v0.5.2-alpha" }
+  "0.5.3-alpha" = { as = "v0.5.3-alpha-untested" }
+  "0.5.4-alpha" = { as = "v0.5.4-alpha" }
+  "0.6.0-alpha" = { as = "v0.6.0-alpha" }
+  "0.6.1-alpha" = { as = "v0.6.1-alpha" }
+  "0.6.2-alpha" = { as = "v0.6.2-alpha" }
+  "0.6.3-alpha" = { as = "v0.6.3-alpha" }
+  "0.6.4-alpha" = { as = "v0.6.4-alpha" }
+  "0.6.5-alpha" = { as = "v0.6.5-alpha" }
+  "0.6.6-alpha" = { as = "v0.6.6-alpha" }
+  "0.6.7-alpha" = { as = "v0.6.7-alpha" }
+  "0.6.8-alpha" = { as = "v0.6.8-alpha" }
+  "0.6.9-alpha" = { as = "v0.6.9-alpha" }
+  "0.7.0-alpha" = { as = "v0.7.0-alpha" }
+  "0.7.1-alpha" = { as = "v0.7.1-alpha" }
+  "0.7.2-alpha" = { as = "v0.7.2-alpha" }
+  "0.7.3-alpha" = { as = "v0.7.3-alpha" }
+  "0.7.4-alpha" = { as = "v0.7.4-alpha" }
+  "0.7.5-alpha" = { as = "v0.7.5-alpha" }
+  "0.7.6-alpha" = { as = "v0.7.6-alpha" }
+  "0.8.0-alpha" = { as = "v0.8.0-alpha" }
+  "0.8.1-alpha" = { as = "v0.8.1-alpha" }
+  "0.8.2-alpha" = { as = "tloz_ph-v0.8.2-alpha" }
+  "0.8.3-alpha" = { as = "ph-v0.8.3-alpha" }
+  "0.8.4-alpha" = { as = "ph-v0.8.4-alpha" }
+  "0.8.5-alpha" = { as = "ph-v0.8.5-alpha" }
+  "0.8.6-alpha" = { as = "ph-v0.8.6-alpha" }
+  "0.9.0-alpha" = { as = "ph-v0.9.0-alpha" }
+  "0.9.1-alpha" = { as = "ph-v0.9.1-alpha" }
+  "0.9.2-alpha" = { as = "ph-v0.9.2-alpha" }
+  "0.9.3-alpha" = { as = "ph-v0.9.3-alpha" }
+
+[[worlds]]
+name = "tloz_st"
+display_name = "The Legend of Zelda - Spirit Tracks"
+discord = "https://discord.com/channels/731205301247803413/1358582876085682417"
+default_url = "https://github.com/DayKat/spirit-tracks/releases/download/{{version}}/tloz_st.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "v0.1.0" }
+  "0.2.0" = { as = "v0.2" }
+  "0.2.1" = { as = "v0.2.1" }
+  "0.3.0" = { as = "v0.3" }
+  "0.3.1" = { as = "v0.3.1" }
+  "0.3.2" = { as = "v0.3.2" }
+  "0.4.0" = { as = "v0.4" }
+  "0.4.1" = { as = "v0.4.1" }
+  "0.5.0" = { as = "v0.5" }
+  "0.5.1" = { as = "v0.5.1" }
+  "0.6.0" = { as = "st-v0.6.0" }
+  "0.6.1" = { as = "st-v0.6.1" }
+  "0.7.0" = { as = "st-v0.7.0" }
+  "0.7.1" = { as = "st-v0.7.1" }
+  "0.7.2" = { as = "st-v0.7.2" }
+  "0.7.3" = { as = "st-v0.7.3" }
+  "0.7.4" = { as = "st-v0.7.4" }
+  "0.7.5" = { as = "st-v0.7.5" }
+  "0.7.6" = { as = "st-v0.7.6" }
+  "0.7.7" = { as = "st-v0.7.7" }
+
+[[worlds]]
+name = "lego_batman_1"
+display_name = "Lego Batman: The Video Game"
+discord = "https://discord.com/channels/731205301247803413/1182049227145232474"
+default_url = "https://github.com/ZAPaDASH04/LEGO-Batman-APworld/releases/download/v{{version}}/lego_batman_1.apworld"
+
+  [worlds.versions]
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.2.0-alpha" = ""
+
+[[worlds]]
+name = "lhp2"
+display_name = "Lego Harry Potter 5-7"
+discord = "https://discord.com/channels/731205301247803413/1340773464461803552"
+default_url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v{{version}}/lhp2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.4" = ""
+
+[[worlds]]
+name = "lego_star_wars_tcs"
+display_name = "Lego Star Wars: The Complete Saga"
+discord = "https://discord.com/channels/731205301247803413/1495889250497990827"
+default_url = "https://github.com/Mysteryem/Archipelago-TCS/releases/download/v{{version}}/lego_star_wars_tcs.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+  "1.4.2" = ""
+  "1.4.3" = ""
+  "1.4.4" = ""
+
+[[worlds]]
+name = "lethal_company"
+display_name = "Lethal Company"
+discord = "https://discord.com/channels/731205301247803413/1491564407770316932"
+default_url = "https://github.com/T0r1nn/APLC/releases/download/{{version}}/lethal_company.apworld"
+
+  [worlds.versions]
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.8-alpha" = ""
+  "0.3.3-alpha" = ""
+  "0.3.5" = ""
+  "0.4.1-alpha" = ""
+  "0.4.2-alpha" = ""
+  "0.4.4-alpha" = ""
+  "0.4.8-alpha" = ""
+  "0.5.0-alpha" = ""
+  "0.5.2-alpha" = ""
+  "0.5.5-alpha" = ""
+  "0.5.7-alpha" = ""
+  "0.5.11-alpha" = ""
+  "0.5.13-alpha" = ""
+  "0.5.15-beta" = ""
+  "0.5.16-beta" = ""
+  "0.5.17-beta" = ""
+  "0.6.0-beta" = ""
+  "0.6.6-beta" = ""
+  "0.6.8-beta" = ""
+  "0.6.9-beta" = ""
+  "0.6.11-beta" = ""
+  "0.6.13-beta" = ""
+  "0.7.0-beta" = ""
+  "0.7.1-beta" = { as = "v0.7.1-beta" }
+  "0.7.5-beta" = { as = "v0.7.5-beta" }
+  "0.7.6-beta" = { as = "v0.7.6-beta" }
+  "0.7.7-beta" = { as = "v0.7.7-beta" }
+  "0.7.9-beta" = { as = "v0.7.9-beta" }
+  "0.7.10-beta" = { as = "v0.7.10-beta" }
+  "0.8.0-pre.1" = { as = "v0.8.0-pre-1" }
+  "0.7.11-beta" = { as = "v0.7.11-beta" }
+
+[[worlds]]
+name = "librarian"
+display_name = "Librarian Tidy Up the Arcane Library"
+discord = "https://discord.com/channels/731205301247803413/1501512989923086386"
+default_url = "https://github.com/Str8UpWHITE64/Librarian-AP/releases/download/{{version}}/librarian.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+
+[[worlds]]
+name = "lobap"
+display_name = "Library of Babel"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1483357246854533142"
+default_url = "https://github.com/YarRuin/LOBAP/releases/download/{{version}}/lobap.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "Release" }
+  "0.1.1" = ""
+  "0.1.2" = { as = "Fix" }
+  "0.2.0" = { as = "NewVersion" }
+  "0.3.0" = { as = "Unstable" }
+  "0.3.1" = ""
+  "0.3.2-pre.1" = { as = "0.3.1b" }
+
+[[worlds]]
+name = "lor"
+display_name = "Library of Ruina"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1137643745051955200"
+default_url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v{{version}}/lor.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1.0" }
+  "0.1.1" = ""
+  "0.2.0" = { as = "0.2.0" }
+  "0.3.0" = { as = "0.3.0" }
+  "0.3.1" = ""
+  "1.0.0-pre.1" = { as = "1.0.0-alpha" }
+  "1.0.0-pre.2" = { as = "1.0.0-beta" }
+  "1.0.0-pre.3" = { as = "1.0.0-gamma" }
+  "1.0.0-pre.4" = { as = "1.0.0-delta" }
+
+[[worlds]]
+name = "liesofp"
+display_name = "Lies Of P"
+discord = "https://discord.com/channels/731205301247803413/1232017331232706680"
+default_url = "https://github.com/Xtruh/LiesOfAP/releases/download/{{version}}/liesofp.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+
+[[worlds]]
+name = "lrff13"
+display_name = "Lightning Returns: Final Fantasy XIII"
+discord = "https://discord.com/channels/731205301247803413/1076899812022173736"
+default_url = "https://github.com/Bartz24/ArchipelagoLR/releases/download/{{version}}/lrff13.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "lingo2"
+display_name = "Lingo 2"
+discord = "https://discord.com/channels/731205301247803413/1351182605655080970"
+default_url = "https://files.fourisland.com/releases/lingo2-archipelago/apworld/v{{version}}/lingo2.apworld"
+
+  [worlds.versions]
+  "7.0.0" = ""
+  "7.0.1" = ""
+  "7.0.2" = ""
+  "7.1.0" = ""
+  "7.2.0" = ""
+  "8.0.0" = ""
+  "8.0.1" = ""
+  "8.0.2" = ""
+  "8.0.3" = ""
+  "8.0.4" = ""
+  "8.0.5" = ""
+  "8.1.0" = ""
+  "8.1.1" = ""
+  "9.0.0" = ""
+  "9.1.0" = ""
+  "9.2.0" = ""
+  "9.2.1" = ""
+  "9.2.2" = ""
+  "9.3.0" = ""
+
+[[worlds]]
+name = "albw"
+display_name = "A Link Between Worlds"
+discord = "https://discord.com/channels/731205301247803413/1434699603843874846"
+default_url = "https://github.com/randomsalience/albw-archipelago/releases/download/v{{version}}/albw.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "little_witch_nobeta"
+display_name = "Little Witch Nobeta"
+discord = "https://discord.com/channels/731205301247803413/1170655339323080796"
+default_url = "https://github.com/danielgruethling/Archipelago/releases/download/{{version}}/little_witch_nobeta.apworld"
+
+  [worlds.versions]
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "lobotomycorporation"
+display_name = "Lobotomy Corporation"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1349105013783400529"
+default_url = "https://github.com/Kli333/LobCorp-AP/releases/download/{{version}}/lobotomycorporation.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "v1.0.0.0" }
+  "1.0.1-pre.1" = { as = "v1.0.0.1" }
+  "1.0.1-pre.2" = { as = "v1.0.0.2" }
+  "1.1.0" = { as = "v1.1.0.0" }
+  "1.2.0" = { as = "v1.2.0.0" }
+  "1.3.0" = { as = "v.1.3.0.0" }
+  "1.3.1" = { as = "1.3.1.0" }
+
+[[worlds]]
+name = "loonyland"
+display_name = "Loonyland"
+default_url = "https://github.com/AutomaticFrenzy/Archipelago/releases/download/{{version}}/loonyland.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "v0.1.0" }
+  "0.1.1" = { as = "v0.1.1" }
+  "0.2.0" = ""
+  "0.2.1" = { as = "v0.2.1" }
+
+[[worlds]]
+name = "citadel"
+display_name = "Luanti Citadel"
+
+  [worlds.versions]
+  "0.0.0" = "https://gitlab.com/sztest/citadel-archipelago/-/raw/main/citadel.apworld"
+
+[[worlds]]
+name = "luigismansion"
+display_name = "Luigi's Mansion"
+discord = "https://discord.com/channels/731205301247803413/1378465872917827614"
+default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{version}}/luigismansion.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = "https://github.com/BootsinSoots/Archipelago/releases/download/0.1.0/luigismansion.apworld"
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.3.0" = "https://github.com/BootsinSoots/Archipelago/releases/download/v0.3.0/luigismansion.apworld"
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
+  "0.4.7" = ""
+  "0.4.8" = ""
+  "0.4.9" = ""
+  "0.4.10" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.5.6" = ""
+  "0.5.7" = ""
+  "0.5.8" = ""
+  "0.5.9" = ""
+  "0.5.10" = ""
+  "0.5.11" = ""
+  "0.5.12" = ""
+  "0.5.13" = ""
+  "0.5.14" = ""
+  "0.5.16" = ""
+  "0.5.17" = ""
+  "0.5.18" = ""
+  "0.5.20" = ""
+  "0.5.21" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+
+[[worlds]]
+name = "lunacid"
+display_name = "Lunacid"
+discord = "https://discord.com/channels/731205301247803413/1176614031067455528"
+default_url = "https://github.com/Witchybun/LunacidAPClient/releases/download/{{version}}/lunacid.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.7.3" = ""
+  "0.7.4" = ""
+  "0.7.5" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+  "0.8.7" = ""
+  "0.8.8" = ""
+  "0.8.9" = ""
+  "0.8.10" = ""
+  "0.8.11" = ""
+  "0.8.12" = ""
+  "0.8.13" = ""
+  "0.8.14" = ""
+  "0.9.0-pre.1" = { as = "0.9.0-pre1" }
+  "0.9.0-pre.2" = { as = "0.9.0-pre2" }
+  "0.9.0-pre.3" = { as = "0.9.0-pre3" }
+  "0.9.0-pre.4" = { as = "0.9.0-pre4" }
+  "0.9.0-pre.5" = { as = "0.9.0-pre5" }
+  "0.9.0-pre.6" = { as = "0.9.0-pre6" }
+  "0.9.0-pre.7" = { as = "0.9.0-pre7" }
+  "0.9.0-pre.8" = { as = "0.9.0-pre8" }
+  "0.9.0-pre.9" = { as = "0.9.0-pre9" }
+  "0.9.0-pre.10" = { as = "0.9.0-pre10" }
+  "0.9.0-pre.11" = { as = "0.9.0-pre11" }
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2" = ""
+  "0.9.3" = ""
+  "0.9.4" = ""
+  "0.9.5" = ""
+  "0.9.6" = ""
+  "0.9.7" = ""
+  "0.9.8" = ""
+  "0.9.9" = ""
+  "0.9.10" = ""
+  "1.0.0-pre.1" = { as = "1.0.0-pre1" }
+  "1.0.0-pre.2" = { as = "1.0.0-pre2" }
+  "1.0.0-pre.3" = { as = "1.0.0-pre3" }
+  "1.0.0-pre.4" = { as = "1.0.0-pre4" }
+  "1.0.0-pre.5" = { as = "1.0.0-pre5" }
+  "1.0.0-pre.6" = { as = "1.0.0-pre6" }
+  "1.0.0-pre.7" = { as = "1.0.0-pre7" }
+  "1.0.0-pre.8" = { as = "1.0.0-pre8" }
+  "1.0.0" = { as = "1.0.0-release" }
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = ""
+  "1.0.7" = ""
+  "1.0.8" = ""
+  "1.0.9" = ""
+  "1.0.10" = ""
+  "1.0.11" = ""
+  "1.0.12" = ""
+  "1.0.13" = ""
+  "1.0.14" = ""
+  "1.0.15" = ""
+  "1.0.16" = ""
+  "1.0.17" = ""
+  "1.0.18" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+
+[[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
 discord = "https://discord.com/channels/731205301247803413/1462820272012005489"
