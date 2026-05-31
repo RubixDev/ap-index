@@ -4805,3 +4805,844 @@ default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases
   "1.1.0" = ""
   "1.2.0" = ""
   "1.2.1" = ""
+
+[[worlds]]
+name = "mm_recomp"
+display_name = "Majora's Mask Recompiled"
+discord = "https://discord.com/channels/731205301247803413/1368653154241089546"
+default_url = "https://github.com/RecompRando/MMRecompRando/releases/download/v{{version}}/mm_recomp.apworld"
+
+  [worlds.versions]
+  "0.2.3" = ""
+  "0.2.4-pre.1" = { as = "0.2.3a" }
+  "0.2.4-pre.2" = { as = "0.2.3b" }
+  "0.2.4-pre.3" = { as = "0.2.3c" }
+  "0.2.4-pre.4" = { as = "0.2.3d" }
+  "0.2.4-pre.5" = { as = "0.2.3e" }
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6-pre.1" = { as = "0.2.5a" }
+  "0.2.6-pre.2" = { as = "0.2.5b" }
+  "0.2.6-pre.3" = { as = "0.2.5c" }
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2-pre.1" = { as = "0.9.1a" }
+  "0.9.2" = ""
+  "0.9.3-pre.1" = { as = "0.9.2a" }
+  "0.9.3-pre.2" = { as = "0.9.2b" }
+  "0.9.3" = ""
+  "0.9.4" = ""
+  "0.9.5" = ""
+  "0.9.6-pre.1" = { as = "0.9.5a" }
+
+[[worlds]]
+name = "manicminers"
+display_name = "Manic Miners"
+discord = "https://discord.com/channels/731205301247803413/1170769670350045284"
+default_url = "https://github.com/fogmike/Archipelago_ManicMiners/releases/download/v{{version}}/manicminers.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.3" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+
+[[worlds]]
+name = "miuultra"
+display_name = "Marble It Up! Ultra"
+discord = "https://discord.com/channels/731205301247803413/1491886661829656676"
+default_url = "https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/download/v{{version}}/miuultra.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+
+[[worlds]]
+name = "mariomissing"
+display_name = "Mario is Missing"
+discord = "https://discord.com/channels/731205301247803413/1188695271941603348"
+default_url = "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases/download/{{version}}/mariomissing.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+
+[[worlds]]
+name = "mk64"
+display_name = "Mario Kart 64"
+discord = "https://discord.com/channels/731205301247803413/1124649084544876615"
+default_url = "https://github.com/Edsploration/MK64-Archipelago/releases/download/mk64%2F{{version}}/mk64.apworld"
+
+  [worlds.versions]
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.2.2-pre.1" = { as = "0.2.1b" }
+  "0.2.2-pre.2" = { as = "0.2.1c" }
+  "0.2.3" = ""
+  "0.2.4-pre.1" = { as = "0.2.3b" }
+  "0.2.4" = ""
+  "0.2.5" = ""
+
+[[worlds]]
+name = "mario_kart_double_dash"
+display_name = "Mario Kart Double Dash"
+discord = "https://discord.com/channels/731205301247803413/1257102472967884882"
+default_url = "https://github.com/aXu-AP/archipelago-double-dash/releases/download/v{{version}}/mario_kart_double_dash.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "1.0.0-rc.1" = { as = "1.0.0rc1" }
+  "1.0.0-rc.2" = { as = "1.0.0rc2" }
+  "1.0.0-rc.3" = { as = "1.0.0rc3" }
+  "1.0.0-rc.4" = { as = "1.0.0rc4" }
+
+[[worlds]]
+name = "mkwii"
+display_name = "Mario Kart Wii"
+discord = "https://discord.com/channels/731205301247803413/1204920631351713823"
+default_url = "https://github.com/toent/Archipelago-MKWii/releases/download/v{{version}}/mkwii.apworld"
+
+  [worlds.versions]
+  "0.0.1-pre.1" = { as = "0.0.1-pre.0" }
+  "0.0.1-pre.2" = { as = "0.0.1-pre.1" }
+  "0.0.1-pre.3" = { as = "0.0.1-pre.2" }
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3-pre.1" = { as = "0.0.2-hf1" }
+  "0.1.0" = ""
+  "0.1.1-pre.1" = { as = "0.1.0-hf1" }
+  "0.1.1" = ""
+  "0.1.2-pre.1" = { as = "0.1.1-hf1" }
+  "0.1.2-pre.2" = { as = "0.1.1-hf2" }
+  "0.1.2-pre.3" = { as = "0.1.1-hf3" }
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "mpadv"
+display_name = "Mario Party Advance"
+default_url = "https://github.com/etherware-novice/candypelago/releases/download/v{{version}}/mpadv.apworld"
+
+  [worlds.versions]
+  "0.9.8" = { as = "0.98" }
+  "1.0.0" = { as = "1.0" }
+
+[[worlds]]
+name = "mario_sports_mix"
+display_name = "Mario Sports Mix"
+discord = "https://discord.com/channels/731205301247803413/1485699253450833942"
+default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v{{version}}/mario_sports_mix.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2-pre.1" = { as = "0.0.1-h1" }
+  "0.0.2-pre.2" = { as = "0.0.1-h2" }
+  "0.0.2-pre.3" = { as = "0.0.1-h3" }
+  "0.1.0-beta.1" = { as = "0.1.0-beta" }
+  "0.1.0-beta.2" = { as = "0.1.0-beta2" }
+  "0.1.0-beta.3" = { as = "0.1.0-beta3" }
+  "0.1.0-beta.4" = { as = "0.1.0-beta4" }
+  "0.1.0-beta.5" = { as = "0.1.0-beta5" }
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.2.0" = ""
+  "0.3.0-pre.1" = { as = "0.3.0-pr" }
+
+[[worlds]]
+name = "mario_super_sluggers"
+display_name = "Mario Super Sluggers"
+discord = "https://discord.com/channels/731205301247803413/1238777175033909318"
+default_url = "https://github.com/MarioManTAW/Archipelago/releases/download/sluggers-v{{version}}/mario_super_sluggers.apworld"
+
+  [worlds.versions]
+  "0.0.0" = ""
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "medievil"
+display_name = "Medievil"
+discord = "https://discord.com/channels/731205301247803413/1282755532515709048"
+default_url = "https://github.com/riezahughes/MedievilAPWorld/releases/download/v{{version}}/medievil.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.0.12" = ""
+  "0.0.13" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "0.2.8" = ""
+  "0.2.9" = ""
+  "0.2.10" = ""
+  "0.2.11" = ""
+
+[[worlds]]
+name = "medievil2"
+display_name = "Medievil 2"
+default_url = "https://github.com/riezahughes/Medievil2APWorld/releases/download/v{{version}}/medievil2.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha.1" = { as = "0.0.1-alpha1" }
+  "0.0.1-alpha.2" = { as = "0.0.1-alpha2" }
+  "0.0.1-alpha.3" = { as = "0.0.1-alpha-3" }
+  "0.0.1-alpha.4" = { as = "0.0.1-alpha4" }
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.0.12" = ""
+  "0.0.13" = ""
+  "0.0.14" = ""
+  "0.0.15" = ""
+  "0.0.16" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+
+[[worlds]]
+name = "mm1"
+display_name = "Mega Man"
+discord = "https://discord.com/channels/731205301247803413/1363566809726451815"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mm1_{{version}}/mm1.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "mmbn6"
+display_name = "Mega Man Battle Network 6"
+discord = "https://discord.com/channels/731205301247803413/1242860924092682481"
+default_url = "https://github.com/RischDev/Archipelago/releases/download/v{{version}}/mmbn6.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "mml"
+display_name = "Mega Man Legends"
+discord = "https://discord.com/channels/731205301247803413/1101576751815082139"
+default_url = "https://github.com/functorial/MMLAP/releases/download/v{{version}}/mml.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+
+[[worlds]]
+name = "commandmission"
+display_name = "Mega Man X Command Mission"
+discord = "https://discord.com/channels/731205301247803413/1329119629364170772"
+default_url = "https://github.com/themogulAP/ArchipelagoCM/releases/download/V{{version}}/commandmission.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7-pre.1" = { as = "0.1.61" }
+  "0.1.7-pre.2" = { as = "0.1.62" }
+  "0.1.7" = ""
+
+[[worlds]]
+name = "mmx"
+display_name = "Mega Man X"
+discord = "https://discord.com/channels/731205301247803413/1134349743984742520"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx-v{{version}}/mmx.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.4.0" = ""
+  "1.5.0" = ""
+  "1.6.0-beta" = ""
+  "1.6.0" = ""
+  "1.6.1" = ""
+  "1.6.2" = ""
+
+[[worlds]]
+name = "mmx2"
+display_name = "Mega Man X2"
+discord = "https://discord.com/channels/731205301247803413/1232388647127613490"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v{{version}}/mmx2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.2.0" = ""
+
+[[worlds]]
+name = "mmx3"
+display_name = "Mega Man X3"
+discord = "https://discord.com/channels/731205301247803413/1209396673755746324"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v{{version}}/mmx3.apworld"
+
+  [worlds.versions]
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.4.0" = ""
+  "1.5.0" = ""
+  "1.5.1" = ""
+
+[[worlds]]
+name = "mmx4"
+display_name = "Mega Man X4"
+discord = "https://discord.com/channels/731205301247803413/1365560558224674826"
+default_url = "https://github.com/TheRealSolidusSnake/Archipelago-MMX4/releases/download/{{version}}/mmx4.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+
+[[worlds]]
+name = "mmzero3"
+display_name = "Mega Man Zero 3"
+discord = "https://discord.com/channels/731205301247803413/1172869977838190622"
+default_url = "https://github.com/brodieberger/MMZero3Archipelago/releases/download/v{{version}}/mmzero3.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+
+[[worlds]]
+name = "melatonin"
+display_name = "Melatonin"
+discord = "https://discord.com/channels/731205301247803413/1365778928102277151"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-Melatonin/releases/download/{{version}}/melatonin.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "mercenaries"
+display_name = "Mercenaries"
+discord = "https://discord.com/channels/731205301247803413/1417700855133638766"
+
+  [worlds.versions]
+  "0.0.0" = "https://github.com/ToxicFrog/mercs-ap/raw/refs/heads/main/release/mercenaries.apworld"
+
+[[worlds]]
+name = "mgs"
+display_name = "Metal Gear Solid"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1315894829909016668"
+default_url = "https://github.com/SDMichaud/Archipelago-MGS/releases/download/v{{version}}/mgs.apworld"
+
+  [worlds.versions]
+  "0.7.0" = ""
+
+# has broken import
+# [[worlds]]
+# name = "metamath"
+# display_name = "Metamath"
+# discord = "https://discord.com/channels/731205301247803413/1421561518998425701"
+
+#   [worlds.versions]
+#   "0.0.0" = "https://github.com/PeerInfinity/Archipelago-CC/raw/main/apworlds/metamath.apworld"
+
+[[worlds]]
+name = "metrocubevania"
+display_name = "MetroCUBEVania"
+discord = "https://discord.com/channels/731205301247803413/1259263968245977128"
+default_url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_{{version}}/metrocubevania.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+  "0.1.1-beta.1" = { as = "0.1.1_beta" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0-beta.1" = { as = "0.2.0_beta" }
+  "0.2.0-beta.2" = { as = "0.2.0_beta.2" }
+  "0.2.0-beta.3" = { as = "0.2.0_beta.3" }
+  "0.2.0" = ""
+
+[[worlds]]
+name = "metroidfusion"
+display_name = "Metroid Fusion"
+discord = "https://discord.com/channels/731205301247803413/1493332737765933137"
+default_url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v{{version}}/metroidfusion.apworld"
+
+  [worlds.versions]
+  "1.19.0" = { as = "19" }
+  "1.18.0" = { as = "18" }
+  "1.20.0" = { as = "20" }
+  "1.21.0" = { as = "21" }
+  "1.22.0" = ""
+  "1.22.1" = ""
+  "1.22.2" = ""
+  "1.22.3" = ""
+  "1.22.4" = ""
+
+[[worlds]]
+name = "metroidprime"
+display_name = "Metroid Prime"
+discord = "https://discord.com/channels/731205301247803413/1425600401733980301"
+default_url = "https://github.com/UltiNaruto/MetroidAPrime/releases/download/v{{version}}/metroidprime.apworld"
+
+  [worlds.versions]
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4-pre.1" = { as = "0.5.3-h1" }
+  "0.5.4" = ""
+  "0.5.5-pre.1" = { as = "0.5.4-h1" }
+
+[[worlds]]
+name = "mzm"
+display_name = "Metroid Zero Mission"
+discord = "https://discord.com/channels/731205301247803413/1106280250528235620"
+default_url = "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases/download/{{version}}/mzm.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0-pre.1" = { as = "0.2.0-pre1" }
+  "0.2.0-pre.2" = { as = "0.2.0-pre2" }
+  "0.2.0-pre.3" = { as = "0.2.0-pre3" }
+  "0.2.0-pre.4" = { as = "0.2.0-pre4" }
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0-pre.1" = { as = "0.3.0-pre1" }
+  "0.3.0-pre.2" = { as = "0.3.0-pre2" }
+  "0.3.0-pre.2.a" = { as = "0.3.0-pre2a" }
+  "0.3.0-pre.3" = { as = "0.3.0-pre3" }
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0-pre.1" = { as = "0.4.0-pre1" }
+  "0.4.0-pre.2" = { as = "0.4.0-pre2" }
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+
+[[worlds]]
+name = "msr"
+display_name = "Metroid: Samus Returns"
+discord = "https://discord.com/channels/731205301247803413/1287051360818299092"
+default_url = "https://github.com/lilDavid/AP-SamusReturns/releases/download/{{version}}/msr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "mindustry"
+display_name = "Mindustry"
+discord = "https://discord.com/channels/731205301247803413/1160797230161211472"
+default_url = "https://github.com/JohnMahglass/Archipelago-Mindustry/releases/download/v{{version}}/mindustry.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+
+[[worlds]]
+name = "minecraft"
+display_name = "Minecraft"
+discord = "https://discord.com/channels/731205301247803413/837136185662111746"
+default_url = "https://github.com/qixils/NeoForgeAP/releases/download/v{{version}}/minecraft.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.1.3" = ""
+
+[[worlds]]
+name = "minecraft_dig"
+display_name = "Minecraft Dig"
+discord = "https://discord.com/channels/731205301247803413/837136185662111746"
+default_url = "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/download/{{version}}_dig/minecraft_dig.apworld"
+
+  [worlds.versions]
+  "0.0.2" = "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/download/v0.1.5_hotfix/minecraft_dig.apworld"
+  "0.0.3" = "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/download/v0.1.6_hotfix/minecraft_dig.apworld"
+  "0.0.4" = "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/download/v0.1.7_hotfix/minecraft_dig.apworld"
+  "0.0.5" = ""
+  "0.0.6" = "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/download/APWorld_Dig_v0.0.6/minecraft_dig.apworld"
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+
+[[worlds]]
+name = "minecraft_fabric"
+display_name = "Minecraft Fabric"
+discord = "https://discord.com/channels/731205301247803413/1504088174492909679"
+default_url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v{{version}}/minecraft_fabric.apworld"
+
+  [worlds.versions]
+  "1.0.0-alpha" = ""
+  "1.0.1-alpha" = ""
+  "1.0.2-alpha" = ""
+  "1.0.3-alpha" = ""
+  "1.0.4-alpha" = { as = ".1.0.4-alpha" }
+  "1.0.4-alpha.1" = { as = "1.0.4.1-alpha" }
+  "1.0.5-alpha" = ""
+  "1.0.5-alpha.1" = { as = "1.0.5.1-alpha" }
+  "1.0.6-alpha" = ""
+  "1.0.7" = { as = ".1.0.7" }
+  "1.1.0" = { as = ".1.1.0" }
+  "1.1.1" = { as = ".1.1.1" }
+  "1.1.2-pre.1" = { as = ".1.1.1.1" }
+
+[[worlds]]
+name = "mini_metro"
+display_name = "Mini Metro"
+discord = "https://discord.com/channels/731205301247803413/1494718889471508582"
+default_url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/download/{{version}}/mini_metro.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "alpha" }
+
+[[worlds]]
+name = "tmc"
+display_name = "The Minish Cap"
+discord = "https://discord.com/channels/731205301247803413/1419820477404418140"
+default_url = "https://github.com/eternalcode0/Archipelago/releases/download/v{{version}}/tmc.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10-pre.1" = { as = "0.0.9-hotfix-1" }
+  "0.0.10" = ""
+  "0.1.0-rc.1" = { as = "0.1.0-rc1" }
+  "0.1.0-rc.2" = { as = "0.1.0-rc2" }
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+
+[[worlds]]
+name = "minishoot"
+display_name = "Minishoot Adventures"
+discord = "https://discord.com/channels/731205301247803413/1307687662798508113"
+default_url = "https://github.com/TheNooodle/MinishootRandomizer/releases/download/v{{version}}/minishoot.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0-rc.1" = "https://github.com/TheNooodle/MinishootRandomizer/releases/download/0.3.0-rc1/minishoot.apworld"
+  "0.3.0-rc.2" = "https://github.com/TheNooodle/MinishootRandomizer/releases/download/0.3.0-rc2/minishoot.apworld"
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+
+[[worlds]]
+name = "minit"
+display_name = "Minit"
+discord = "https://discord.com/channels/731205301247803413/1167463223528787998"
+default_url = "https://github.com/qwint/APMinit/releases/download/v{{version}}/minit.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.6.7" = ""
+  "0.6.8" = ""
+  "0.6.9" = ""
+  "0.6.10" = ""
+  "0.6.11" = ""
+
+[[worlds]]
+name = "mirrors_edge"
+display_name = "Mirror's Edge"
+discord = "https://discord.com/channels/731205301247803413/1495313218414055544"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/mirrors-edge-v{{version}}/mirrors_edge.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+
+[[worlds]]
+name = "moddedminecraft"
+display_name = "Modded Minecraft"
+discord = "https://discord.com/channels/731205301247803413/1466921831369015399"
+default_url = "https://github.com/Stuff691734/ModdedMCArchipelago/releases/download/v{{version}}/moddedminecraft.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "2.0.0" = "https://github.com/Stuff691734/ModdedMCArchipelago/releases/download/2.0.0/moddedminecraft.apworld"
+  "2.1.0" = ""
+  "2.2.0" = ""
+  "2.2.1" = ""
+  "2.2.2" = ""
+
+[[worlds]]
+name = "momodoramoonlitfarewell"
+display_name = "Momodora Moonlit Farewell"
+discord = "https://discord.com/channels/731205301247803413/1351406749315240007"
+default_url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/download/AP-v{{version}}/momodoramoonlitfarewell.apworld"
+
+  [worlds.versions]
+  "1.0.1" = ""
+  "1.5.3" = ""
+  "1.6.0" = ""
+  "1.6.1" = ""
+  "1.6.2" = ""
+  "1.6.3" = ""
+  "1.7.0" = ""
+  "1.7.1" = ""
+  "1.7.2" = ""
+  "1.7.3" = ""
+  "1.7.4" = ""
+  "1.7.5" = ""
+  "1.7.6-pre.1" = { as = "1.7.5.1" }
+
+[[worlds]]
+name = "mhfu"
+display_name = "Monster Hunter Freedom Unite"
+discord = "https://discord.com/channels/731205301247803413/1488987888388542495"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_{{version}}/mhfu.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+
+[[worlds]]
+name = "mhrise"
+display_name = "Monster Hunter Rise"
+discord = "https://discord.com/channels/731205301247803413/1059399228339802192"
+default_url = "https://github.com/HillbillyDroid/MHRise-APWorld/releases/download/v{{version}}/mhrise.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+
+[[worlds]]
+name = "mhw"
+display_name = "Monster Hunter World"
+discord = "https://discord.com/channels/731205301247803413/1060858247961129000"
+default_url = "https://github.com/QPL22/MHW_Archipelago/releases/download/v{{version}}/mhw.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.1.3-alpha" = ""
+
+[[worlds]]
+name = "monster_sanctuary"
+display_name = "Monster Sanctuary"
+discord = "https://discord.com/channels/731205301247803413/1096278752142577684"
+default_url = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/v{{version}}/monster_sanctuary.apworld"
+
+  [worlds.versions]
+  "0.0.1" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.1/monster_sanctuary.apworld"
+  "0.0.2" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.2/monster_sanctuary.apworld"
+  "0.0.3" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.3/monster_sanctuary.apworld"
+  "0.0.4" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.4/monster_sanctuary.apworld"
+  "0.0.5" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.5/monster_sanctuary.apworld"
+  "0.0.6" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.6/monster_sanctuary.apworld"
+  "0.0.7" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.7/monster_sanctuary.apworld"
+  "0.0.8" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.8/monster_sanctuary.apworld"
+  "0.0.9" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.9/monster_sanctuary.apworld"
+  "0.0.10" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/0.0.10/monster_sanctuary.apworld"
+  "1.0.0-beta" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/1.0.0-beta/monster_sanctuary.apworld"
+  "1.0.1-beta" = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/1.0.1-beta/monster_sanctuary.apworld"
+  "1.0.2-beta" = ""
+  "1.0.3-beta" = ""
+  "1.0.4-beta" = ""
+  "1.0.5-beta" = ""
+  "1.0.6-beta" = ""
+  "1.0.7-beta" = ""
+  "1.0.8-beta" = ""
+  "1.0.9-beta" = ""
+  "1.0.10-beta" = ""
+  "1.0.11" = ""
+  "1.0.12" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.3.4" = ""
+  "1.3.5" = ""
+  "1.3.6" = ""
+  "1.3.7" = ""
+  "1.3.8-pre.1" = { as = "1.3.7-hotfix1" }
+
+[[worlds]]
+name = "mnsg"
+display_name = "Mystical Ninja Starring Goemon"
+discord = "https://discord.com/channels/731205301247803413/1176230651352068226"
+default_url = "https://github.com/Killklli/MNSGRecompRando/releases/download/v{{version}}/mnsg.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = { as = ".1.0.6" }
+  "1.0.7" = ""
+  "1.0.8" = ""
+  "1.0.9" = ""
+  "1.0.10" = ""
+  "1.0.11" = ""
+  "1.0.12" = ""
+  "1.0.13" = ""
+  "1.0.14" = ""
+  "1.0.15" = ""
+  "1.1.0" = ""
