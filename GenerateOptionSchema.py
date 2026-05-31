@@ -143,6 +143,8 @@ def main():
         logging.info(f"generating schema for {name}")
         with open(f"schema/{name}.json", "w") as file:
             json.dump(generate_for_world(name, world), file)
+    logging.info('done')
+    os._exit(0)
 
 
 if __name__ == "__main__":
