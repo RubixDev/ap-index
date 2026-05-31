@@ -171,7 +171,12 @@ fn hash_file(file: &mut File) -> Result<[u8; 32]> {
 fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
     let filename = format!("custom_worlds/{}.apworld", world.name);
     let world_hash = hash(world);
-    if let Some(hashes) = cache.get(&world.name)
+    // don't cache if the world has only a single 0.0.0 version, as that
+    // indicates unversioned, "latest-only" links
+    let should_cache = !(world.versions.len() == 1
+        && matches!(world.versions.first_key_value(), Some((v, _)) if *v == Version::new(0, 0, 0)));
+    if should_cache
+        && let Some(hashes) = cache.get(&world.name)
         && hashes.info == world_hash
         && let Ok(mut file) = File::open(&filename)
     {
@@ -234,15 +239,17 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
         _ => _ = std::io::copy(&mut TeeReader::new(&mut resp, &mut file_hasher), &mut file)?,
     }
 
-    let file_hash = file_hasher.0.finalize().0;
-    cache.insert(
-        world.name.clone(),
-        CacheEntry {
-            info: world_hash,
-            file: file_hash,
-        },
-    );
-    _ = save_cache(cache);
+    if should_cache {
+        let file_hash = file_hasher.0.finalize().0;
+        cache.insert(
+            world.name.clone(),
+            CacheEntry {
+                info: world_hash,
+                file: file_hash,
+            },
+        );
+        _ = save_cache(cache);
+    }
 
     Ok(())
 }
