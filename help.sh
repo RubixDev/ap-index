@@ -20,7 +20,11 @@ tags = ["ad"]'
   uri="${url#https://*/}"
   api_url="https://api.github.com/repos/${uri%/download/*}?per_page=100"
   echo fetching tags from "$api_url":
-  curl "$api_url" | jq '. | reverse | .[] | .tag_name' -r || echo 'failed to fetch'
+  gh_version="$(curl "$api_url" | jq '. | reverse | .[] | .tag_name' -r || echo 'failed to fetch')"
+  if command -v wl-copy > /dev/null; then
+    echo "$gh_version" | wl-copy
+  fi
+  echo "$gh_version"
 
   printf "Versions: "
   read -ra versions
