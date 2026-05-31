@@ -49,7 +49,6 @@ default_url = "https://github.com/dmwever/Ageipelago/releases/download/{{version
   "0.1.3" = ""
   "0.1.4" = ""
 
-# somehow breaks the jackanddaxter world
 [[worlds]]
 name = "aom"
 display_name = "Age Of Mythology Retold"
@@ -5782,6 +5781,253 @@ default_url = "https://github.com/GraphiteGraphic/NuclearThroneArchipelago/relea
   "1.1.3" = ""
   "1.2.3" = ""
 
+# see: https://github.com/POD-io/Oblivion-ArchipelagoWorld/pull/2
+# [[worlds]]
+# name = "oblivion"
+# display_name = "Oblivion Remastered"
+# tags = ["ad"]
+# discord = "https://discord.com/channels/1085716850370957462/1379282061071749221"
+# default_url = "https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/download/v{{version}}/oblivion.apworld"
+
+#   [worlds.versions]
+#   "0.2.0-beta" = ""
+#   "0.3.0" = ""
+#   "0.4.0" = ""
+#   "0.4.5" = ""
+#   "0.4.6" = ""
+
+[[worlds]]
+name = "ootbijmqwt"
+display_name = "Ocarina of Time but it's just Master Quest Water Temple"
+discord = "https://discord.com/channels/731205301247803413/1211745516807782410"
+default_url = "https://github.com/Alchav/Archipelago/releases/download/ootbijmqwt-{{version}}/ootbijmqwt.apworld"
+
+  [worlds.versions]
+  "2.0.0" = { as = "2.0" }
+  "2.1.0" = { as = "v2.1" }
+
+[[worlds]]
+name = "okamihd"
+display_name = "Ōkami HD"
+discord = "https://discord.com/channels/731205301247803413/1196620860405067848"
+default_url = "https://github.com/Ragmoa/Archipelago/releases/download/{{version}}/okamihd.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.5.0-pre.1" = { as = "0.5.0-preview-1" }
+
+[[worlds]]
+name = "osrsm"
+display_name = "Old School Runescape Members"
+discord = "https://discord.com/channels/731205301247803413/1311060866598178866"
+default_url = "https://github.com/FarisTheAncient/Archipelago/releases/download/OSRSM-v{{version}}/osrsm.apworld"
+
+  [worlds.versions]
+  "0.1.8" = ""
+  "0.1.9" = ""
+
+[[worlds]]
+name = "ouakatamari"
+display_name = "Once Upon a Katamari"
+discord = "https://discord.com/channels/731205301247803413/1445303088020852831"
+default_url = "https://github.com/ItsSeafoamy/Once-Upon-an-Archipelago/releases/download/v{{version}}/ouakatamari.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+
+[[worlds]]
+name = "ofdp2"
+display_name = "One Finger Death Punch 2"
+discord = "https://discord.com/channels/731205301247803413/1494431750015680533"
+default_url = "https://github.com/Reiji-Kogarashi/OFDP2-Archipelago/releases/download/{{version}}/ofdp2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "openrct2"
+display_name = "OpenRCT2"
+discord = "https://discord.com/channels/731205301247803413/1095746758774108240"
+default_url = "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/v{{version}}/openrct2.apworld"
+
+  [worlds.versions]
+  "0.1.11-beta" = ""
+  "0.1.12-beta" = ""
+  "0.1.13-beta" = ""
+  "0.1.14-beta" = ""
+  "0.1.15-beta" = ""
+  "0.1.16-beta" = ""
+  "0.1.17-beta" = ""
+  "0.1.18-beta" = ""
+  "0.1.19-beta" = ""
+  "0.1.20-beta" = ""
+  "0.1.21-beta" = ""
+
+[[worlds]]
+name = "openttd"
+display_name = "OpenTTD"
+discord = "https://discord.com/channels/731205301247803413/1475251506381979970"
+default_url = "https://github.com/solida1987/openttd-archipelago/releases/download/v{{version}}/openttd.apworld"
+
+  [worlds.versions]
+  "1.0.0-beta.1" = { as = "1.0.0-beta1" }
+  "1.0.0-beta.2" = { as = "15.2-beta2" }
+  "1.0.0-beta.3" = { as = "15.2-beta3" }
+  "1.0.0-beta.4" = { as = "15.2-beta4" }
+  "1.0.0-beta.5" = { as = "15.2-beta5" }
+  "1.0.0-beta.6" = { as = "15.2-beta6" }
+  "1.0.0-beta.7" = { as = "15.2-beta7" }
+  "1.0.0-beta.8" = { as = "15.2-beta8" }
+  "1.0.0-beta.9" = { as = "15.2-beta9" }
+  "1.0.0" = "https://github.com/solida1987/openttd-archipelago/releases/download/OpenTTD-Archipelago-V1.0.0/openttd.apworld"
+  "1.1.0" = { as = "15.2-1.1.0" }
+  "1.2.0" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.2.4" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+
+# another backslash instance
+# [[worlds]]
+# name = "openttd_cargolock"
+# display_name = "OpenTTD Cargolock"
+# discord = "https://discord.com/channels/731205301247803413/1483545936998174871"
+# default_url = "https://github.com/kbab13reel/openttd-archipelago/releases/download/{{version}}/openttd_cargolock.apworld"
+
+#   [worlds.versions]
+#   "0.1.0" = ""
+#   "0.1.1" = ""
+#   "0.2.0" = ""
+#   "0.2.1" = ""
+#   "0.2.2" = ""
+#   "0.3.0" = ""
+
+[[worlds]]
+name = "operationocto"
+display_name = "Operation Octo"
+discord = "https://discord.com/channels/731205301247803413/1469520630901772494"
+default_url = "https://github.com/GraymonDgt/OperationOctoAP/releases/download/v{{version}}/operationocto.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+
+[[worlds]]
+name = "oribf"
+display_name = "Ori and the Blind Forest"
+discord = "https://discord.com/channels/731205301247803413/1502094079859888228"
+default_url = "https://github.com/c-ostic/Archipelago/releases/download/v{{version}}/oribf.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.3.0-alpha" = ""
+  "0.3.1-alpha" = ""
+  "0.3.2-alpha" = ""
+  "0.3.3-alpha" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+
+[[worlds]]
+name = "ori_wotw"
+display_name = "Ori and the Will of the Wisps"
+discord = "https://discord.com/channels/731205301247803413/1272952565843103765"
+default_url = "https://github.com/Satisha10/APwotw_release/releases/download/v{{version}}/ori_wotw.apworld"
+
+  [worlds.versions]
+  "0.0.0" = ""
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.4.0-pre.1" = { as = "0.4.0-pre" }
+  "0.4.0-pre.2" = { as = "0.4.0-pre2" }
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+
+[[worlds]]
+name = "osu"
+display_name = "osu!"
+discord = "https://discord.com/channels/731205301247803413/1195040661171355730"
+default_url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v{{version}}/osu.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7-pre.1" = { as = "0.1.6.1" }
+  "0.1.7" = ""
+  "0.1.8-pre.1" = { as = "0.1.7.1" }
+  "0.1.8" = ""
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = { as = "1.1" }
+  "1.1.1" = ""
+  "1.2.0" = { as = "1.2" }
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.2.4-pre.1" = { as = "1.2.3.1" }
+  "1.2.4" = ""
+  "1.3.0" = { as = "1.3" }
+  "1.3.1" = ""
+  "1.3.2" = ""
+
+[[worlds]]
+name = "ourascent"
+display_name = "Our Ascent"
+discord = "https://discord.com/channels/731205301247803413/1358525617234252130"
+default_url = "https://github.com/AzuriCaelum/OurAscentAPWorld/releases/download/{{version}}/ourascent.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "Release" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3-pre.1" = { as = "0.1.2b" }
+  "0.2.0" = ""
+
 [[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
@@ -5789,8 +6035,96 @@ discord = "https://discord.com/channels/731205301247803413/1462820272012005489"
 default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v{{version}}/outer_wilds.apworld"
 
   [worlds.versions]
+  "0.1.0" = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/release/outer_wilds.apworld"
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4-rc.1" = { as = "0.1.4-rc" }
+  "0.1.5-rc.1" = { as = "0.1.5-rc" }
+  "0.1.5" = ""
+  "0.1.6-rc.1" = { as = "0.1.6-rc" }
+  "0.1.6" = ""
+  "0.1.7-rc.1" = { as = "0.1.7-rc" }
+  "0.1.7" = ""
+  "0.1.8-rc.1" = { as = "0.1.8-rc" }
+  "0.1.8" = ""
+  "0.2.0-rc.2" = { as = "0.2.0-rc2" }
+  "0.2.0" = ""
+  "0.2.1-rc.1" = { as = "0.2.1-rc" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4-rc.1" = { as = "0.2.4-rc" }
+  "0.2.4" = ""
+  "0.2.5-rc.1" = { as = "0.2.5-rc" }
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7-rc.1" = { as = "0.2.7-rc" }
+  "0.2.7" = ""
+  "0.3.0-rc.1" = { as = "0.3.0-rc" }
+  "0.3.0-rc.2" = { as = "0.3.0-rc2" }
+  "0.3.0-rc.3" = { as = "0.3.0-rc3" }
+  "0.3.0" = ""
+  "0.3.1-rc.1" = { as = "0.3.1-rc" }
+  "0.3.1" = ""
+  "0.3.2-rc.1" = { as = "0.3.2-rc" }
+  "0.3.2" = ""
+  "0.3.3-rc.1" = { as = "0.3.3-rc" }
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7-pre.1" = { as = "0.3.6.1" }
+  "0.3.7" = ""
+  "0.3.8-pre.1" = { as = "0.3.7.1" }
+  "0.3.8" = ""
+  "0.3.9" = ""
+  "0.3.10" = ""
+  "0.3.11" = ""
+  "0.3.12" = ""
+  "0.3.13" = ""
+  "0.3.14" = ""
+  "0.3.15" = ""
+  "0.3.16" = ""
+  "0.3.17" = ""
+  "0.3.18" = ""
+  "0.3.19" = ""
+  "0.3.20" = ""
   "1.0.0" = ""
   "1.0.1" = ""
   "1.1.0" = ""
   "1.2.0" = ""
   "1.2.1" = ""
+
+[[worlds]]
+name = "outward"
+display_name = "Outward: Definitive Edition"
+discord = "https://discord.com/channels/731205301247803413/1340029949553278996"
+default_url = "https://github.com/Daemonarian/AP_Outward/releases/download/v{{version}}/outward.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "oni"
+display_name = "Oxygen Not Included"
+discord = "https://discord.com/channels/731205301247803413/1446597534847074416"
+default_url = "https://github.com/ShadowKitty42/ONI-Archipelago/releases/download/v{{version}}/oni.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.5.0" = { as = "0.5" }
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.7" }
+  "0.7.1" = { as = "0.71" }
+  "0.7.2" = { as = "0.72" }
+  "0.7.3" = { as = "0.73" }
+  "0.7.4" = { as = "0.74" }
+  "0.7.5" = { as = "0.75" }
+  "0.8.5" = { as = "0.85" }
+  "0.9.0" = { as = "0.9" }
+  "0.9.6" = { as = "0.96" }
+  "0.9.8" = { as = "0.98" }
+  "0.9.9" = { as = "0.99" }
