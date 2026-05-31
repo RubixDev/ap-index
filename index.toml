@@ -3923,6 +3923,238 @@ default_url = "https://github.com/Anguirel86/Archipelago/releases/download/JP-{{
   "0.0.1" = ""
 
 [[worlds]]
+name = "kon"
+display_name = "K-On! After School Live!!"
+default_url = "https://github.com/dannybonz/k-on_archipelago/releases/download/v{{version}}/kon.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+
+[[worlds]]
+name = "ktane"
+display_name = "Keep Talking and Nobody Explodes"
+discord = "https://discord.com/channels/731205301247803413/1058549067107532840"
+default_url = "https://github.com/GreenPower713/Archipelago/releases/download/v{{version}}/ktane.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/GreenPower713/Archipelago/releases/download/Alpha/ktane.apworld"
+  "0.1.1" = { as = "0.1.0" }
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4-pre.1" = { as = "0.1.3a" }
+  "0.1.4" = ""
+  "0.2.0" = ""
+
+[[worlds]]
+name = "ksp1"
+display_name = "Kerbal Space Program 1"
+discord = "https://discord.com/channels/731205301247803413/1227259836027244544"
+default_url = "https://github.com/nickdavies/Archipelago/releases/download/v{{version}}/ksp1.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5-pre.1" = { as = "999.0.1-experimental" }
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.3" = ""
+
+[[worlds]]
+name = "keymasters_keep"
+display_name = "Keymaster's Keep"
+discord = "https://discord.com/channels/731205301247803413/1321323711676284939"
+default_url = "https://github.com/silasary/Archipelago/releases/download/keymasters_keep-{{version}}/keymasters_keep.apworld"
+
+  [worlds.versions]
+  "2.0.1" = "https://github.com/silasary/Archipelago/releases/download/keymasters-{{version}}/keymasters_keep.apworld"
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.1.3" = ""
+  "2.1.4" = ""
+  "2.1.5" = ""
+
+[[worlds]]
+name = "keywe"
+display_name = "KeyWe"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-KeyWe/releases/download/{{version}}/keywe.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.1.0" = ""
+
+[[worlds]]
+name = "kindergarten_2"
+display_name = "Kindergarten 2"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1240820918343700562"
+default_url = "https://github.com/agilbert1412/Archipelagarten/releases/download/{{version}}/kindergarten_2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+
+[[worlds]]
+name = "khbbs"
+display_name = "Kingdom Hearts Birth by Sleep"
+discord = "https://discord.com/channels/731205301247803413/1158149027385319434"
+default_url = "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/download/{{version}}/khbbs.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+
+[[worlds]]
+name = "khcom"
+display_name = "Kingdom Hearts Chain of Memories"
+discord = "https://discord.com/channels/731205301247803413/1074710550384234587"
+default_url = "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases/download/{{version}}/khcom.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "khddd"
+display_name = "Kingdom Hearts Dream Drop Distance"
+discord = "https://discord.com/channels/731205301247803413/1196504617941475379"
+default_url = "https://github.com/LuxMake/Archipelago-KHDDD/releases/download/{{version}}/khddd.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+
+[[worlds]]
+name = "khrecom"
+display_name = "Kingdom Hearts RE Chain of Memories"
+discord = "https://discord.com/channels/731205301247803413/1074710550384234587"
+default_url = "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases/download/{{version}}/khrecom.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+  "1.4.2" = ""
+  "1.4.3" = ""
+
+[[worlds]]
+name = "kirbyam"
+display_name = "Kirby & The Amazing Mirror"
+discord = "https://discord.com/channels/731205301247803413/1282157351402602570"
+default_url = "https://github.com/hasherwi/Archipelago-kirbyam/releases/download/kirbyam-v{{version}}/kirbyam.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+
+[[worlds]]
+name = "k64"
+display_name = "Kirby 64 - The Crystal Shards"
+discord = "https://discord.com/channels/731205301247803413/1175344681928904806"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/k64_{{version}}/k64.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "v0.1.0" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.2.1" = ""
+  "0.2.0" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+
+[[worlds]]
+name = "kirby_air_ride"
+display_name = "Kirby Air Ride"
+discord = "https://discord.com/channels/731205301247803413/1291501105389502554"
+default_url = "https://github.com/DeDeDeK/KARchipelago/releases/download/v{{version}}/kirby_air_ride.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+
+[[worlds]]
+name = "kss"
+display_name = "Kirby Super Star"
+discord = "https://discord.com/channels/731205301247803413/1455078199611490384"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/kss_{{version}}/kss.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.9" = ""
+
+[[worlds]]
 name = "outer_wilds"
 display_name = "Outer Wilds"
 discord = "https://discord.com/channels/731205301247803413/1462820272012005489"
