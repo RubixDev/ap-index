@@ -1,8 +1,8 @@
 use std::{
     collections::BTreeMap,
-    fs::{self, File},
+    fs::{self, File, OpenOptions},
     hash::{DefaultHasher, Hash, Hasher as _},
-    io::BufReader,
+    io::{BufReader, Read, Seek, Write},
     path::PathBuf,
     process::Command,
     sync::LazyLock,
@@ -10,12 +10,11 @@ use std::{
 
 use anyhow::{Context, Result};
 use digest_io::IoWrapper;
-use io_tee::TeeReader;
 use reqwest::blocking::Client;
 use semver::Version;
 use serde_with::{NoneAsEmptyString, hex::Hex, serde_as};
 use sha2::{Digest as _, Sha256};
-use zip::ZipArchive;
+use zip::{ZipArchive, ZipWriter, write::SimpleFileOptions};
 
 static CLIENT: LazyLock<Client> = LazyLock::new(Client::new);
 
@@ -213,8 +212,16 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
     };
 
     let mut resp = CLIENT.get(url).send()?.error_for_status()?;
-    let mut file = File::create(&filename)?;
-    let mut file_hasher = IoWrapper(Sha256::new());
+    const MAX_SPOOL_SIZE: usize = 20 * 1024 * 1024; // 20 MiB
+    let mut download = tempfile::spooled_tempfile_in(MAX_SPOOL_SIZE, ".");
+    std::io::copy(&mut resp, &mut download).context("downloading world")?;
+
+    let mut file = OpenOptions::new()
+        .read(true)
+        .write(true)
+        .create(true)
+        .truncate(true)
+        .open(&filename)?;
 
     match (&world.default_path_in_zip, version_info) {
         (
@@ -225,22 +232,19 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
             },
         )
         | (Some(path), _) => {
-            let mut tmpfile = tempfile::spooled_tempfile_in(20 * 1024 * 1024, ".");
-            std::io::copy(&mut resp, &mut tmpfile)?;
-            let mut zip = ZipArchive::new(&mut tmpfile)?;
+            let mut zip = ZipArchive::new(&mut download)?;
             let mut zipped_file = zip
                 .by_path(path)
                 .context("opening apworld inside zip file")?;
-            std::io::copy(
-                &mut TeeReader::new(&mut zipped_file, &mut file_hasher),
-                &mut file,
-            )?;
+            let mut world_file = tempfile::spooled_tempfile_in(MAX_SPOOL_SIZE, ".");
+            std::io::copy(&mut zipped_file, &mut world_file)?;
+            fix_zip(&mut world_file, &mut file)?;
         }
-        _ => _ = std::io::copy(&mut TeeReader::new(&mut resp, &mut file_hasher), &mut file)?,
+        _ => fix_zip(&mut download, &mut file)?,
     }
 
     if should_cache {
-        let file_hash = file_hasher.0.finalize().0;
+        let file_hash = hash_file(&mut file)?;
         cache.insert(
             world.name.clone(),
             CacheEntry {
@@ -257,5 +261,41 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
 fn save_cache(cache: &Cache) -> Result<()> {
     let file = File::create("custom_worlds/cache.json")?;
     serde_json::to_writer(file, cache)?;
+    Ok(())
+}
+
+/// Fixes zip archives with invalid backslash path separators to use forward slashes.
+fn fix_zip(input: impl Read + Seek, output: impl Write + Seek) -> Result<()> {
+    let mut src = ZipArchive::new(input)?;
+    let mut dst = ZipWriter::new(output);
+
+    for i in 0..src.len() {
+        let mut file = src.by_index(i)?;
+
+        // fix path separators
+        let mut filename = file.name().replace('\\', "/");
+        if file.is_dir() && !filename.ends_with('/') {
+            filename.push('/');
+        }
+
+        // copy metadata
+        let mut options = SimpleFileOptions::default().compression_method(file.compression());
+        if let Some(modified) = file.last_modified() {
+            options = options.last_modified_time(modified);
+        }
+        if let Some(mode) = file.unix_mode() {
+            options = options.unix_permissions(mode);
+        }
+
+        // write file
+        if file.is_dir() {
+            dst.add_directory(&filename, options)?;
+        } else {
+            dst.start_file(&filename, options)?;
+            std::io::copy(&mut file, &mut dst)?;
+        }
+    }
+
+    dst.finish()?;
     Ok(())
 }

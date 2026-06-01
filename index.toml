@@ -62,7 +62,7 @@ default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/downloa
   "1.0.2" = ""
   "1.1.0" = ""
   "1.1.1" = ""
-  # "1.1.2" = "" # has invalid backslash separators, which breaks on linux
+  "1.1.2" = ""
   "1.2.0" = ""
 
 [[worlds]]
@@ -2628,20 +2628,19 @@ default_url = "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/
   "0.3.0" = { as = "0.3" }
   "0.4.0" = { as = "0.4" }
 
-# see https://github.com/nhyldmar/fez-ap/issues/13
-# [[worlds]]
-# name = "fez"
-# display_name = "Fez"
-# discord = "https://discord.com/channels/731205301247803413/1210606519297773638"
-# default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}/fez.apworld"
+[[worlds]]
+name = "fez"
+display_name = "Fez"
+discord = "https://discord.com/channels/731205301247803413/1210606519297773638"
+default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}/fez.apworld"
 
-#   [worlds.versions]
-#   "0.1.0" = ""
-#   "0.1.1" = ""
-#   "0.2.0" = ""
-#   "0.3.0" = ""
-#   "0.4.0" = ""
-#   "0.5.0" = ""
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
 
 [[worlds]]
 name = "ff1pr"
@@ -4216,18 +4215,17 @@ default_url = "https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/
   "0.1.1" = ""
   "0.1.2" = ""
 
-# broken due to backslashes for now
-# [[worlds]]
-# name = "lol"
-# display_name = "League of Legends"
-# discord = "https://discord.com/channels/731205301247803413/1184691812099686492"
-# default_url = "https://github.com/kbab13reel/Archipelago/releases/download/lol_{{version}}/lol.apworld"
+[[worlds]]
+name = "lol"
+display_name = "League of Legends"
+discord = "https://discord.com/channels/731205301247803413/1184691812099686492"
+default_url = "https://github.com/kbab13reel/Archipelago/releases/download/lol_{{version}}/lol.apworld"
 
-#   [worlds.versions]
-#   "0.2.0" = ""
-#   "0.2.1" = ""
-#   "0.2.2" = ""
-#   "0.2.3" = ""
+  [worlds.versions]
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
 
 [[worlds]]
 name = "L4D2"
@@ -5716,7 +5714,7 @@ default_url = "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/d
   "0.5.2" = ""
   "0.5.3" = ""
 
-# backslashes again, see: https://github.com/arthurstreeter/NRFTW-Archipelago-APWorld-Generator/issues/1
+# has invalid `random` choice
 # [[worlds]]
 # name = "nrftw"
 # display_name = "No Rest For The Wicked"
@@ -5931,20 +5929,19 @@ default_url = "https://github.com/solida1987/openttd-archipelago/releases/downlo
   "1.4.0" = ""
   "1.4.1" = ""
 
-# another backslash instance
-# [[worlds]]
-# name = "openttd_cargolock"
-# display_name = "OpenTTD Cargolock"
-# discord = "https://discord.com/channels/731205301247803413/1483545936998174871"
-# default_url = "https://github.com/kbab13reel/openttd-archipelago/releases/download/{{version}}/openttd_cargolock.apworld"
+[[worlds]]
+name = "openttd_cargolock"
+display_name = "OpenTTD Cargolock"
+discord = "https://discord.com/channels/731205301247803413/1483545936998174871"
+default_url = "https://github.com/kbab13reel/openttd-archipelago/releases/download/{{version}}/openttd_cargolock.apworld"
 
-#   [worlds.versions]
-#   "0.1.0" = ""
-#   "0.1.1" = ""
-#   "0.2.0" = ""
-#   "0.2.1" = ""
-#   "0.2.2" = ""
-#   "0.3.0" = ""
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
 
 [[worlds]]
 name = "operationocto"
@@ -8147,7 +8144,7 @@ default_url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/do
   "0.2.0" = ""
   "0.2.1" = ""
   "0.5.0" = ""
-  # "0.5.1" = "" # it's backslashes yet again
+  "0.5.1" = ""
 
 [[worlds]]
 name = "spire"
@@ -8875,11 +8872,11 @@ default_url = "https://github.com/Kryen112/AP_Stick_Ranger/releases/download/{{v
 
   [worlds.versions]
   "1.0.0" = ""
-  # "1.1.0" = ""
-  # "1.2.0" = ""
-  # "1.3.0" = ""
-  # "1.4.0" = ""
-  # "1.5.0" = "" # even more backslashes...
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.5.0" = ""
 
 [[worlds]]
 name = "streets_of_rage"
