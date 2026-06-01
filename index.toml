@@ -7683,3 +7683,1417 @@ default_url = "https://github.com/dgrossmann144/Archipelago/releases/download/v{
   "0.1.4-alpha" = ""
   "0.1.5-alpha" = ""
   "0.1.6-alpha" = ""
+
+# specifies AP 0.6.6 as max version
+# [[worlds]]
+# name = "salt_and_sanctuary"
+# display_name = "Salt and Sanctuary"
+# discord = "https://discord.com/channels/731205301247803413/1121854040708481054"
+# default_url = "https://github.com/PixelShake92/Salt-and-Sanctuary-AP/releases/download/{{version}}/salt_and_sanctuary.apworld"
+
+#   [worlds.versions]
+#   "1.0.0-alpha" = { as = "First-release" }
+#   "1.1.0-alpha" = { as = "Alpha_1,1" }
+
+[[worlds]]
+name = "sburbelago"
+display_name = "SBURBelago"
+discord = "https://discord.com/channels/731205301247803413/1484111327160172585"
+default_url = "https://github.com/SephDB/SBURBelago/releases/download/v{{version}}/sburbelago.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "2.0.0" = ""
+  "2.1.0" = ""
+
+[[worlds]]
+name = "Schedule_I"
+display_name = "Schedule I"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1501007902138437724"
+default_url = "https://github.com/MacH8s/Narcopelago/releases/download/v{{version}}/Schedule_I.apworld"
+
+  [worlds.versions]
+  "0.0.1" = "https://github.com/MacH8s/Narcopelago/releases/download/V0.0.1/Schedule_I.apworld"
+  "0.1.0" = "https://github.com/MacH8s/Narcopelago/releases/download/V0.1.0/Schedule_I.apworld"
+  "0.2.0" = "https://github.com/MacH8s/Narcopelago/releases/download/0.2.0/Schedule_I.apworld"
+  "0.2.1" = "https://github.com/MacH8s/Narcopelago/releases/download/V0.2.1/Schedule_I.apworld"
+  "0.2.2" = "https://github.com/MacH8s/Narcopelago/releases/download/V0.2.2/Schedule_I.apworld"
+  "3.0.0" = ""
+  "3.0.1" = "https://github.com/MacH8s/Narcopelago/releases/download/V3.0.1/Schedule_I.apworld"
+  "3.0.2" = { as = ".3.0.2" }
+  "3.0.3" = ""
+  "3.0.4" = ""
+  "3.0.5" = ""
+  "3.0.6" = ""
+  "3.1.0" = ""
+  "3.1.1" = ""
+  "3.1.2" = ""
+  "3.1.3" = ""
+  "3.2.0" = ""
+  "3.2.1" = ""
+  "3.2.2" = ""
+  "3.3.0" = ""
+  "3.3.1" = ""
+  "3.3.2" = ""
+  "3.3.3" = ""
+  "3.4.0" = ""
+  "3.5.0" = ""
+  "3.5.1" = ""
+  "3.5.2" = ""
+  "3.5.3" = ""
+  "3.5.4" = ""
+  "3.6.0" = ""
+  "3.6.1" = ""
+  "3.6.2" = ""
+  "3.6.3" = ""
+
+[[worlds]]
+name = "no100f"
+display_name = "Scooby-Doo! Night of 100 Frights"
+discord = "https://discord.com/channels/731205301247803413/1188152412498829352"
+default_url = "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases/download/{{version}}/no100f.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = { as = "Alpha" }
+  "0.0.2-alpha" = { as = "Alpha2" }
+  "0.0.3-alpha" = { as = "Alpha3" }
+  "0.0.4-alpha" = { as = "Alpha4" }
+  "0.0.5-alpha" = { as = "Alpha5" }
+  "0.0.6-alpha" = { as = "Alpha6" }
+  "0.0.7-alpha" = { as = "Alpha7" }
+  "0.1.0-beta" = { as = "Beta" }
+  "0.1.1-beta" = { as = "Beta2" }
+  "0.1.2-beta" = { as = "Beta3" }
+  "0.1.3-beta" = { as = "Beta4" }
+  "0.1.4-beta" = { as = "Beta5" }
+  "0.1.5-beta" = { as = "Beta6" }
+  "0.1.6-beta" = { as = "Beta7" }
+  "0.2.0-beta" = ""
+  "0.2.1-beta" = ""
+  "0.2.2-beta" = ""
+  "0.2.3-beta" = ""
+  "0.2.4-beta" = ""
+  "0.2.5-beta" = ""
+  "0.2.6-beta" = ""
+  "0.2.7-beta" = { as = "Beta8" }
+  "0.2.8-beta" = { as = "Beta9" }
+  "0.2.9-beta" = { as = "Beta10" }
+  "0.3.0-beta" = { as = "Beta11" }
+  "0.3.1-beta" = { as = "Beta12" }
+  "0.3.2-beta" = { as = "Beta13" }
+  "0.3.3-beta" = { as = "Beta14" }
+  "1.0.0" = { as = "Release_1_0_0" }
+  "1.0.1" = { as = "Release_1_0_1" }
+  "1.1.0" = { as = "Release_1_1_0" }
+  "1.2.0" = { as = "Release_1_2_0" }
+  "1.2.1" = { as = "Release_1_2_1" }
+  "1.2.2" = { as = "Release_1_2_2" }
+  "1.3.0" = { as = "Release_1_3_0" }
+  "1.3.1" = { as = "Release_1_3_1" }
+  "1.3.2" = { as = "Release_1_3_2" }
+  "1.3.3" = { as = "Release_1_3_3" }
+  "1.3.4" = { as = "Release_1_3_4" }
+  "1.3.5" = { as = "Release_1_3_5" }
+  "1.3.6" = { as = "Release_1_3_6" }
+  "1.3.7" = { as = "Release_1_3_7" }
+  "1.3.8" = { as = "Release_1_3_8" }
+
+[[worlds]]
+name = "som"
+display_name = "Secret of Mana"
+discord = "https://discord.com/channels/731205301247803413/1228235556589146193"
+default_url = "https://github.com/black-sliver/som-apworld/releases/download/v{{version}}/som.apworld"
+
+  [worlds.versions]
+  "1.48.0-alpha.2" = { as = "1.48.0a2" }
+  "1.48.0-alpha.3" = { as = "1.48.0a3" }
+
+[[worlds]]
+name = "sekiro"
+display_name = "Sekiro: Shadows Die Twice"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1100511247939686481"
+default_url = "https://github.com/fswap/from-software-archipelago-clients/releases/download/sdt-v{{version}}/Sekiro.Archipelago.{{version}}-windows.zip"
+default_path_in_zip = "sekiro.apworld"
+
+  [worlds.versions]
+  "1.0.0-alpha.1" = ""
+  "1.0.0-alpha.2" = ""
+  "1.0.0-alpha.3" = ""
+  "1.0.0-alpha.4" = ""
+  "1.0.0-alpha.5" = ""
+  "1.0.0-alpha.6" = ""
+  "1.0.0-alpha.7" = ""
+  "1.0.0-alpha.8" = ""
+
+[[worlds]]
+name = "sotm"
+display_name = "Sentinels of the Multiverse"
+discord = "https://discord.com/channels/731205301247803413/1241869295848521730"
+default_url = "https://github.com/Totox00/Archipelago-sotm/releases/download/v{{version}}/sotm.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+
+[[worlds]]
+name = "SettlersHeritageOfKings"
+display_name = "SettlersHeritageOfKings"
+discord = "https://discord.com/channels/731205301247803413/1362516532797636609"
+default_url = "https://github.com/ZorkManu/Archipelago/releases/download/v{{version}}/SettlersHeritageOfKings.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = ".01-alpha" }
+
+[[worlds]]
+name = "severed_soul"
+display_name = "Severed Soul"
+discord = "https://discord.com/channels/731205301247803413/1400131509569978478"
+default_url = "https://github.com/Grenhunterr/Archipelago/releases/download/v{{version}}/severed_soul.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1" }
+  "1.1.0" = { as = "1.1" }
+  "1.1.1" = ""
+  "1.2.0" = { as = "1.2" }
+  "2.0.0" = { as = "2" }
+  "2.0.1" = ""
+  "2.5.0" = { as = "2.5" }
+  "2.6.0" = { as = "2.6" }
+  "2.7.0" = { as = "2.7" }
+
+[[worlds]]
+name = "shadow_the_hedgehog"
+display_name = "Shadow the Hedgehog"
+discord = "https://discord.com/channels/731205301247803413/1142558464242094200"
+default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{{version}}/shadow_the_hedgehog.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = "https://github.com/choatix/Archipelago/releases/download/arch-shadow-0.0.9/shadow_the_hedgehog.apworld"
+  "0.1.0" = "https://github.com/choatix/Archipelago/releases/download/arch-shadow-0.1.0/shadow_the_hedgehog.apworld"
+  "0.1.5" = ""
+  "0.2.6" = "https://github.com/choatix/Archipelago/releases/download/ShadowRelease0.2.6/shadow_the_hedgehog.apworld"
+  "0.2.7" = ""
+  "0.3.0" = "https://github.com/choatix/Archipelago/releases/download/shadow0.3.0/shadow_the_hedgehog.apworld"
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+
+[[worlds]]
+name = "shadowgate64"
+display_name = "Shadowgate 64"
+discord = "https://discord.com/channels/731205301247803413/1295834685548658819"
+default_url = "https://github.com/jjjj12212/Archipelago-Shadowgate64/releases/download/V{{version}}/shadowgate64.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+
+[[worlds]]
+name = "shahrazad"
+display_name = "Shahrazad"
+discord = ""
+default_url = "https://github.com/qwint/ap-shahrazad/releases/download/{{version}}/shahrazad.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "shapez_2"
+display_name = "shapez 2"
+discord = "https://discord.com/channels/731205301247803413/1278481415830245427"
+default_url = "https://github.com/BlastSlimey/2hapezipelago/releases/download/{{version}}/shapez_2.apworld"
+
+  [worlds.versions]
+  "0.99.0" = ""
+  "0.99.1" = ""
+  "0.99.2" = ""
+  "0.99.3" = ""
+  "0.99.4" = ""
+  "0.99.5" = ""
+  "0.99.6" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
+name = "shining_itd"
+display_name = "Shining in the Darkness"
+discord = "https://discord.com/channels/731205301247803413/1205892028551012364"
+default_url = "https://github.com/lagdotcom/Archipelago/releases/download/{{version}}/shining_itd.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+
+[[worlds]]
+name = "oot_soh"
+display_name = "Ship of Harkinian"
+discord = "https://discord.com/channels/731205301247803413/1434235335625281707"
+default_url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/download/SoH_{{version}}/oot_soh.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = { as = "1.1.0-Hotfix" }
+  "1.2.0" = ""
+  "1.2.1" = ""
+
+[[worlds]]
+name = "pocket_dungeon"
+display_name = "Shovel Knight Pocket Dungeon"
+discord = "https://discord.com/channels/731205301247803413/1447983047185141830"
+default_url = "https://github.com/Mitchell1711/Archipelago/releases/download/v{{version}}/pocket_dungeon.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+
+[[worlds]]
+name = "signalis"
+display_name = "Signalis"
+discord = "https://discord.com/channels/731205301247803413/1217788850034708480"
+default_url = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/download/v{{version}}/signalis.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "silverdaze"
+display_name = "Silver Daze"
+discord = "https://discord.com/channels/731205301247803413/1343851483707342858"
+default_url = "https://github.com/udime123/Silver-Daze-APWorld/releases/download/{{version}}/silverdaze.apworld"
+
+  [worlds.versions]
+  "0.5.0" = { as = "alpha" }
+  "0.5.3" = ""
+  "0.5.4" = { as = "hotfix" }
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.7.2" = ""
+  "0.7.3" = ""
+
+[[worlds]]
+name = "sgtpuzzles"
+display_name = "Simon Tatham's Portable Puzzle Collection"
+discord = "https://discord.com/channels/731205301247803413/1278733078516207719"
+default_url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v{{version}}/sgtpuzzles.apworld"
+
+  [worlds.versions]
+  "0.1.1-alpha" = { as = "0.1.1-prealpha" }
+  "0.1.3-alpha" = { as = "0.1.3-hotfix2" }
+  "0.1.4-alpha" = { as = "0.1.4prealpha" }
+  "0.1.5-alpha" = { as = "0.1.5-prealpha" }
+  "0.1.7-alpha" = { as = "0.1.7-prealpha" }
+  "0.1.8-alpha" = { as = "0.1.8-prealpha" }
+  "0.1.10-alpha" = { as = "0.1.10-prealpha" }
+  "0.1.11-alpha" = { as = "0.1.11-prealpha" }
+  "0.1.12-alpha" = { as = "0.1.12-prealpha" }
+  "0.1.13-alpha" = { as = "0.1.13-prealpha" }
+  "0.1.14-alpha" = { as = "0.1.14-prealpha" }
+  "0.1.15-alpha" = { as = "0.1.15-prealpha" }
+  "0.1.16-alpha" = { as = "0.1.16-prealpha" }
+
+[[worlds]]
+name = "simpsonshitnrun"
+display_name = "The Simpsons Hit And Run"
+discord = "https://discord.com/channels/731205301247803413/1158211913495359548"
+default_url = "https://github.com/nmize1/Archipelago/releases/download/v{{version}}/simpsonshitnrun.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "0.1.0a" }
+  "0.1.1-alpha" = { as = "0.1.1a" }
+  "0.1.2-alpha" = { as = "0.1.2a" }
+  "0.1.3-alpha" = { as = "0.1.3a" }
+  "0.1.4-alpha" = { as = "0.1.4a" }
+  "0.1.5-alpha" = { as = "0.1.5a" }
+  "0.1.6-alpha" = { as = "0.1.6a" }
+  "0.1.7-alpha" = { as = "0.1.7a" }
+  "0.1.0-beta" = { as = "0.1.0b" }
+  "0.1.1-beta" = { as = "0.1.1b" }
+  "0.1.2-beta" = { as = "0.1.2b" }
+  "0.1.3-beta" = { as = "0.1.3b" }
+  "0.2.4-beta" = { as = "0.2.4b" }
+  "0.2.5-beta" = { as = "0.2.5b" }
+  "0.2.6-beta" = { as = "0.2.6b" }
+  "0.2.7-beta" = { as = "0.2.7b" }
+  "0.3.0-beta" = { as = "0.3.0b" }
+  "0.3.1-beta" = { as = "0.3.1b" }
+  "0.3.2-beta" = { as = "0.3.2b" }
+  "0.3.3-beta" = { as = "0.3.3b" }
+  "0.3.4-beta" = { as = "0.3.4b" }
+  "0.3.5-beta" = { as = "0.3.5b" }
+  "0.3.6-beta" = { as = "0.3.6b" }
+  "0.3.7-beta" = { as = "0.3.7-b" }
+  "0.3.8-beta" = { as = "0.3.8-b" }
+  "0.3.10-beta" = { as = "0.3.10-b" }
+  "0.3.11-beta" = { as = "0.3.11-b" }
+  "0.4.0-beta" = { as = "0.4.0-b" }
+  "0.4.1-beta" = { as = "0.4.1-b" }
+  "0.4.2-beta" = { as = "0.4.2-b" }
+  "0.4.3-beta" = { as = "0.4.3-b" }
+  "0.5.0-beta" = { as = "0.5.0-b" }
+  "0.5.1-beta" = { as = "0.5.1-b" }
+  "0.5.2-beta" = { as = "0.5.2-b" }
+  "0.5.3-beta" = { as = "0.5.3-b" }
+  "0.5.4-beta" = { as = "0.5.4b" }
+
+[[worlds]]
+name = "sims4"
+display_name = "The Sims 4"
+discord = "https://discord.com/channels/731205301247803413/1079002955262480424"
+default_url = "https://github.com/Simsipelago/Archipelago/releases/download/{{version}}/sims4.apworld"
+
+  [worlds.versions]
+  "1.6.0" = ""
+  "1.6.1" = ""
+  "1.7.0" = ""
+  "1.7.1" = ""
+  "1.7.2" = ""
+  "1.7.3" = ""
+  "1.7.4" = ""
+  "1.7.5" = ""
+  "2.0.0-beta.1" = ""
+  "2.0.0-beta.2" = ""
+
+[[worlds]]
+name = "skul"
+display_name = "Skul: The Hero Slayer"
+discord = "https://discord.com/channels/731205301247803413/1346144590536904734"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Skul/releases/download/{{version}}/skul.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "ss"
+display_name = "Skyward Sword"
+discord = "https://discord.com/channels/731205301247803413/1469917221068214444"
+default_url = "https://github.com/Battlecats59/SS_APWorld/releases/download/v{{version}}/ss.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0-pre.1" = { as = "0.5.0.4-pre" }
+  "0.5.0-pre.2" = { as = "0.5.0.1-pre2" }
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2-pre.1" = { as = "0.5.2-pre1" }
+  "0.5.2-pre.2" = { as = "0.5.2-pre2" }
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.5.6-pre.1" = { as = "0.5.6-pre1" }
+
+[[worlds]]
+name = "slay_the_princess"
+display_name = "Slay The Princess"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1374828534312468551"
+default_url = "https://github.com/Overlord-Draconic-Fire/Archipelago/releases/download/STP-{{version}}/slay_the_princess.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.5.0" = ""
+  # "0.5.1" = "" # it's backslashes yet again
+
+[[worlds]]
+name = "spire"
+display_name = "Slay the Spire"
+discord = "https://discord.com/channels/731205301247803413/884926940182609920"
+default_url = "https://github.com/cjmang/StS-AP-World/releases/download/{{version}}/spire.apworld"
+
+  [worlds.versions]
+  "1.16.0-rc.1" = { as = "1.16.0-RC-1" }
+  "2.0.0" = { as = "2.0" }
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.2.0-rc.1" = { as = "2.2.0-rc-1" }
+  "2.2.0" = ""
+  "2.2.1" = ""
+  "2.3.0" = ""
+  "2.3.1" = ""
+  "2.3.2" = ""
+  "2.3.3" = ""
+  "2.3.4" = ""
+  "2.3.5" = ""
+
+[[worlds]]
+name = "spire2"
+display_name = "Slay the Spire II"
+discord = "https://discord.com/channels/731205301247803413/1477001629554315346"
+default_url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/{{version}}/spire2.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = "alpha" }
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.2.4-alpha" = ""
+  "0.2.5-alpha" = { as = "v0.2.5-alpha" }
+  "0.3.0-alpha" = { as = "v0.3.0-alpha" }
+  "0.3.1-alpha" = ""
+  "0.4.0-alpha" = { as = "v0.4.0-alpha" }
+  "0.4.1-alpha" = { as = "v0.4.1-alpha" }
+  "0.4.2-alpha" = ""
+  "0.4.3-alpha" = ""
+  "0.4.4-alpha" = ""
+
+[[worlds]]
+name = "slime_rancher"
+display_name = "Slime Rancher"
+discord = "https://discord.com/channels/731205301247803413/1487860224227545329"
+default_url = "https://github.com/SWCreeperKing/Slimipelago/releases/download/v{{version}}/slime_rancher.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "slime_rancher_2"
+display_name = "Slime Rancher 2"
+discord = "https://discord.com/channels/731205301247803413/1477825880712806430"
+default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{version}}/slime_rancher_2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+
+[[worlds]]
+name = "slotlock"
+display_name = "SlotLock"
+discord = "https://discord.com/channels/731205301247803413/1191670867403476992"
+default_url = "https://github.com/gjgfuj/SlotLock/releases/download/slotlockv{{version}}/slotlock.apworld"
+
+  [worlds.versions]
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = "https://github.com/gjgfuj/SlotLock/releases/download/v0.6.4/slotlock.apworld"
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.7.2" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.10.0" = ""
+  "0.10.1" = ""
+  "0.10.2" = ""
+  "0.10.3" = ""
+  "0.10.4" = ""
+
+[[worlds]]
+name = "sly1"
+display_name = "Sly Cooper and the Thievius Raccoonus"
+discord = "https://discord.com/channels/731205301247803413/1170557242660093952"
+default_url = "https://github.com/hoppel16/ArchipelagoBranchSly1/releases/download/v{{version}}/sly1.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.1.3-alpha" = ""
+  "0.1.4-alpha" = ""
+  "0.1.5-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.2.4-alpha" = ""
+  "0.2.5-alpha" = ""
+  "0.3.0-alpha" = ""
+  "0.3.1-alpha" = ""
+  "0.3.2-alpha" = ""
+  "0.3.3-alpha" = ""
+  "0.3.4-alpha" = ""
+
+[[worlds]]
+name = "sly2"
+display_name = "Sly 2: Band of Thieves"
+discord = "https://discord.com/channels/731205301247803413/1359447263981600788"
+default_url = "https://github.com/NikolajDanger/APSly2/releases/download/v{{version}}/sly2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+
+[[worlds]]
+name = "sly3"
+display_name = "Sly 3: Honor Among Thieves"
+discord = "https://discord.com/channels/731205301247803413/1403124437464649868"
+default_url = "https://github.com/NikolajDanger/ApSly3/releases/download/v{{version}}/sly3.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "smushi_come_home"
+display_name = "Smushi Come Home"
+discord = "https://discord.com/channels/731205301247803413/1443621717552402535"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/download/{{version}}/smushi_come_home.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = ""
+  "1.0.7" = ""
+  "1.0.8" = ""
+  "1.0.9" = ""
+
+[[worlds]]
+name = "waffles"
+display_name = "SMW: Spicy Mycena Waffles"
+discord = "https://discord.com/channels/731205301247803413/1435322478024200202"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/waffles-v{{version}}/waffles.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.2.4" = ""
+  "1.2.5" = ""
+  "1.2.6" = ""
+  "1.2.7" = ""
+  "1.2.8" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.3.4" = ""
+  "1.3.5" = ""
+  "1.3.6" = ""
+  "1.3.7" = ""
+  "1.3.8" = ""
+  "1.3.9" = ""
+
+[[worlds]]
+name = "sneak_king"
+display_name = "Sneak King"
+discord = "https://discord.com/channels/731205301247803413/1390463536198713467"
+default_url = "https://github.com/jamesbrq/SneakKingAP/releases/download/v{{version}}/sneak_king.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "sadv2"
+display_name = "Sonic Advance 2"
+discord = "https://discord.com/channels/731205301247803413/1430335663601090692"
+default_url = "https://github.com/NiwatoriCode/sadv2_ap_releases/releases/download/sadv2-v{{version}}/sadv2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "sadx"
+display_name = "Sonic Adventure DX"
+discord = "https://discord.com/channels/731205301247803413/1420425220858056874"
+default_url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v{{version}}/sadx.apworld"
+
+  [worlds.versions]
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+  "0.8.7" = { as = "0.8.7b" }
+  "0.8.8" = ""
+  "0.9.0" = { as = "0.9.0b" }
+  "0.9.1" = ""
+  "1.0.0" = { as = "1.0.0c" }
+  "1.0.1" = ""
+  "1.1.0-pre.1" = { as = "1.1.0-pre-release" }
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2-pre.1" = { as = "1.1.2-pre-release" }
+  "1.1.2-pre.2" = { as = "1.1.2-pre-release2" }
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.2.0-pre.1" = { as = "1.2.0-pre-release-1" }
+  "1.2.0-pre.2" = { as = "1.2.0-pre-release-2" }
+  "1.2.0-pre.3" = { as = "1.2.0-pre-release-3" }
+  "1.2.0-pre.4" = { as = "1.2.0-pre-release-4" }
+  "1.2.0" = ""
+  "1.2.1-pre.1" = { as = "1.2.1-pre-release-1" }
+  "1.2.1-pre.2" = { as = "1.2.1-pre-release-2" }
+  "1.2.1-pre.3" = { as = "1.2.1-pre-release-3" }
+  "1.2.1-pre.4" = { as = "1.2.1-pre-release-4" }
+  "1.2.1" = ""
+  "1.2.2-pre.1" = { as = "1.2.2-pre-release-1" }
+  "1.2.2-pre.2" = { as = "1.2.2-pre-release-2" }
+
+[[worlds]]
+name = "sonic_battle"
+display_name = "Sonic Battle"
+discord = "https://discord.com/channels/731205301247803413/1256300159701225572"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/sonic_battle_v{{version}}/sonic_battle.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+
+[[worlds]]
+name = "sonic_colours_ds"
+display_name = "Sonic Colours (DS)"
+discord = "https://discord.com/channels/731205301247803413/1489432803287502948"
+default_url = "https://github.com/SilicDev/Archipelago/releases/download/scds-v{{version}}/sonic_colours_ds.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "SonicFrontiers"
+display_name = "Sonic Frontiers"
+discord = "https://discord.com/channels/731205301247803413/1039693292222283807"
+default_url = "https://github.com/OnakuTV/SonicFrontiersAPWorld/releases/download/v{{version}}/SonicFrontiers.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+
+[[worlds]]
+name = "SonicGenerations"
+display_name = "Sonic Generations"
+discord = "https://discord.com/channels/731205301247803413/1170181857858560040"
+default_url = "https://github.com/absoluteSpacehead/Archipelago/releases/download/{{version}}/SonicGenerations.apworld"
+
+  [worlds.versions]
+  "1.0.0-pre.1" = { as = "1.0-pre1" }
+
+[[worlds]]
+name = "sonic_heroes"
+display_name = "Sonic Heroes"
+discord = "https://discord.com/channels/731205301247803413/1234592520403423352"
+default_url = "https://github.com/EthicalLogic-Archipelago-Org/SonicHeroesArchipelago/releases/download/{{version}}/sonic_heroes.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.1.7" = ""
+  "1.1.8" = ""
+  "1.1.9" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.3.0" = ""
+  "1.4.0" = ""
+  "1.5.0" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.1.0" = ""
+  "2.2.0" = ""
+
+[[worlds]]
+name = "sonicriders"
+display_name = "Sonic Riders"
+discord = "https://discord.com/channels/731205301247803413/1292128680046235739"
+default_url = "https://github.com/Orangestar12/Archipelago-SR-J-SJ/releases/download/sr_v{{version}}/sonicriders.apworld"
+
+  [worlds.versions]
+  "0.2.3" = ""
+
+[[worlds]]
+name = "sonic_rush"
+display_name = "Sonic Rush"
+discord = "https://discord.com/channels/731205301247803413/1280648306124394567"
+default_url = "https://github.com/BlastSlimey/SonicRushAP/releases/download/{{version}}/sonic_rush.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "sonic1"
+display_name = "Sonic the Hedgehog 1"
+discord = "https://discord.com/channels/731205301247803413/1212629606608408576"
+default_url = "https://github.com/kaithar/Archipelago/releases/download/sonic_1-v{{version}}/sonic1.apworld"
+
+  [worlds.versions]
+  "0.0.2" = "https://github.com/kaithar/Archipelago/releases/download/0.0.2/sonic1.apworld"
+  "0.0.3" = "https://github.com/kaithar/Archipelago/releases/download/0.0.3/sonic1.apworld"
+  "0.0.4" = "https://github.com/kaithar/Archipelago/releases/download/Sonic_1-v0.0.4/sonic1.apworld"
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "soulblazer"
+display_name = "Soul Blazer"
+discord = "https://discord.com/channels/731205301247803413/1209689725057761310"
+default_url = "https://github.com/Tranquilite0/Archipelago-SoulBlazer/releases/download/v{{version}}/soulblazer.apworld"
+
+  [worlds.versions]
+  "0.1.0-beta.1" = { as = "0.1.0.beta.1" }
+  "0.1.0-beta.2" = { as = "0.1.0.beta.2" }
+  "0.1.0-beta.3" = { as = "0.1.0.beta.3" }
+  "0.1.0-beta.4" = { as = "0.1.0.beta.4" }
+  "0.1.0-beta.5" = { as = "0.1.0.beta.5" }
+  "0.1.0-beta.6" = { as = "0.1.0.beta6" }
+  "0.1.0-beta.7" = { as = "0.1.0.beta.7" }
+  "0.1.0-beta.8" = { as = "0.1.0.beta.8" }
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.4.0-beta.1" = ""
+  "0.4.0-beta.2" = ""
+  "0.4.0-beta.3" = ""
+  "0.4.0-beta.4" = ""
+  "0.4.0-beta.5" = ""
+  "0.4.0-beta.6" = ""
+  "0.4.0-beta.7" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+
+[[worlds]]
+name = "spark3"
+display_name = "Spark the Electric Jester 3"
+discord = "https://discord.com/channels/731205301247803413/1119029066562011216"
+default_url = "https://github.com/Kylogias/Spark3-Archipelago/releases/download/v{{version}}/spark3.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.3.0-alpha" = ""
+  "0.4.0-alpha" = ""
+  "0.4.1-alpha" = ""
+  "0.4.2-alpha" = ""
+  "0.5.0-alpha" = ""
+  "0.5.1-alpha" = ""
+  "0.6.0-alpha" = ""
+  "0.7.0-alpha" = ""
+
+[[worlds]]
+name = "spelunky2"
+display_name = "Spelunky 2"
+discord = "https://discord.com/channels/731205301247803413/1142626744629735555"
+default_url = "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/download/{{version}}/spelunky2.apworld"
+
+  [worlds.versions]
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.3.8" = ""
+  "0.3.9" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "spinball"
+display_name = "Spinball"
+discord = "https://discord.com/channels/731205301247803413/1325257989891952742"
+default_url = "https://github.com/spineraks-org/ArchipelagoSpinball/releases/download/v{{version}}/spinball.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+
+[[worlds]]
+name = "spirit_island"
+display_name = "Spirit Island"
+discord = "https://discord.com/channels/731205301247803413/1463727125784956949"
+default_url = "https://github.com/Wouter17/Spirit-Archipelago/releases/download/{{version}}/spirit_island.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = { as = "0.1.3-hf1" }
+
+[[worlds]]
+name = "spiritvalley"
+display_name = "Spirit Valley"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1419952926062936126"
+default_url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archipelago/releases/download/V{{version}}/spiritvalley.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "2.0.0" = ""
+
+[[worlds]]
+name = "spyro"
+display_name = "Spyro the Dragon"
+discord = "https://discord.com/channels/731205301247803413/1281652479779536958"
+default_url = "https://github.com/gamefreq0/Archipelago/releases/download/spyro-v{{version}}/spyro.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+
+[[worlds]]
+name = "spyro2"
+display_name = "Spyro 2"
+discord = "https://discord.com/channels/731205301247803413/1281660590431015046"
+default_url = "https://github.com/Uroogla/S2AP/releases/download/{{version}}/spyro2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "2.0.0" = ""
+  "2.0.1-rc.1" = { as = "2.0.1-rc1" }
+
+[[worlds]]
+name = "spyro3"
+display_name = "Spyro 3"
+discord = "https://discord.com/channels/731205301247803413/1018847303722872843"
+default_url = "https://github.com/Uroogla/S3AP/releases/download/{{version}}/spyro3.apworld"
+
+  [worlds.versions]
+  "1.0.1" = ""
+  "1.1.0-rc.1" = { as = "1.1.0-rc1" }
+  "1.1.0-rc.2" = { as = "1.1.0-rc2" }
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = { as = "1.2.1-zoe-patch" }
+  "1.2.2" = ""
+  "1.2.3-rc.1" = { as = "1.2.3-rc1" }
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.3.4" = ""
+  "1.3.5" = ""
+
+[[worlds]]
+name = "spyro-aht"
+display_name = "Spyro: A Hero's Tail"
+discord = "https://discord.com/channels/731205301247803413/1475326594523336936"
+default_url = "https://github.com/XuaTheGrate/Archipelago/releases/download/{{version}}/spyro-aht.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
+  "1.0.6" = ""
+  "1.0.7" = ""
+  "1.0.9" = ""
+
+[[worlds]]
+name = "stacklands"
+display_name = "Stacklands"
+discord = "https://discord.com/channels/731205301247803413/1151149079238299719"
+default_url = "https://github.com/JammyGeeza/Stacklands-Randomizer/releases/download/v{{version}}/stacklands.apworld"
+
+  [worlds.versions]
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = { as = "0.0.5-hotfix" }
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = { as = "0.0.10-preview-hotfix" }
+  "0.0.11" = ""
+  "0.0.12" = { as = "0.0.12-hotfix" }
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.1.3-alpha" = ""
+  "0.1.4-alpha" = { as = "0.1.4-alpha-fix" }
+  "0.1.5-alpha" = { as = "0.1.5-pre-release" }
+  "0.1.6-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = { as = "0.2.1-alpha-hotfix" }
+  "0.2.2-alpha" = ""
+  "0.2.3-alpha" = ""
+  "0.2.4-alpha" = ""
+  "0.2.5" = ""
+
+[[worlds]]
+name = "star_fox_64"
+display_name = "Star Fox 64"
+discord = "https://discord.com/channels/731205301247803413/1024876649151475732"
+default_url = "https://github.com/Auztin/AP-Star-Fox-64/releases/download/v{{version}}/star_fox_64.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+
+[[worlds]]
+name = "sfa"
+display_name = "Star Fox Adventures"
+discord = "https://discord.com/channels/731205301247803413/1093685470459863110"
+default_url = "https://github.com/MichelFenouil/SFA-Archipelago/releases/download/sfa-{{version}}/sfa.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+
+[[worlds]]
+name = "swr"
+display_name = "Star Wars Episode I Racer"
+discord = "https://discord.com/channels/731205301247803413/1207274588120158269"
+default_url = "https://github.com/wcolding/SWR_AP_Client/releases/download/v{{version}}/swr.apworld"
+
+  [worlds.versions]
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.6.0" = ""
+  "0.7.0-pre.1" = { as = "0.7.0-preview" }
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.8.0" = ""
+
+[[worlds]]
+name = "stick_ranger"
+display_name = "Stick Ranger"
+discord = "https://discord.com/channels/731205301247803413/1368511758662373517"
+default_url = "https://github.com/Kryen112/AP_Stick_Ranger/releases/download/{{version}}/stick_ranger.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  # "1.1.0" = ""
+  # "1.2.0" = ""
+  # "1.3.0" = ""
+  # "1.4.0" = ""
+  # "1.5.0" = "" # even more backslashes...
+
+[[worlds]]
+name = "streets_of_rage"
+display_name = "Streets of Rage"
+discord = "https://discord.com/channels/731205301247803413/1421815799504437409"
+default_url = "https://github.com/UltiNaruto/SOR_AP_Randomizer/releases/download/v{{version}}/streets_of_rage.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = ""
+  "0.0.2-alpha" = { as = "0.0.2-alpha_fix" }
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+
+[[worlds]]
+name = "SoRWorld"
+display_name = "Streets of Rogue"
+discord = "https://discord.com/channels/731205301247803413/1352877355521151068"
+default_url = "https://github.com/Jmarcs27/StreetsOfRogueArchipelago/releases/download/v{{version}}/SoRWorld.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+
+[[worlds]]
+name = "suikapelago"
+display_name = "Suikapelago"
+discord = "https://discord.com/channels/731205301247803413/1506226861192118423"
+default_url = "https://github.com/Starwort/suikapelago/releases/download/{{version}}/suikapelago.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+
+[[worlds]]
+name = "scp"
+display_name = "Super Cat Planet"
+discord = "https://discord.com/channels/731205301247803413/1338978189682409473"
+default_url = "https://github.com/lone01/scp/releases/download/v{{version}}/scp.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = { as = "0.1.4b" }
+
+[[worlds]]
+name = "super_chipflake_u"
+display_name = "Super Chipflake Ü"
+discord = "https://discord.com/channels/731205301247803413/1464987540850217164"
+default_url = "https://github.com/Max-G4/Chipflake_APworld/releases/download/{{version}}/super_chipflake_u.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/Max-G4/Chipflake_APworld/releases/download/release/super_chipflake_u_0.1.0.apworld"
+  "0.1.1" = { as = "latest" }
+
+[[worlds]]
+name = "superjunkoid"
+display_name = "Super Junkoid"
+discord = "https://discord.com/channels/731205301247803413/1196920710724071555"
+default_url = "https://github.com/Ninjakakes/Archipelago/releases/download/sj_v{{version}}/superjunkoid.apworld"
+
+  [worlds.versions]
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9" = ""
+  "0.1.10" = ""
+
+[[worlds]]
+name = "smrpg"
+display_name = "Super Mario RPG Legend of the Seven Stars"
+discord = "https://discord.com/channels/731205301247803413/1091478379963883651"
+default_url = "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/download/{{version}}/smrpg.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+
+[[worlds]]
+name = "sms"
+display_name = "Super Mario Sunshine"
+discord = "https://discord.com/channels/731205301247803413/1383204057514250300"
+default_url = "https://github.com/Joshark/archipelago-sms/releases/download/{{version}}/sms.apworld"
+
+  [worlds.versions]
+  "0.4.0-alpha" = ""
+  "0.4.1-alpha" = ""
+  "0.4.2-alpha" = ""
+  "0.4.3-alpha" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+
+[[worlds]]
+name = "smsa2"
+display_name = "Super Mario Sunshine Arcade 2"
+discord = "https://discord.com/channels/731205301247803413/1399897298301096048"
+default_url = "https://github.com/Jorbori/SMSA2AP/releases/download/{{version}}/smsa2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "super_meat_boy"
+display_name = "Super Meat Boy"
+discord = "https://discord.com/channels/731205301247803413/1191413101829046312"
+default_url = "https://github.com/PixelShake92/Super-Meat-Boy-AP/releases/download/{{version}}/super_meat_boy.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = { as = "Alpha_1" }
+
+[[worlds]]
+name = "ssbb_sse"
+display_name = "Super Smash Bros. Brawl - The Subspace Emissary"
+discord = "https://discord.com/channels/731205301247803413/1059963893906161794"
+default_url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v{{version}}/ssbb_sse.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+
+[[worlds]]
+name = "melee"
+display_name = "Super Smash Bros. Melee"
+discord = "https://discord.com/channels/731205301247803413/1179050965802942474"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/meleeap{{version}}/melee.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = { as = "1.0.1.1" }
+  "1.0.2" = ""
+  "1.1.0" = { as = "1.1" }
+
+[[worlds]]
+name = "supraland"
+display_name = "Supraland"
+discord = "https://discord.com/channels/731205301247803413/1093038054337433670"
+default_url = "https://github.com/DrNjitram/ArchipelagoSupra/releases/download/V{{version}}/supraland.apworld"
+
+  [worlds.versions]
+  "0.0.1" = { as = "0.0.1_Alpha" }
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "sotn"
+display_name = "Symphony of the Night"
+discord = "https://discord.com/channels/731205301247803413/1462294492752380167"
+default_url = "https://github.com/fdelduque/Archipelago/releases/download/{{version}}/sotn.apworld"
+
+  [worlds.versions]
+  "0.1.0-beta.0" = { as = "b01" }
+  "0.2.0-beta.0" = { as = "b02" }
+  "0.3.0-beta.0" = { as = "b03" }
+  "0.4.0-beta.0" = { as = "b04" }
+  "0.4.1-beta.0" = { as = "b041" }
+  "0.5.0-beta.0" = { as = "b050" }
+  "0.5.1-beta.0" = { as = "b051" }
+  "0.6.0-beta.0" = { as = "b060" }
+  "0.7.0-beta.0" = { as = "b070" }
+  "0.7.1-beta.0" = { as = "b071" }
+  "0.7.2-beta.0" = { as = "b072" }
+  "0.7.3-beta.0" = { as = "b073" }
+  "0.7.4-beta.0" = { as = "b074" }
+  "0.7.5-beta.0" = { as = "b075" }
+  "0.7.5-beta.1" = { as = "b0751" }
+  "0.7.5-beta.2" = { as = "b0752" }
+  "0.7.5-beta.3" = { as = "b0753" }
+  "0.8.0-beta.0" = { as = "b0800" }
+  "0.8.1-beta.0" = { as = "b0810" }
+  "0.8.1-beta.1" = { as = "b0811" }
+  "0.8.1-beta.2" = { as = "b0812" }
+  "0.8.1-beta.3" = { as = "b0813" }
+  "0.8.1-alpha.4" = { as = "a08142" }
+  "0.8.1-beta.6" = { as = "b08161" }
+
+[[worlds]]
+name = "ss2"
+display_name = "System Shock 2"
+discord = "https://discord.com/channels/731205301247803413/1340419754200010915"
+default_url = "https://codeberg.org/Partatio/SS2-Apworld/releases/download/{{version}}/ss2.apworld"
+
+  [worlds.versions]
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
