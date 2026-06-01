@@ -1,6 +1,7 @@
 [[worlds]]
 name = "2048"
 display_name = "2048"
+discord = "https://discord.com/channels/731205301247803413/1496686085185736826"
 default_url = "https://github.com/Ishigh1/Archipelago/releases/download/2048-{{version}}/2048.apworld"
 
   [worlds.versions]
@@ -67,6 +68,7 @@ default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/downloa
 [[worlds]]
 name = "air_delivery"
 display_name = "Air Delivery"
+discord = "https://discord.com/channels/731205301247803413/1252453771661803523"
 default_url = "https://github.com/qwint/ap-air-delivery/releases/download/{{version}}/air_delivery.apworld"
 
   [worlds.versions]
@@ -93,6 +95,7 @@ default_url = "https://github.com/ScipioWright/Archipelago-SW/releases/download/
 [[worlds]]
 name = "anodyne"
 display_name = "Anodyne"
+discord = "https://discord.com/channels/731205301247803413/1121290232688545792"
 default_url = "https://github.com/PixieCatSupreme/ArchipelagoAno/releases/download/v{{version}}/anodyne.apworld"
 
   [worlds.versions]
@@ -209,6 +212,7 @@ default_url = "https://github.com/aki665/react-native-archipelago/releases/downl
 [[worlds]]
 name = "archipelacode"
 display_name = "ArchipelaCode"
+discord = "https://discord.com/channels/731205301247803413/1409443049381040128"
 default_url = "https://github.com/ShackledMars261/Archipelago/releases/download/archipelacode-v{{version}}/archipelacode.apworld"
 
   [worlds.versions]
@@ -288,6 +292,7 @@ default_url = "https://github.com/airbreather/Archipelago/releases/download/v{{v
 [[worlds]]
 name = "axiomverge"
 display_name = "Axiom Verge"
+discord = "https://discord.com/channels/731205301247803413/1032831597583536208"
 default_url = "https://github.com/mail-liam/Archipelago/releases/download/{{version}}/axiomverge.apworld"
 
   [worlds.versions]
@@ -652,6 +657,7 @@ default_url = "https://github.com/colin969/bo3_archipelago/releases/download/{{v
 [[worlds]]
 name = "blasphemous2"
 display_name = "Blasphemous 2"
+discord = "https://discord.com/channels/731205301247803413/1399145913649467524"
 default_url = "https://github.com/TRPG0/Archipelago/releases/download/blas2-{{version}}/blasphemous2.apworld"
 
   [worlds.versions]
@@ -660,6 +666,7 @@ default_url = "https://github.com/TRPG0/Archipelago/releases/download/blas2-{{ve
 [[worlds]]
 name = "blockupelago"
 display_name = "Blockupelago"
+discord = "https://discord.com/channels/731205301247803413/1461589714661543958"
 default_url = "https://github.com/StefanDucharme/blockupelago/releases/download/v{{version}}/blockupelago.apworld"
 
   [worlds.versions]
@@ -703,6 +710,7 @@ default_url = "https://github.com/Matt41321/Archipelago/releases/download/v{{ver
 [[worlds]]
 name = "bluesphere"
 display_name = "Blue Sphere"
+discord = "https://discord.com/channels/731205301247803413/1451414246519738368"
 default_url = "https://github.com/FlitPix/ap-bluesphere/releases/download/v{{version}}/bluesphere.apworld"
 
   [worlds.versions]
@@ -744,6 +752,7 @@ default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bo
 [[worlds]]
 name = "bomberman_quest"
 display_name = "Bomberman Quest"
+discord = "https://discord.com/channels/731205301247803413/1409932342017134655"
 default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bombquest_v{{version}}/bomberman_quest.apworld"
 
   [worlds.versions]
@@ -854,6 +863,7 @@ default_url = "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releas
 [[worlds]]
 name = "buckshot"
 display_name = "Buckshot Roulette"
+discord = "https://discord.com/channels/731205301247803413/1234399148665737237"
 default_url = "https://github.com/asdfwyay/APBuckshot/releases/download/v{{version}}/buckshot.apworld"
 
   [worlds.versions]
@@ -872,6 +882,7 @@ default_url = "https://github.com/asdfwyay/APBuckshot/releases/download/v{{versi
 [[worlds]]
 name = "abugslife"
 display_name = "A Bug's Life"
+discord = "https://discord.com/channels/731205301247803413/1412903842311307355"
 default_url = "https://github.com/WalWalrus/ABLAP/releases/download/v{{version}}/abugslife.apworld"
 
   [worlds.versions]
@@ -1238,6 +1249,7 @@ default_url = "https://github.com/Syntheal/CloverPit.Archipelago/releases/downlo
 [[worlds]]
 name = "cluster_truck"
 display_name = "ClusterTruck"
+discord = "https://discord.com/channels/731205301247803413/1344157838578290792"
 default_url = "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases/download/{{version}}/cluster_truck.apworld"
 
   [worlds.versions]
@@ -1278,6 +1290,7 @@ default_url = "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/do
 [[worlds]]
 name = "codeforces"
 display_name = "Codeforces"
+discord = "https://discord.com/channels/731205301247803413/1456244014318751819"
 default_url = "https://github.com/glipR/Archipelago/releases/download/codeforces-v{{version}}/codeforces.apworld"
 
   [worlds.versions]
@@ -1414,9 +1427,11 @@ default_url = "https://github.com/Spriddles/crazy-taxi-apworld/releases/download
 [[worlds]]
 name = "creature_kitchen"
 display_name = "Creature Kitchen"
+discord = "https://discord.com/channels/731205301247803413/1470750017861058666"
+default_url = "https://github.com/stroodlydoodles/Creature-Kitchen-Randomizer-Mod/releases/download/{{version}}/creature_kitchen.apworld"
 
   [worlds.versions]
-  "0.5.0" = "https://github.com/stroodlydoodles/Creature-Kitchen-Randomizer-Mod/releases/download/Archipelago/creature_kitchen.apworld"
+  "0.5.0" = { as = "Archipelago" }
 
 [[worlds]]
 name = "crosscode"
@@ -1560,6 +1575,7 @@ default_url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/downlo
 [[worlds]]
 name = "crystalis"
 display_name = "Crystalis"
+discord = "https://discord.com/channels/731205301247803413/1041412559460389017"
 default_url = "https://github.com/Ars-Ignis/Archipelago/releases/download/v{{version}}/crystalis.apworld"
 
   [worlds.versions]
@@ -1746,6 +1762,7 @@ default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/do
 [[worlds]]
 name = "dawnsbury"
 display_name = "Dawnsbury Days"
+discord = "https://discord.com/channels/731205301247803413/1505735822010224711"
 default_url = "https://github.com/ordinary-magic/DawnsburyDaysArchipelago/releases/download/v{{version}}/dawnsbury.apworld"
 
   [worlds.versions]
@@ -1910,6 +1927,7 @@ default_url = "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases/dow
 [[worlds]]
 name = "DeliveringHope"
 display_name = "Delivering Hope"
+discord = "https://discord.com/channels/731205301247803413/1435067745476546600"
 default_url = "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases/download/v{{version}}/DeliveringHope.apworld"
 
   [worlds.versions]
@@ -2064,6 +2082,7 @@ default_url = "https://github.com/zakwiz/DiddyKongRacingAP/releases/download/v{{
 [[worlds]]
 name = "difficult_climbing"
 display_name = "A Difficult Game About Climbing"
+discord = "https://discord.com/channels/731205301247803413/1336857648464920586"
 default_url = "https://github.com/BlastSlimey/GrabbingChecks/releases/download/{{version}}/difficult_climbing.apworld"
 
   [worlds.versions]
@@ -2231,6 +2250,7 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/toluca-v{
 [[worlds]]
 name = "doronko_wanko"
 display_name = "DORONKO WANKO"
+discord = "https://discord.com/channels/731205301247803413/1325915019313152097"
 default_url = "https://github.com/Vendily/DoronkoWankoArchipelago/releases/download/{{version}}/doronko_wanko.apworld"
 
   [worlds.versions]
@@ -2243,6 +2263,7 @@ default_url = "https://github.com/Vendily/DoronkoWankoArchipelago/releases/downl
 [[worlds]]
 name = "dhinfection"
 display_name = ".hack//INFECTION"
+discord = "https://discord.com/channels/731205301247803413/1183501394125279294"
 default_url = "https://github.com/isaiahfuller/Archipelago-Infection/releases/download/v{{version}}/dhinfection.apworld"
 
   [worlds.versions]
@@ -2308,6 +2329,7 @@ default_url = "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/d
 [[worlds]]
 name = "dreamdazia"
 display_name = "Dream Dazia"
+discord = "https://discord.com/channels/731205301247803413/1467245052928594055"
 
   [worlds.versions]
   "0.0.0" = "https://gitlab.com/Warr1024/dream-dazia-archipelago/-/raw/main/dreamdazia.apworld"
@@ -2338,6 +2360,7 @@ default_url = "https://github.com/alextric234/ArchipelagoDredge/releases/downloa
 [[worlds]]
 name = "DuckLife4"
 display_name = "Duck Life 4"
+discord = "https://discord.com/channels/731205301247803413/1469378698762387566"
 default_url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/{{version}}/DuckLife4.apworld"
 
   [worlds.versions]
@@ -2545,6 +2568,7 @@ default_url = "https://github.com/lepideble/factorio-apworld/releases/download/p
 [[worlds]]
 name = "factorio_space_age"
 display_name = "Factorio: Space Age"
+discord = "https://discord.com/channels/731205301247803413/1475714948608036977"
 default_url = "https://github.com/thejoshwolfe/Archipelago/releases/download/space-age-v{{version}}/factorio_space_age.apworld"
 
   [worlds.versions]
@@ -2585,6 +2609,7 @@ default_url = "https://github.com/silasary/Archipelago/releases/download/factori
 [[worlds]]
 name = "fakutori"
 display_name = "Fakutori"
+discord = "https://discord.com/channels/731205301247803413/1480232889659559966"
 default_url = "https://github.com/chickentuna/Archipelago-Fakutori/releases/download/v{{version}}/fakutori.apworld"
 
   [worlds.versions]
@@ -2670,6 +2695,7 @@ default_url = "https://github.com/wildham0/FF1PRAP/releases/download/{{version}}
 [[worlds]]
 name = "ff4fe"
 display_name = "Final Fantasy IV Free Enterprise"
+discord = "https://discord.com/channels/731205301247803413/1170144930610557008"
 default_url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFIV-{{version}}/ff4fe.apworld"
 
   [worlds.versions]
@@ -2709,6 +2735,7 @@ default_path_in_zip = "ff5pr.apworld"
 # [[worlds]]
 # name = "ff6wc"
 # display_name = "Final Fantasy 6 Worlds Collide"
+# discord = "https://discord.com/channels/731205301247803413/1022545979146252288"
 
 #   [worlds.versions]
 #   "0.0.0" = "https://bigmalletman.com/dl/ff6wc.apworld"
@@ -2763,6 +2790,7 @@ default_url = "https://github.com/Bartz24/Archipelago/releases/download/{{versio
 [[worlds]]
 name = "ffxiitm"
 display_name = "Final Fantasy XII Trial Mode"
+discord = "https://discord.com/channels/731205301247803413/1177092493981007922"
 default_url = "https://github.com/silasary/Archipelago/releases/download/ffxiitm-{{version}}/ffxiitm.apworld"
 
   [worlds.versions]
@@ -2925,6 +2953,7 @@ default_url = "https://github.com/Witchybun/FlipwitchAPClient/releases/download/
 [[worlds]]
 name = "forgedcurse"
 display_name = "Forged Curse"
+discord = "https://discord.com/channels/731205301247803413/1411846246271815850"
 default_url = "https://github.com/cheesepak/ap-forged-curse/releases/download/v{{version}}/forgedcurse.apworld"
 
   [worlds.versions]
@@ -2939,6 +2968,7 @@ default_url = "https://github.com/cheesepak/ap-forged-curse/releases/download/v{
 [[worlds]]
 name = "forty-five"
 display_name = "Forty-Five"
+discord = "https://discord.com/channels/731205301247803413/1502891248351051776"
 default_url = "https://github.com/IveBenGamin/Archipelago---APWorld-For-Forty-Five/releases/download/v{{version}}/forty-five.apworld"
 
   [worlds.versions]
@@ -3035,6 +3065,7 @@ default_url = "https://github.com/ChrisCj8/ap_adventure/releases/download/{{vers
 [[worlds]]
 name = "gatoroboto"
 display_name = "Gato Roboto"
+discord = "https://discord.com/channels/731205301247803413/1205195046689841217"
 default_url = "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld/releases/download/v{{version}}/gatoroboto.apworld"
 
   [worlds.versions]
@@ -3142,6 +3173,7 @@ default_url = "https://github.com/matorblal-byte/ArchipelagoGD2/releases/downloa
 [[worlds]]
 name = "getting_over_it"
 display_name = "Getting Over It"
+discord = "https://discord.com/channels/731205301247803413/1123510506884444250"
 default_url = "https://github.com/BlastSlimey/CheckingOverIt/releases/download/{{version}}/getting_over_it.apworld"
 
   [worlds.versions]
@@ -3165,6 +3197,7 @@ default_url = "https://github.com/Smg065/GloverArchipelago/releases/download/v{{
 [[worlds]]
 name = "glyphs"
 display_name = "GLYPHS"
+discord = "https://discord.com/channels/731205301247803413/1401434680808575017"
 default_url = "https://github.com/BuffYoda21/ap-glyphs/releases/download/v{{version}}/glyphs.apworld"
 
   [worlds.versions]
@@ -3217,6 +3250,7 @@ default_url = "https://github.com/NotFamilyJules/goldeneye_ap/releases/download/
 [[worlds]]
 name = "grappledog"
 display_name = "Grapple Dog"
+discord = "https://discord.com/channels/731205301247803413/1418006654204641441"
 default_url = "https://github.com/ProfDeCube-org/Archipelago-GrappleDog/releases/download/{{version}}/grappledog.apworld"
 
   [worlds.versions]
@@ -3333,6 +3367,7 @@ default_path_in_zip = "GuildWars2Archipelago/gw2.apworld"
 [[worlds]]
 name = "hacknet"
 display_name = "Hacknet"
+discord = "https://discord.com/channels/731205301247803413/1130229745452331120"
 default_url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-{{version}}/hacknet.apworld"
 
   [worlds.versions]
@@ -3383,6 +3418,7 @@ default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{versi
 [[worlds]]
 name = "hammerwatch"
 display_name = "Hammerwatch"
+discord = "https://discord.com/channels/731205301247803413/1072687192360624218"
 default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/download/v{{version}}/hammerwatch.apworld"
 
   [worlds.versions]
@@ -3391,6 +3427,7 @@ default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/dow
 [[worlds]]
 name = "hangman"
 display_name = "Hangman"
+discord = "https://discord.com/channels/731205301247803413/1448774087189991537"
 default_url = "https://github.com/pointfivetee/Archipelago-Hangman/releases/download/v{{version}}/hangman.apworld"
 
   [worlds.versions]
@@ -3480,6 +3517,7 @@ default_url = "https://github.com/niieli/Niko-Archipelago/releases/download/{{ve
 [[worlds]]
 name = "herocore"
 display_name = "Hero Core"
+discord = "https://discord.com/channels/731205301247803413/1019382284878622790"
 default_url = "https://github.com/Minish-Link/HeroCore-Archipelago/releases/download/v{{version}}/herocore.apworld"
 
   [worlds.versions]
@@ -3494,6 +3532,7 @@ default_url = "https://github.com/Minish-Link/HeroCore-Archipelago/releases/down
 [[worlds]]
 name = "hexcells_infinite"
 display_name = "Hexcells Infinite"
+discord = "https://discord.com/channels/731205301247803413/1398578301081223260"
 default_url = "https://github.com/Heaxeus/Archipelago/releases/download/v{{version}}/hexcells_infinite.apworld"
 
   [worlds.versions]
@@ -3567,6 +3606,7 @@ default_url = "https://github.com/BenDipp/Archipelago/releases/download/{{versio
 [[worlds]]
 name = "holo8"
 display_name = "holo8"
+discord = "https://discord.com/channels/731205301247803413/1368677346869252228"
 default_url = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/download/v{{version}}/holo8.apworld"
 
   [worlds.versions]
@@ -3581,6 +3621,7 @@ default_url = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/downloa
 [[worlds]]
 name = "HololiveTreasureMountain"
 display_name = "Hololive Treasure Mountain"
+discord = "https://discord.com/channels/731205301247803413/1435070203460583445"
 default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/v{{version}}/HololiveTreasureMountain.apworld"
 
   [worlds.versions]
@@ -3691,6 +3732,7 @@ default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/dow
 [[worlds]]
 name = "ihyps"
 display_name = "I Hate You, Please Suffer"
+discord = "https://discord.com/channels/731205301247803413/1472295997978706247"
 default_url = "https://github.com/chloebangbang/Archipelago/releases/download/ihyps-v{{version}}/ihyps.apworld"
 
   [worlds.versions]
@@ -3717,6 +3759,7 @@ default_url = "https://github.com/pamymaf/Exocolonist-AP/releases/download/v{{ve
 [[worlds]]
 name = "icewall"
 display_name = "ICEwall"
+discord = "https://discord.com/channels/731205301247803413/1456128217751486577"
 default_url = "https://github.com/System-of-Root/ICEwallAPword/releases/download/{{version}}/icewall.apworld"
 
   [worlds.versions]
@@ -3726,6 +3769,7 @@ default_url = "https://github.com/System-of-Root/ICEwallAPword/releases/download
 [[worlds]]
 name = "iji"
 display_name = "Iji"
+discord = "https://discord.com/channels/731205301247803413/1335786670641123400"
 default_url = "https://github.com/Minish-Link/Iji-Archipelago/releases/download/v{{version}}/iji.apworld"
 
   [worlds.versions]
@@ -3826,6 +3870,7 @@ default_url = "https://github.com/Kim-Delicious/Archipelago_IslesOfSeaAndSky/rel
 [[worlds]]
 name = "ittle_dew_2"
 display_name = "Ittle Dew 2"
+discord = "https://discord.com/channels/731205301247803413/1260030530217574500"
 default_url = "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases/download/{{version}}/ittle_dew_2.apworld"
 
   [worlds.versions]
@@ -3858,6 +3903,7 @@ default_url = "https://github.com/narramoment/Archipelago/releases/download/{{ve
 [[worlds]]
 name = "jet_island"
 display_name = "Jet Island"
+discord = "https://discord.com/channels/731205301247803413/1370901827826094192"
 default_url = "https://github.com/Nullctipus/JetIslandArchipelago/releases/download/{{version}}/jet_island.apworld"
 
   [worlds.versions]
@@ -3900,6 +3946,7 @@ default_url = "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/downl
 [[worlds]]
 name = "jurassic_park"
 display_name = "Jurassic Park"
+discord = "https://discord.com/channels/731205301247803413/1018680515131351110"
 default_url = "https://github.com/Anguirel86/Archipelago/releases/download/JP-{{version}}/jurassic_park.apworld"
 
   [worlds.versions]
@@ -3908,6 +3955,7 @@ default_url = "https://github.com/Anguirel86/Archipelago/releases/download/JP-{{
 [[worlds]]
 name = "kon"
 display_name = "K-On! After School Live!!"
+discord = "https://discord.com/channels/731205301247803413/1388861873025323059"
 default_url = "https://github.com/dannybonz/k-on_archipelago/releases/download/v{{version}}/kon.apworld"
 
   [worlds.versions]
@@ -3979,6 +4027,7 @@ default_url = "https://github.com/silasary/Archipelago/releases/download/keymast
 [[worlds]]
 name = "keywe"
 display_name = "KeyWe"
+discord = "https://discord.com/channels/731205301247803413/1437107675128266912"
 default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-KeyWe/releases/download/{{version}}/keywe.apworld"
 
   [worlds.versions]
@@ -4606,6 +4655,7 @@ default_url = "https://github.com/Kli333/LobCorp-AP/releases/download/{{version}
 [[worlds]]
 name = "loonyland"
 display_name = "Loonyland"
+discord = "https://discord.com/channels/731205301247803413/1314639182655656016"
 default_url = "https://github.com/AutomaticFrenzy/Archipelago/releases/download/{{version}}/loonyland.apworld"
 
   [worlds.versions]
@@ -4617,6 +4667,7 @@ default_url = "https://github.com/AutomaticFrenzy/Archipelago/releases/download/
 [[worlds]]
 name = "citadel"
 display_name = "Luanti Citadel"
+discord = "https://discord.com/channels/731205301247803413/1442326983844560966"
 
   [worlds.versions]
   "0.0.0" = "https://gitlab.com/sztest/citadel-archipelago/-/raw/main/citadel.apworld"
@@ -4986,6 +5037,7 @@ default_url = "https://github.com/riezahughes/MedievilAPWorld/releases/download/
 [[worlds]]
 name = "medievil2"
 display_name = "Medievil 2"
+discord = "https://discord.com/channels/731205301247803413/1406914527215489034"
 default_url = "https://github.com/riezahughes/Medievil2APWorld/releases/download/v{{version}}/medievil2.apworld"
 
   [worlds.versions]
