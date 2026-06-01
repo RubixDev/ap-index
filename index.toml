@@ -1727,7 +1727,7 @@ default_url = "https://github.com/tathxo/DSAP/releases/download/v{{version}}/dsr
 name = "dark_souls_2"
 display_name = "Dark Souls II"
 discord = "https://discord.com/channels/731205301247803413/1490830760251232366"
-default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/download/v0.5.5-hotfix/dark_souls_2.apworld"
+default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/download/v{{version}}/dark_souls_2.apworld"
 
   [worlds.versions]
   "0.1.0" = ""
@@ -6605,7 +6605,7 @@ default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/{{
 name = "poco"
 display_name = "Poco"
 discord = "https://discord.com/channels/731205301247803413/1458419659727568937"
-default_url = "https://github.com/SWCreeperKing/Pocopelago/releases/download/v0.1.2/poco.apworld"
+default_url = "https://github.com/SWCreeperKing/Pocopelago/releases/download/v{{version}}/poco.apworld"
 
   [worlds.versions]
   "0.1.0" = ""
@@ -7100,3 +7100,571 @@ default_url = "https://github.com/randomcodegen/ironwail_ap/releases/download/{{
   "1.1.4" = ""
   "1.1.5" = ""
   "1.1.6" = ""
+
+[[worlds]]
+name = "rabbit_and_steel"
+display_name = "Rabbit and Steel"
+discord = "https://discord.com/channels/731205301247803413/1241105661425877194"
+default_url = "https://github.com/tjwombo/RNSArchipelago/releases/download/v{{version}}/rabbit_and_steel.apworld"
+
+  [worlds.versions]
+  "0.1.1" = "https://github.com/tjwombo/RNSArchipelago/releases/download/release/rabbit_and_steel.apworld"
+  "0.1.2" = { as = "0.1.2-fix" }
+  "0.1.3" = { as = "0.1.3-fix" }
+  "0.1.4" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = { as = "0.2.3-fix" }
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "0.2.8" = ""
+  "0.2.9" = { as = "0.2.9-fix" }
+  "0.3.0" = ""
+  "0.3.1" = { as = "0.3.1-fix" }
+  "0.3.2" = { as = "0.3.2-fix3" }
+
+[[worlds]]
+name = "rabi_ribi"
+display_name = "Rabi-Ribi"
+discord = "https://discord.com/channels/731205301247803413/1183337635805138994"
+default_url = "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases/download/{{version}}/rabi_ribi.apworld"
+
+  [worlds.versions]
+  "1.0.0-alpha" = { as = "alpha" }
+  "1.0.1-alpha" = { as = "release-alpha-1.0.1" }
+  "1.0.2-alpha" = { as = "alpha-1.0.2" }
+  "1.0.3-alpha" = { as = "alpha-1.0.3" }
+  "1.0.4-alpha" = { as = "alpha-1.0.4" }
+  "1.0.5-alpha" = { as = "alpha-1.0.5" }
+  "1.1.0-alpha" = { as = "alpha-1.1-stable" }
+  "1.1.1-alpha" = { as = "alpha-1.1.1" }
+  "1.1.2-alpha" = { as = "alpha-1.1.2" }
+  "1.1.3-alpha" = { as = "alpha-1.1.3" }
+  "1.1.4-alpha" = { as = "alpha-1.1.4" }
+  "1.1.5-alpha" = { as = "alpha-1.1.5" }
+  "1.1.6-alpha" = { as = "alpha-1.1.6" }
+  "1.2.0-alpha" = { as = "alpha-1.2.0" }
+  "1.2.1-alpha" = { as = "alpha-1.2.1" }
+  "1.3.0-beta" = { as = "beta-1.3.0" }
+  "1.3.1-beta" = { as = "beta-1.3.1" }
+  "1.3.2-beta" = { as = "beta-1.3.2" }
+  "1.4.0-beta" = { as = "beta-1.4.0" }
+  "1.4.1-beta" = { as = "beta-1.4.1" }
+  "1.4.2" = ""
+  "1.4.3" = ""
+  "1.4.4" = ""
+  "1.4.5" = ""
+  "1.4.6" = ""
+  "1.4.7" = ""
+  "1.5.0" = ""
+  "1.5.1" = ""
+
+[[worlds]]
+name = "rain_world"
+display_name = "Rain World"
+discord = "https://discord.com/channels/731205301247803413/1136042293162418176"
+default_url = "https://github.com/alphappy/ArchipelagoRW/releases/download/v{{version}}/rain_world.apworld"
+
+  [worlds.versions]
+  "1.1.0" = { as = "1.1.0-hotfix2" }
+  "1.1.1" = ""
+  "1.2.0" = ""
+  "1.2.3" = ""
+  "1.2.4-pre.1" = { as = "1.2.3.1" }
+  "1.2.8" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.4.0" = ""
+  "1.5.0" = ""
+  "1.5.1" = ""
+  "1.5.2" = ""
+
+[[worlds]]
+name = "ratalorica"
+display_name = "Ratalorica"
+discord = "https://discord.com/channels/731205301247803413/1507002295500537917"
+default_url = "https://github.com/EnzoBagnis/RataloricaAP/releases/download/{{version}}/ratalorica.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+
+[[worlds]]
+name = "RAC1"
+display_name = "Ratchet & Clank"
+discord = "https://discord.com/channels/731205301247803413/1146024297324879872"
+default_url = "https://github.com/Panda291/Archipelago/releases/download/v{{version}}/rac1.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0-beta" = { as = "0.2b" }
+
+[[worlds]]
+name = "rac2"
+display_name = "Ratchet & Clank 2"
+discord = "https://discord.com/channels/731205301247803413/1325015730218860554"
+default_url = "https://github.com/evilwb/APRac2/releases/download/v{{version}}/rac2.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/evilwb/APRac2/releases/download/0.1.0/rac2.apworld"
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+
+[[worlds]]
+name = "rac3"
+display_name = "Ratchet & Clank 3"
+discord = "https://discord.com/channels/731205301247803413/1357102103054651622"
+default_url = "https://github.com/Taoshix/Archipelago-RaC3/releases/download/v{{version}}/rac3.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1-pre" = ""
+  "0.1.2-pre" = ""
+  "0.1.3-pre" = ""
+  "0.2.0" = ""
+  "0.2.1-pre" = ""
+  "0.2.2-pre" = ""
+  "0.2.3-pre" = ""
+  "0.2.4-pre" = ""
+  "0.2.5-pre" = ""
+  "0.2.6-pre" = ""
+  "0.2.7-pre" = ""
+  "0.2.8-pre" = ""
+  "0.3.0" = ""
+  "0.3.1-pre" = ""
+  "0.3.2-pre" = ""
+  "0.4.0-rc.1" = { as = "0.4.0-rc1" }
+  "0.4.0-rc.2" = { as = "0.4.0-rc2" }
+  "0.4.0-rc.3" = { as = "0.4.0-rc3" }
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+
+[[worlds]]
+name = "rayman2"
+display_name = "Rayman 2"
+discord = "https://discord.com/channels/731205301247803413/1151502935667257386"
+default_url = "https://github.com/Aeltumn/Rayman2AP/releases/download/v{{version}}/rayman2.apworld"
+
+  [worlds.versions]
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+
+[[worlds]]
+name = "rerun"
+display_name = "RE:RUN"
+discord = "https://discord.com/channels/731205301247803413/1501045253434769538"
+default_url = "https://github.com/MuratDev41/rerun-ap/releases/download/v{{version}}/rerun.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = { as = "0.0.2hotfix" }
+
+[[worlds]]
+name = "refunct"
+display_name = "Refunct"
+discord = "https://discord.com/channels/731205301247803413/1273001824919617577"
+default_url = "https://github.com/spinerak/refunct-tas-archipelago/releases/download/v{{version}}/refunct.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.9" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.10" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.9.0" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+
+[[worlds]]
+name = "repo"
+display_name = "R.E.P.O"
+discord = "https://discord.com/channels/731205301247803413/1345146101094678639"
+default_url = "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases/download/{{version}}/repo.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1-rc.1" = { as = "0.4.1-rc1" }
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+
+[[worlds]]
+name = "residentevil2remake"
+display_name = "Resident Evil 2 Remake"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1259648589039272028"
+default_url = "https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/download/{{version}}/residentevil2remake.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+
+[[worlds]]
+name = "residentevil3remake"
+display_name = "Resident Evil 3 Remake"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1261562909809709056"
+default_url = "https://github.com/TheRealSolidusSnake/RE3R_AP_World/releases/download/{{version}}/residentevil3remake.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.2.6" = ""
+  "0.2.7-pre" = { as = "0.2.7.5" }
+  "0.2.9-pre" = { as = "0.2.9" }
+
+[[worlds]]
+name = "residentevil7biohazard"
+display_name = "Resident Evil 7"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1356323012298936602"
+default_url = "https://github.com/ElGrenier/RE7_AP_World/releases/download/{{version}}/residentevil7biohazard.apworld"
+
+  [worlds.versions]
+  "0.0.5" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.1.0" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.3.6" = ""
+  "0.3.7" = ""
+  "0.3.8" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "obra_dinn"
+display_name = "Return of the Obra Dinn"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1259857920808714331"
+default_url = "https://github.com/wkcheezy/ObraDinnArchipelagoWorld/releases/download/v{{version}}/obra_dinn.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = ""
+  "0.0.2" = ""
+
+[[worlds]]
+name = "reventure"
+display_name = "Reventure"
+discord = "https://discord.com/channels/731205301247803413/1200081144629174363"
+default_url = "https://github.com/Droppel/ReventureEndingRando/releases/download/{{version}}/reventure.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.9.0" = ""
+  "0.10.0" = ""
+  "0.11.0" = ""
+  "0.12.0" = ""
+  "0.12.1" = ""
+  "0.13.2" = ""
+  "0.14.0" = ""
+  "0.14.1" = ""
+  "0.14.2" = ""
+  "0.15.2" = ""
+  "0.15.3" = ""
+  "0.15.4" = ""
+  "0.16.0" = ""
+  "0.16.1" = ""
+  "0.16.2" = ""
+  "0.17.0" = ""
+  "0.18.0" = ""
+  "0.18.1" = ""
+  "0.18.2" = { as = "0.18.2-hotfix" }
+  "0.19.0" = ""
+  "0.19.1" = ""
+  "0.20.0" = ""
+
+[[worlds]]
+name = "rhythm_doctor"
+display_name = "Rhythm Doctor"
+discord = "https://discord.com/channels/731205301247803413/1240437664692572312"
+default_url = "https://github.com/nonperforming/RhythmDoctor.Archipelago/releases/download/v{{version}}/rhythm_doctor.apworld"
+
+  [worlds.versions]
+  # "0.0.8" = { as = "0.6.10" } # actually, I think this asset has also been updated to 0.0.9
+  "0.0.9" = { as = "0.6.10.1" }
+  "0.0.10" = { as = "0.6.11" }
+
+[[worlds]]
+name = "rotn"
+display_name = "Rift of the Necrodancer"
+discord = "https://discord.com/channels/731205301247803413/1337112354130759757"
+default_url = "https://github.com/studkid/RiftArchipelago/releases/download/v{{version}}/rotn.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.2.0" = { as = "0.2" }
+  "0.3.0-pre.1" = { as = "0.3-pre" }
+  "0.3.0-pre.2" = { as = "0.3-pre2" }
+  "0.3.0-pre.3" = { as = "0.3-pre3" }
+  "0.3.0" = { as = "0.3" }
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "0.6.0" = { as = "0.6" }
+  "0.6.1" = ""
+  "0.7.0" = { as = "0.7" }
+  "0.7.1" = ""
+  "0.8.0" = { as = "0.8" }
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.9.0" = ""
+  "0.10.0" = ""
+  "0.11.0" = ""
+  "0.12.0" = ""
+
+[[worlds]]
+name = "riftwizard"
+display_name = "Rift Wizard"
+discord = "https://discord.com/channels/731205301247803413/1097001818564853770"
+default_url = "https://github.com/TheBigSalarius/Archipelago/releases/download/v{{version}}/riftwizard.apworld"
+
+  [worlds.versions]
+  "1.3.1" = ""
+
+[[worlds]]
+name = "rimworld"
+display_name = "Rimworld"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1285353591615262833"
+default_url = "https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/download/v{{version}}/rimworld.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.3.0-alpha" = ""
+  "0.3.2-alpha" = ""
+  "0.4.0-alpha" = ""
+  "0.4.2-alpha" = ""
+  "0.4.3-alpha" = ""
+  "0.5.0-alpha" = ""
+  "0.5.2-alpha" = { as = "0.5.2-bugfix" }
+
+[[worlds]]
+name = "RiseToRuins"
+display_name = "Rise to Ruins"
+discord = "https://discord.com/channels/731205301247803413/1495673248967299092"
+default_url = "https://github.com/mattthewaz/RtRAPWorld/releases/download/v{{version}}/RiseToRuins.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.4.0" = { as = "0.4" }
+
+[[worlds]]
+name = "ror1"
+display_name = "Risk of Rain"
+discord = "https://discord.com/channels/731205301247803413/1193665646467231764"
+default_url = "https://github.com/studkid/RoR_Archipelago/releases/download/v{{version}}/ror1.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = { as = ".0.1-alpha" }
+  "0.1.1-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.3.0" = { as = "0.3" }
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = { as = "0.4-hotfix" }
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
+  "0.5.0" = { as = "0.5" }
+  "0.5.1" = ""
+  "0.6.0" = { as = "0.6" }
+  "0.6.1" = ""
+  "0.6.2" = ""
+
+[[worlds]]
+name = "roadtrip"
+display_name = "Road Trip Adventure"
+discord = "https://discord.com/channels/731205301247803413/1266360646442815560"
+default_url = "https://github.com/Phenra/RoadTripAdventure-AP/releases/download/v{{version}}/roadtrip.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "rogue_legacy_2"
+display_name = "Rogue Legacy 2"
+discord = "https://discord.com/channels/731205301247803413/1200179848442826904"
+default_url = "https://github.com/zaphim12/RL2Archipelago/releases/download/v{{version}}/rogue_legacy_2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+
+# only non-discord release has invalid `random` option as a choice
+# [[worlds]]
+# name = "rune4"
+# display_name = "Rune Factory 4"
+# discord = "https://discord.com/channels/731205301247803413/1284284032355536907"
+# default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/rune4_v{{version}}/rune4.apworld"
+
+#   [worlds.versions]
+#   "0.1.0" = ""
+
+[[worlds]]
+name = "rwr"
+display_name = "Running with Rifles"
+discord = "https://discord.com/channels/731205301247803413/1475490719216042074"
+default_url = "https://github.com/mjousse72/archipelago_rwr/releases/download/v{{version}}/rwr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+
+[[worlds]]
+name = "rusted_moss"
+display_name = "Rusted Moss"
+discord = "https://discord.com/channels/731205301247803413/1239286100472758302"
+default_url = "https://github.com/dgrossmann144/Archipelago/releases/download/v{{version}}/rusted_moss.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = "https://github.com/dgrossmann144/Archipelago/releases/download/AlphaRelease/rusted_moss.apworld"
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.1.3-alpha" = ""
+  "0.1.4-alpha" = ""
+  "0.1.5-alpha" = ""
+  "0.1.6-alpha" = ""
