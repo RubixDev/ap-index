@@ -361,8 +361,7 @@ default_url = "https://github.com/zane31415/ArchipelagoBG3/releases/download/v{{
 
   [worlds.versions]
   "0.1.0" = { as = "0.1" }
-  "0.2.0" = { as = "0.2" }
-  "0.2.1-pre.1" = { as = "0.2.0.1" }
+  "0.2.0" = { as = "0.2.0.1" }
   "0.2.1" = ""
   "0.2.2" = ""
   "0.3.0" = { as = "0.3" }
@@ -1450,8 +1449,7 @@ default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/d
   "0.2.1" = ""
   "0.2.2" = ""
   "0.3.0-pre.8" = { as = "0.3.0-pre8" }
-  "0.3.0" = ""
-  "0.3.1-pre.1" = { as = "0.3.0.1" }
+  "0.3.0" = { as = "0.3.0.1" }
   "0.4.0-pre.1" = { as = "0.4.0-pre1" }
   "0.4.0-pre.2" = { as = "0.4.0-pre2" }
   "0.4.0-pre.3" = { as = "0.4.0-pre3" }
@@ -1695,10 +1693,8 @@ default_url = "https://github.com/Lizardman175/DC1AP/releases/download/v{{versio
   "0.4.0" = ""
   "0.4.1" = ""
   "0.4.2" = ""
-  "0.4.3" = ""
-  "0.4.4-pre.1" = { as = "0.4.3.1" }
-  "0.4.4" = ""
-  "0.4.5-pre.1" = { as = "0.4.4.1" }
+  "0.4.3" = { as = "0.4.3.1" }
+  "0.4.4" = { as = "0.4.4.1" }
   "0.5.0" = ""
   "0.5.1" = ""
   "0.5.2" = ""
@@ -2035,12 +2031,10 @@ default_url = "https://github.com/Fylcoast/AP_diceydungeons/releases/download/v{
   "0.0.4-alpha" = ""
   "0.1.0-beta" = ""
   "0.1.1-beta" = ""
-  "0.1.2-beta" = ""
-  "0.1.2-beta.1" = { as = "0.1.2.1-beta" }
+  "0.1.2-beta" = { as = "0.1.2.1-beta" }
   "0.2.0-beta" = ""
   "0.2.1-beta" = ""
-  "0.2.2-beta" = ""
-  "0.2.2-beta.1" = { as = "0.2.2.1-beta" }
+  "0.2.2-beta" = { as = "0.2.2.1-beta" }
   "0.2.3-beta" = ""
   "0.2.4-beta" = ""
   "0.2.5-beta" = ""
@@ -2147,26 +2141,13 @@ default_url = "https://github.com/DragonWolfLeo/Archipelago-DST/releases/downloa
   "1.0.1" = { as = "v1.0.1" }
   "1.0.2" = { as = "v1.0.2" }
   "1.1.0" = { as = "v1.1" }
-  "1.1.1" = { as = "v1.1.1" }
-  "1.1.2-pre.1" = { as = "v1.1.1.1" }
-  "1.1.2" = { as = "v1.1.2" }
-  "1.1.3-pre.1" = { as = "v1.1.2.1" }
-  "1.1.3-pre.2" = { as = "v1.1.2.2" }
-  "1.1.3-pre.3" = { as = "v1.1.2.3" }
-  "1.2.0" = { as = "v1.2" }
-  "1.2.1-pre.1" = { as = "v1.2.0.1" }
-  "1.2.1" = { as = "v1.2.1" }
-  "1.2.2-pre.1" = { as = "v1.2.1.1" }
-  "1.2.2" = { as = "v1.2.2" }
-  "1.2.3-pre.1" = { as = "v1.2.2.1" }
-  "1.2.3-pre.2" = { as = "v1.2.2.2" }
-  "1.2.3-pre.3" = { as = "v1.2.2.3" }
-  "1.2.3-pre.4" = { as = "v1.2.2.4" }
-  "1.3.0" = { as = "v1.3" }
-  "1.3.1-pre.1" = { as = "v1.3.0.1" }
-  "1.3.1-pre.2" = { as = "v1.3.0.2" }
-  "1.3.1" = { as = "v1.3.1" }
-  "1.3.2-pre.1" = { as = "v1.3.1.1" }
+  "1.1.1" = { as = "v1.1.1.1" }
+  "1.1.2" = { as = "v1.1.2.3" }
+  "1.2.0" = { as = "v1.2.0.1" }
+  "1.2.1" = { as = "v1.2.1.1" }
+  "1.2.2" = { as = "v1.2.2.4" }
+  "1.3.0" = { as = "v1.3.0.2" }
+  "1.3.1" = { as = "v1.3.1.1" }
   "1.3.2" = { as = "dst-v1.3.2" }
   "1.3.3" = { as = "dst-v1.3.3" }
 
@@ -2719,8 +2700,7 @@ default_path_in_zip = "ff5pr.apworld"
   "0.1.1" = ""
   "0.1.2" = ""
   "0.1.3" = ""
-  "0.1.4" = ""
-  "0.1.5-pre.1" = { as = "0.1.4.1" }
+  "0.1.4" = { as = "0.1.4.1" }
   "0.2.0" = { as = "0.2" }
   "0.2.1" = ""
   "0.2.2" = ""
@@ -2778,10 +2758,8 @@ default_url = "https://github.com/Bartz24/Archipelago/releases/download/{{versio
   "0.5.0" = ""
   "0.5.1" = ""
   "0.5.2" = ""
-  "0.5.4-pre.1" = { as = "0.5.3.1" }
-  "0.6.0" = ""
-  "0.6.1-pre.1" = { as = "0.6.0.1" }
-  "0.6.1-pre.2" = { as = "0.6.0.2" }
+  "0.5.3" = { as = "0.5.3.1" }
+  "0.6.0" = { as = "0.6.0.2" }
   "0.6.1" = ""
   "0.6.2" = ""
   "0.6.3" = ""
@@ -3145,8 +3123,7 @@ default_url = "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/r
   "0.0.2-alpha" = { as = ".0.02-pre-alpha" }
   "0.0.3-alpha" = { as = "0.0.3-pre-alpha" }
   "0.0.4-alpha" = ""
-  "0.0.5" = "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/download/V0.0.5/gcfw.apworld"
-  "0.0.6-pre.1" = { as = "0.0.5.1" }
+  "0.0.5" = { as = "0.0.5.1" }
 
 [[worlds]]
 name = "geometrydash"
@@ -3384,8 +3361,7 @@ default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{versi
   "0.3.1" = ""
   "0.3.2" = ""
   "0.4.0" = ""
-  "0.4.1" = ""
-  "0.4.2-pre.1" = { as = "0.4.1.1" }
+  "0.4.1" = { as = "0.4.1.1" }
   "0.5.0" = ""
   "0.5.1" = ""
   "0.5.2" = ""
@@ -3799,9 +3775,7 @@ default_url = "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases/downloa
   "0.1.1" = ""
   "0.1.2" = ""
   "0.2.0" = { as = "0.2" }
-  "0.3.0" = { as = "0.3" }
-  "0.3.1-pre.1" = { as = "0.3.0.1" }
-  "0.3.1-pre.2" = { as = "0.3.0.2" }
+  "0.3.0" = { as = "0.3.0.2" }
   "0.4.0" = { as = "0.4" }
   "0.5.0" = { as = "0.5" }
   "0.6.0" = { as = "0.6" }
@@ -4642,9 +4616,7 @@ discord = "https://discord.com/channels/1085716850370957462/1349105013783400529"
 default_url = "https://github.com/Kli333/LobCorp-AP/releases/download/{{version}}/lobotomycorporation.apworld"
 
   [worlds.versions]
-  "1.0.0" = { as = "v1.0.0.0" }
-  "1.0.1-pre.1" = { as = "v1.0.0.1" }
-  "1.0.1-pre.2" = { as = "v1.0.0.2" }
+  "1.0.0" = { as = "v1.0.0.2" }
   "1.1.0" = { as = "v1.1.0.0" }
   "1.2.0" = { as = "v1.2.0.0" }
   "1.3.0" = { as = "v.1.3.0.0" }
@@ -5415,15 +5387,12 @@ default_url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/release
   "1.0.1-alpha" = ""
   "1.0.2-alpha" = ""
   "1.0.3-alpha" = ""
-  "1.0.4-alpha" = { as = ".1.0.4-alpha" }
-  "1.0.4-alpha.1" = { as = "1.0.4.1-alpha" }
-  "1.0.5-alpha" = ""
-  "1.0.5-alpha.1" = { as = "1.0.5.1-alpha" }
+  "1.0.4-alpha" = { as = "1.0.4.1-alpha" }
+  "1.0.5-alpha" = { as = "1.0.5.1-alpha" }
   "1.0.6-alpha" = ""
   "1.0.7" = { as = ".1.0.7" }
   "1.1.0" = { as = ".1.1.0" }
-  "1.1.1" = { as = ".1.1.1" }
-  "1.1.2-pre.1" = { as = ".1.1.1.1" }
+  "1.1.1" = { as = ".1.1.1.1" }
 
 [[worlds]]
 name = "mini_metro"
@@ -5551,8 +5520,7 @@ default_url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/
   "1.7.2" = ""
   "1.7.3" = ""
   "1.7.4" = ""
-  "1.7.5" = ""
-  "1.7.6-pre.1" = { as = "1.7.5.1" }
+  "1.7.5" = { as = "1.7.5.1" }
 
 [[worlds]]
 name = "mhfu"
@@ -6016,10 +5984,8 @@ default_url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v
   "0.1.3" = ""
   "0.1.4" = ""
   "0.1.5" = ""
-  "0.1.6" = ""
-  "0.1.7-pre.1" = { as = "0.1.6.1" }
-  "0.1.7" = ""
-  "0.1.8-pre.1" = { as = "0.1.7.1" }
+  "0.1.6" = { as = "0.1.6.1" }
+  "0.1.7" = { as = "0.1.7.1" }
   "0.1.8" = ""
   "1.0.0" = { as = "1.0" }
   "1.0.1" = ""
@@ -6029,8 +5995,7 @@ default_url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v
   "1.2.0" = { as = "1.2" }
   "1.2.1" = ""
   "1.2.2" = ""
-  "1.2.3" = ""
-  "1.2.4-pre.1" = { as = "1.2.3.1" }
+  "1.2.3" = { as = "1.2.3.1" }
   "1.2.4" = ""
   "1.3.0" = { as = "1.3" }
   "1.3.1" = ""
@@ -6094,10 +6059,8 @@ default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases
   "0.3.3" = ""
   "0.3.4" = ""
   "0.3.5" = ""
-  "0.3.6" = ""
-  "0.3.7-pre.1" = { as = "0.3.6.1" }
-  "0.3.7" = ""
-  "0.3.8-pre.1" = { as = "0.3.7.1" }
+  "0.3.6" = { as = "0.3.6.1" }
+  "0.3.7" = { as = "0.3.7.1" }
   "0.3.8" = ""
   "0.3.9" = ""
   "0.3.10" = ""
@@ -7032,8 +6995,7 @@ default_url = "https://github.com/randomsalience/ProdigalArchipelago/releases/do
   "0.1.2" = ""
   "0.1.3" = ""
   "0.1.4" = ""
-  "0.1.5" = ""
-  "0.1.6-pre.1" = { as = "0.1.5.1" }
+  "0.1.5" = { as = "0.1.5.1" }
   "0.2.0" = ""
   "0.2.1" = ""
   "0.2.2" = ""
@@ -7184,8 +7146,7 @@ default_url = "https://github.com/alphappy/ArchipelagoRW/releases/download/v{{ve
   "1.1.0" = { as = "1.1.0-hotfix2" }
   "1.1.1" = ""
   "1.2.0" = ""
-  "1.2.3" = ""
-  "1.2.4-pre.1" = { as = "1.2.3.1" }
+  "1.2.3" = { as = "1.2.3.1" }
   "1.2.8" = ""
   "1.3.0" = ""
   "1.3.1" = ""
