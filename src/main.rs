@@ -143,6 +143,7 @@ fn main() -> Result<()> {
     index.sort_unstable_by_key(|w| {
         let game_sort = w.display_name.as_ref().unwrap_or(&w.game).to_lowercase();
         let game_sort = game_sort.strip_prefix("the ").unwrap_or(&game_sort);
+        let game_sort = game_sort.strip_prefix("an ").unwrap_or(game_sort);
         let game_sort = game_sort.strip_prefix("a ").unwrap_or(game_sort);
         game_sort.to_owned()
     });
