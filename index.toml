@@ -9094,3 +9094,622 @@ default_url = "https://codeberg.org/Partatio/SS2-Apworld/releases/download/{{ver
   "0.4.0" = ""
   "0.4.1" = ""
   "0.5.0" = ""
+
+[[worlds]]
+name = "talos_principle_reawakened"
+display_name = "The Talos Principle Reawakened"
+discord = "https://discord.com/channels/731205301247803413/1473070314165633215"
+default_url = "https://github.com/johnso48/TalosPrincipleArchipelago/releases/download/v{{version}}/talos_principle_reawakened.apworld"
+
+  [worlds.versions]
+  "1.0.4" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.3.0-beta.1" = { as = "1.3.0-BETA" }
+  "1.3.0-beta.2" = { as = "1.3.0-BETA.2" }
+
+[[worlds]]
+name = "taskipelago"
+display_name = "Taskipelago"
+discord = "https://discord.com/channels/731205301247803413/1459523644693676160"
+default_url = "https://github.com/barretg/Taskipelago/releases/download/v{{version}}/taskipelago.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = { as = "0.3" }
+  "0.3.1" = ""
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.6.0" = { as = "0.6" }
+  "0.7.0-beta" = { as = "0.7-beta" }
+  "0.7.0" = { as = "0.7" }
+  "0.8.0" = { as = "0.8" }
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.9.0" = { as = "0.9" }
+  "0.9.1" = ""
+
+[[worlds]]
+name = "tcg_card_shop_simulator"
+display_name = "TCG Card Shop Simulator"
+discord = "https://discord.com/channels/731205301247803413/1302063649812250665"
+default_url = "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/download/v{{version}}/tcg_card_shop_simulator.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.5.0-pre.1" = { as = "0.5.0-Prerelease" }
+  "0.5.13" = ""
+  "1.0.0-pre.1" = { as = "1.0.0-Pre1" }
+  "1.0.0-pre.2" = { as = "1.0.0-Pre2" }
+  "1.0.0-pre.3" = { as = "1.0.0-Pre3" }
+  "1.0.0-pre.4" = { as = "1.0.0-Pre4" }
+  "1.0.0-pre.5" = { as = "1.0.0-Pre5" }
+  "1.1.0-rc.1" = { as = "1.1.0-Candidate1" }
+  "1.1.0" = ""
+
+[[worlds]]
+name = "teardown"
+display_name = "Teardown"
+discord = "https://discord.com/channels/731205301247803413/1212530181655498752"
+default_url = "https://github.com/Evereliquest/Archipelago/releases/download/v{{version}}/teardown.apworld"
+
+  [worlds.versions]
+  "0.1.0-beta" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "TerraNil"
+display_name = "TerraNil"
+discord = "https://discord.com/channels/731205301247803413/1485776605736468541"
+default_url = "https://github.com/nepcore/TerraNilAP/releases/download/v{{version}}/TerraNil.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1-pre.1" = { as = "0.2.1-pre" }
+  "0.2.1-pre.2" = { as = "0.2.1-pre2" }
+  "0.2.1-pre.3" = { as = "0.2.1-pre3" }
+  "0.2.1-pre.4" = { as = "0.2.1-pre4" }
+
+[[worlds]]
+name = "tetris_gb"
+display_name = "Tetris (Gameboy)"
+discord = "https://discord.com/channels/731205301247803413/1477485575937331281"
+default_url = "https://github.com/Alchav/Archipelago/releases/download/tetris-{{version}}/tetris_gb.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.0" = { as = "0.1.0-real" }
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "tetrisattack"
+display_name = "Tetris Attack"
+discord = "https://discord.com/channels/731205301247803413/1207963109990596669"
+default_url = "https://github.com/AgStarRay/TetrisAttackAP/releases/download/{{version}}/tetrisattack.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = { as = "0.2.0_01" }
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = { as = "0.4.2_01" }
+
+[[worlds]]
+name = "tevi"
+display_name = "Tevi"
+discord = "https://discord.com/channels/731205301247803413/1320015979736203304"
+default_url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v{{version}}/tevi.apworld"
+
+  [worlds.versions]
+  "0.6.5" = { as = "1.4.5" }
+  "0.6.6" = { as = "1.4.6" }
+  "0.6.7" = { as = "1.4.8" }
+  "0.6.8" = { as = "1.4.9" }
+  "0.6.9" = { as = "1.4.10" }
+  "0.6.10" = { as = "1.4.11" }
+  "0.6.11" = { as = "1.4.12" }
+  "0.6.12" = { as = "1.4.13" }
+  "0.6.13" = { as = "1.4.14" }
+  "0.6.15" = { as = "1.4.15" }
+  "0.6.16" = { as = "1.4.16" }
+  "0.6.17" = { as = "1.4.17" }
+  "0.6.18" = { as = "1.4.18-Bnyuu" }
+  "0.6.19" = { as = "1.4.19" }
+  "0.6.20" = { as = "1.4.20" }
+  "0.7.0" = { as = "1.5.0" }
+  "0.7.1" = { as = "1.5.2" }
+
+[[worlds]]
+name = "alttpr"
+display_name = "The Legend of Zelda: A Link to the Past"
+discord = "https://discord.com/channels/731205301247803413/1500219037181939832"
+default_url = "https://github.com/aurabot24/Archipelago-ALttPR/releases/download/v{{version}}/alttpr.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+
+[[worlds]]
+name = "three_goblin_wobblin"
+display_name = "Three Goblin Wobblin'"
+discord = "https://discord.com/channels/731205301247803413/1487653426128228362"
+default_url = "https://github.com/melenehh/Three-Goblin-Archipelago/releases/download/{{version}}/three_goblin_wobblin.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = { as = "unstable" }
+  "0.0.2-alpha" = { as = "alpha" }
+
+[[worlds]]
+name = "timberborn"
+display_name = "Timberborn"
+discord = "https://discord.com/channels/731205301247803413/1480345367303290880"
+default_url = "https://github.com/dowlle/timberborn-modding/releases/download/v{{version}}/timberborn.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+
+[[worlds]]
+name = "tje"
+display_name = "ToeJam and Earl"
+discord = "https://discord.com/channels/731205301247803413/1204326236415856671"
+default_url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v{{version}}/tje.apworld"
+
+  [worlds.versions]
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = { as = "0.1.4a" }
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = { as = "0.2.2a" }
+  "0.2.3" = ""
+  "0.2.4" = { as = "0.2.4c" }
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.4.0" = { as = "0.4.0b" }
+  "0.4.1" = ""
+  "0.4.2" = { as = "0.4.2b" }
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "0.5.3" = ""
+  "0.5.4" = ""
+
+[[worlds]]
+name = "toem"
+display_name = "TOEM: A Photo Adventure"
+discord = "https://discord.com/channels/731205301247803413/1255989734497587241"
+default_url = "https://github.com/bbernardoni/Archipelago.TOEM/releases/download/{{version}}/toem.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.9.0" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
+  "2.0.5" = ""
+  "2.0.6" = ""
+
+[[worlds]]
+name = "aptombola"
+display_name = "AP Tombola"
+discord = "https://discord.com/channels/731205301247803413/1475176727235002571"
+default_url = "https://github.com/Arenes214/APWorld-Tombola/releases/download/{{version}}/aptombola.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.2.0" = { as = "0.2" }
+
+[[worlds]]
+name = "tony_hawks_pro_skater_1_2"
+display_name = "Tony Hawk's Pro Skater 1 + 2"
+discord = "https://discord.com/channels/731205301247803413/1349754176296583198"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/thps12-v{{version}}/tony_hawks_pro_skater_1_2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+
+[[worlds]]
+name = "tww3"
+display_name = "Total War Warhammer 3"
+discord = "https://discord.com/channels/731205301247803413/1136329107370684538"
+default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/download/v{{version}}/tww3.apworld"
+
+  [worlds.versions]
+  "0.3.3" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.6.7" = ""
+  "0.6.8" = ""
+  "0.6.9" = ""
+  "0.6.10" = ""
+  "0.6.11" = ""
+  "0.6.12" = ""
+  "0.6.13" = ""
+  "0.6.14" = ""
+  "0.6.15" = ""
+  "0.6.16" = ""
+  "0.6.17" = ""
+  "0.7.0" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+  "0.8.7" = ""
+  "0.8.8" = ""
+  "0.8.9" = ""
+  "0.9.0" = ""
+  "0.9.2" = ""
+  "0.9.3" = ""
+  "0.9.4" = ""
+  "0.9.5" = ""
+  "0.9.6" = ""
+  "0.9.7" = ""
+  "0.9.8" = ""
+  "0.9.9" = ""
+  "0.9.10" = ""
+  "0.9.11" = ""
+  "0.9.12" = ""
+  "0.9.13" = ""
+
+[[worlds]]
+name = "tabs"
+display_name = "Totally Accurate Battle Simulator"
+discord = "https://discord.com/channels/731205301247803413/1348142956682547230"
+default_url = "https://github.com/duckboycool/TABS-Archipelago/releases/download/v{{version}}/tabs.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "th08"
+display_name = "Touhou Eiyashou ~ Imperishable Night"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1416494134168125552"
+default_url = "https://github.com/Nepley/in-apworld/releases/download/v{{version}}/th08.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+
+[[worlds]]
+name = "th06"
+display_name = "Touhou Koumakyou ~ the Embodiment of Scarlet Devil"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1353408740480778270"
+default_url = "https://github.com/Nepley/eosd-apworld/releases/download/v{{version}}/th06.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.2.0" = { as = "0.2" }
+  "0.3.0" = "https://github.com/Nepley/eosd-apworld/releases/download/0.3/th06.apworld"
+  "0.4.0" = { as = "0.4" }
+  "0.5.0" = { as = "0.5" }
+  "0.6.0" = { as = "0.6" }
+  "0.7.0" = { as = "0.7" }
+  "0.8.0" = { as = "0.8" }
+  "0.9.0" = { as = "0.9" }
+  "0.10.0" = { as = "0.10" }
+  "0.11.0" = { as = "0.11" }
+  "0.12.0" = { as = "0.12" }
+  "0.13.0" = { as = "0.13" }
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.2.0" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+
+[[worlds]]
+name = "th07"
+display_name = "Touhou Youyoumu ~ Perfect Cherry Blossom"
+tags = ["ad"]
+discord = "https://discord.com/channels/1085716850370957462/1388571445713703022"
+default_url = "https://github.com/Nepley/pcb-apworld/releases/download/v{{version}}/th07.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.3.0" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+
+[[worlds]]
+name = "trackmania"
+display_name = "Trackmania"
+discord = "https://discord.com/channels/731205301247803413/1368696493904625785"
+default_url = "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases/download/v{{version}}/trackmania.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+
+[[worlds]]
+name = "tits_the_3rd"
+display_name = "Trails in the Sky the 3rd"
+discord = "https://discord.com/channels/731205301247803413/1217595862872490065"
+default_url = "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/releases/download/{{version}}/tits_the_3rd.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha" = ""
+  "0.0.2-pre.1" = { as = "0.0.2-prelease-1" }
+  "0.0.3-alpha" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+
+[[worlds]]
+name = "trombone"
+display_name = "Trombone Champ"
+discord = "https://discord.com/channels/731205301247803413/1467852123835469854"
+default_url = "https://github.com/Hexicube/APTromboneChamp/releases/download/{{version}}/trombone.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha.1" = { as = "Alpha" }
+  "0.1.0-alpha.2" = { as = "Alpha-2" }
+  "0.1.0-alpha.3" = { as = "Alpha-3" }
+  "0.1.0-alpha.4" = { as = "Alpha-4" }
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+
+[[worlds]]
+name = "turnipboy"
+display_name = "TurnipBoy"
+discord = "https://discord.com/channels/731205301247803413/1297617351977734214"
+default_url = "https://github.com/pointfivetee/TurnipBoyRandomizer/releases/download/v{{version}}/turnipboy.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+
+[[worlds]]
+name = "turok2"
+display_name = "Turok 2"
+discord = "https://discord.com/channels/731205301247803413/1238135254947074129"
+default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{{version}}/turok2.apworld"
+
+  [worlds.versions]
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.3.0" = ""
+  "0.4.0" = ""
+
+[[worlds]]
+name = "Twilight Princess"
+display_name = "Twilight Princess"
+discord = "https://discord.com/channels/731205301247803413/1369050080887312506"
+default_url = "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/download/v{{version}}/Twilight_Princess_apworld-v{{version}}.zip"
+default_path_in_zip = "Twilight Princess.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "0.1" }
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.5" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+  "0.2.2" = ""
+  "0.2.3" = ""
+  "0.2.4" = ""
+  "0.2.5" = ""
+  "0.3.0" = ""
+
+[[worlds]]
+name = "twistycube"
+display_name = "Twisty Cube"
+discord = "https://discord.com/channels/731205301247803413/1420821472057757716"
+default_url = "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/download/v{{version}}/twistycube.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "1.0.0" = ""
+
+[[worlds]]
+name = "ty_the_tasmanian_tiger"
+display_name = "Ty the Tasmanian Tiger"
+discord = "https://discord.com/channels/731205301247803413/1111533202184613991"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-TyTheTasmanianTiger/releases/download/{{version}}/ty_the_tasmanian_tiger.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.1.7" = ""
+  "1.1.8" = ""
+  "1.1.9" = ""
+  "1.1.10" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.3.0" = ""
+  "1.3.1" = ""
+  "1.3.2" = ""
+  "1.3.3" = ""
+  "1.3.4" = { as = "v1.3.4" }
+  "1.3.5" = ""
+  "1.3.6" = ""
+  "1.3.7" = ""
+  "1.4.0" = ""
+  "1.4.1" = ""
+  "1.4.2" = ""
+  "1.5.0" = ""
+
+[[worlds]]
+name = "ty_the_tasmanian_tiger_2"
+display_name = "Ty the Tasmanian Tiger 2"
+discord = "https://discord.com/channels/731205301247803413/1370284619655544852"
+default_url = "https://github.com/FyreDay/Archipelago-TyTheTasmanianTiger2/releases/download/v{{version}}/ty_the_tasmanian_tiger_2.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.2.0" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "ty_the_tasmanian_tiger_3"
+display_name = "Ty the Tasmanian Tiger 3"
+discord = "https://discord.com/channels/731205301247803413/1427906326649897001"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-TyTheTasmanianTiger3/releases/download/{{version}}/ty_the_tasmanian_tiger_3.apworld"
+
+  [worlds.versions]
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+
+[[worlds]]
+name = "tyrian"
+display_name = "Tyrian"
+discord = "https://discord.com/channels/731205301247803413/1224498137570349076"
+default_url = "https://github.com/KScl/TyrianArchipelago/releases/download/v{{version}}/tyrian.apworld"
+
+  [worlds.versions]
+  "0.4.5-alpha.3" = { as = "0.4.5-alpha3" }
+  "0.4.5-alpha.4" = { as = "0.4.5-alpha4" }
+  "0.80.0" = ""
+  "0.80.1" = ""
+  "0.80.2" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.0.5" = ""
