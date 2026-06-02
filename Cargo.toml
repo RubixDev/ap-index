@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.102"
+diacritics = "0.2.2"
 digest-io = "0.1.0"
 reqwest = { version = "0.13.4", features = ["blocking"] }
 semver = { version = "1.0.28", features = ["serde"] }

@@ -106,6 +106,7 @@ fn main() -> Result<()> {
     }
 
     println!("generating schema");
+    // TODO: pass list of worlds (once core worlds are in index)
     Command::new("python")
         .arg("GenerateOptionSchema.py")
         .status()?;
@@ -145,7 +146,7 @@ fn main() -> Result<()> {
         let game_sort = game_sort.strip_prefix("the ").unwrap_or(&game_sort);
         let game_sort = game_sort.strip_prefix("an ").unwrap_or(game_sort);
         let game_sort = game_sort.strip_prefix("a ").unwrap_or(game_sort);
-        game_sort.to_owned()
+        diacritics::remove_diacritics(game_sort)
     });
     serde_json::to_writer(
         File::create("schema/index.json").context("creating index.json")?,
@@ -290,6 +291,7 @@ fn fix_zip(input: impl Read + Seek, output: impl Write + Seek) -> Result<()> {
         }
 
         // write file
+        // TODO: maybe strip out max ap version from manifest?
         if file.is_dir() {
             dst.add_directory(&filename, options)?;
         } else {
