@@ -10407,3 +10407,320 @@ default_url = "https://github.com/MaragonMH/Archipelago/releases/download/{{vers
   "0.1.11" = ""
   "0.1.12" = ""
   "0.1.13" = { as = "XenoX0.1.13" }
+
+[[worlds]]
+name = "yarg"
+display_name = "YARG"
+discord = "https://discord.com/channels/731205301247803413/1451771538943508490"
+default_url = "https://github.com/energymaster22/YARGArchipelago/releases/download/{{version}}/yarg.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.0.7" = ""
+  "0.0.8" = ""
+  "0.0.9" = ""
+  "0.0.10" = ""
+  "0.0.11" = ""
+  "0.0.12" = ""
+  "0.0.13" = ""
+  "0.0.14" = ""
+  "0.0.15" = ""
+  "0.0.16" = ""
+  "0.0.17" = ""
+
+[[worlds]]
+name = "YARGAllSetlists"
+display_name = "YARGAllSetlists"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGAllSetlists.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.02.21.1" }
+  "1.1.0" = { as = "26.03.29" }
+  "1.2.0" = { as = "26.04.02" }
+  "1.2.1" = { as = "26.04.04" }
+  "1.3.0" = { as = "26.04.09" }
+  "1.4.0" = { as = "26.04.12" }
+  "1.5.0" = { as = "26.05.04" }
+  "1.6.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGGuitarHero1"
+display_name = "YARGGuitarHero1"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHero1.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.02.07" }
+  "1.1.0" = { as = "26.02.21" }
+  "1.1.1" = { as = "26.02.21.1" }
+  "1.2.0" = { as = "26.03.29" }
+  "1.3.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGGuitarHero2"
+display_name = "YARGGuitarHero2"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHero2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGGuitarHeroWorldTour"
+display_name = "YARGGuitarHeroWorldTour"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHeroWorldTour.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.03.29" }
+  "1.1.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGLEGORockBand"
+display_name = "YARGLEGORockBand"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGLEGORockBand.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGRockBand2"
+display_name = "YARGRockBand2"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGRockBand2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "YARGRockBand3"
+display_name = "YARGRockBand3"
+discord = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGRockBand3.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "26.02.21.1" }
+  "1.1.0" = { as = "26.03.29" }
+  "1.2.0" = { as = "26.04.09" }
+  "1.3.0" = { as = "26.05.10" }
+
+[[worlds]]
+name = "yayarg"
+display_name = "YAYARG"
+discord = "https://discord.com/channels/731205301247803413/1469731900544258323"
+default_url = "https://github.com/Thedrummonger/YargArchipelagoPluginV2/releases/download/V{{version}}/yayarg.apworld"
+
+  [worlds.versions]
+  "2.0.0" = ""
+  "2.1.0" = ""
+  "2.2.0" = ""
+  "2.3.0" = ""
+  "2.3.1" = ""
+  "2.4.0" = ""
+  "2.5.0" = ""
+  "2.5.1" = ""
+  "2.5.2" = ""
+  "2.5.3" = ""
+  "2.5.4" = ""
+
+[[worlds]]
+name = "yellowtaxi"
+display_name = "Yellow Taxi Goes Vroom"
+discord = "https://discord.com/channels/731205301247803413/1265482079118950422"
+default_url = "https://github.com/soopercool101/Archipelago/releases/download/YTGV.v{{version}}/yellowtaxi.apworld"
+
+  [worlds.versions]
+  "0.1.0" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.0/yellowtaxi.apworld"
+  "0.1.1" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.1/yellowtaxi.apworld"
+  "0.1.2" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.2/yellowtaxi.apworld"
+  "0.1.3" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.3/yellowtaxi.apworld"
+  "0.2.0" = "https://github.com/soopercool101/Archipelago/releases/download/v0.2.0/yellowtaxi.apworld"
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.5.0" = ""
+
+[[worlds]]
+name = "ygo_lotd"
+display_name = "YGO LotD-LE"
+discord = "https://discord.com/channels/731205301247803413/1332879180244713522"
+default_url = "https://github.com/HillbillyDroid/YGO-LotD-LE-APWorld/releases/download/v{{version}}/ygo_lotd.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+
+[[worlds]]
+name = "yohane_deepblue"
+display_name = "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-"
+discord = "https://discord.com/channels/731205301247803413/1448194040175657055"
+default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_bitdb-v{{version}}/yohane_deepblue.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+  "0.0.5" = ""
+  "0.0.6" = ""
+  "0.1.0" = ""
+
+[[worlds]]
+name = "yoku"
+display_name = "Yoku's Island Express"
+discord = "https://discord.com/channels/731205301247803413/1225283906333446245"
+default_url = "https://git.makuluni.com/Archipelago/YokuAPWorld/releases/download/{{version}}/yoku.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+  "0.0.4" = ""
+
+[[worlds]]
+name = "yooka_laylee"
+display_name = "Yooka-Laylee"
+discord = "https://discord.com/channels/731205301247803413/1103936661156536330"
+default_url = "https://github.com/Awareqwx/Archipelago/releases/download/{{version}}/yooka_laylee.apworld"
+
+  [worlds.versions]
+  "1.0.0-beta.3" = ""
+  "1.0.0-beta.4" = ""
+  "1.0.0-beta.5" = ""
+  "1.0.0-beta.6" = ""
+  "1.0.0-beta.7" = ""
+  "1.0.0-beta.8" = ""
+
+[[worlds]]
+name = "ckd"
+display_name = "yrtnuoC gnoK yeknoD"
+discord = "https://discord.com/channels/731205301247803413/1395482597710106694"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/ckd-v{{version}}/ckd.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "1.0.0" = ""
+  "1.1.0" = ""
+
+[[worlds]]
+name = "ys_8"
+display_name = "Ys 8"
+discord = "https://discord.com/channels/731205301247803413/1260965063397871657"
+default_url = "https://github.com/junglechief87/Ys-8-AP-World/releases/download/v{{version}}/ys_8.apworld"
+
+  [worlds.versions]
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
+  "0.8.6" = ""
+  "0.8.7" = ""
+  "0.8.8" = ""
+  "0.8.9" = ""
+  "0.8.11" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2" = ""
+  "0.9.3" = ""
+  "0.9.4" = ""
+  "0.9.5" = ""
+  "0.9.6" = ""
+  "0.9.7" = ""
+  "0.9.8" = ""
+  "0.9.9" = ""
+  "0.9.10" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.1.0-beta" = { as = "1.1.0b" }
+
+[[worlds]]
+name = "ys_chronicles"
+display_name = "Ys I Chronicles"
+default_url = "https://github.com/Glomels/ys-archipelago/releases/download/v{{version}}/ys-chronicles-ap-v{{version}}.zip"
+default_path_in_zip = "ys_chronicles.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+
+[[worlds]]
+name = "yugiohddm"
+display_name = "Yu-Gi-Oh! Dungeon Dice Monsters"
+discord = "https://discord.com/channels/731205301247803413/1298768685510561842"
+default_url = "https://github.com/JustinMarshall98/Archipelago---YuGiOh-Dungeon-Dice-Monsters-GBA-/releases/download/v{{version}}/yugiohddm.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+
+[[worlds]]
+name = "fm"
+display_name = "Yu-Gi-Oh! Forbidden Memories"
+discord = "https://discord.com/channels/731205301247803413/1210743818564149288"
+default_url = "https://github.com/sg4e/Archipelago/releases/download/v{{version}}/fm.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "2.0.0" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.1.2" = ""
+  "2.1.3" = ""
+  "2.1.4" = ""
+
+[[worlds]]
+name = "yugioh_wc2008"
+display_name = "Yu-Gi-Oh! World Championship 2008"
+discord = "https://discord.com/channels/731205301247803413/1481377900161667240"
+default_url = "https://github.com/eatntcg/Archipelago/releases/download/{{version}}/yugioh_wc2008.apworld"
+
+  [worlds.versions]
+  "0.1.0" = { as = "v0.1.0" }
+  "0.1.1" = ""
+
+[[worlds]]
+name = "zelda2"
+display_name = "Zelda II"
+discord = "https://discord.com/channels/731205301247803413/1239454398367924325"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/Zelda2ap{{version}}/zelda2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+  "1.1.0" = { as = "1.1" }
+
+[[worlds]]
+name = "zork_grand_inquisitor"
+display_name = "Zork Grand Inquisitor"
+discord = "https://discord.com/channels/731205301247803413/1224389493289648218"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v{{version}}/zork_grand_inquisitor.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
+  "2.0.5" = ""
+  "2.0.6" = ""
+  "2.0.7" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
