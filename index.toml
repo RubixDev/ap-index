@@ -9713,3 +9713,194 @@ default_url = "https://github.com/KScl/TyrianArchipelago/releases/download/v{{ve
   "1.0.3" = ""
   "1.0.4" = ""
   "1.0.5" = ""
+
+[[worlds]]
+name = "ufo50"
+display_name = "UFO 50"
+discord = "https://discord.com/channels/731205301247803413/1286076770445164575"
+default_url = "https://github.com/UFO-50-Archipelago/Archipelago/releases/download/{{version}}/ufo50.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.1.4" = ""
+  "0.1.5" = ""
+  "0.1.6" = ""
+  "0.1.7" = ""
+  "0.1.8" = ""
+  "0.1.9" = ""
+  "0.2.1" = ""
+
+[[worlds]]
+name = "ufouria"
+display_name = "Ufouria"
+discord = "https://discord.com/channels/731205301247803413/1435677906780291214"
+default_url = "https://github.com/vinheim3/Archipelago/releases/download/{{version}}/ufouria.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.3" = ""
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
+name = "ultrakill"
+display_name = "ULTRAKILL"
+discord = "https://discord.com/channels/731205301247803413/1497340963012481104"
+default_url = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/download/{{version}}/ultrakill.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.1.0" = ""
+  "1.1.1" = ""
+  "1.1.2" = ""
+  "1.1.3" = ""
+  "1.1.4" = ""
+  "1.1.5" = ""
+  "1.1.6" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+  "1.2.2" = ""
+  "1.2.3" = ""
+  "1.2.4" = ""
+  "1.2.5" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
+  "2.0.5" = ""
+  "2.0.6" = ""
+  "2.0.7" = ""
+  "2.1.0" = ""
+  "2.1.1" = ""
+  "2.2.0" = ""
+  "2.2.1" = ""
+  "2.2.2" = ""
+  "3.0.0" = ""
+  "3.0.1" = ""
+  "3.1.0" = ""
+  "3.1.1" = ""
+  "3.1.2" = ""
+  "3.1.3" = ""
+  "3.1.4" = ""
+  "3.1.5" = ""
+  "3.2.0" = ""
+  "3.2.1" = ""
+  "3.2.2" = ""
+  "3.2.3" = ""
+  "3.2.4" = ""
+  "3.2.5" = ""
+  "3.2.6" = ""
+  "3.2.7" = ""
+  "3.3.0" = ""
+  "3.3.1" = ""
+  "3.3.2" = ""
+  "3.3.3" = ""
+  "3.3.4" = ""
+  "3.4.0" = ""
+  "3.4.1" = ""
+  "3.4.2" = ""
+  "3.4.3" = ""
+  "3.4.4" = ""
+  "3.4.5" = ""
+  "3.5.0" = ""
+  "3.5.1" = ""
+  "3.5.2" = ""
+
+[[worlds]]
+name = "unbeatable_arcade"
+display_name = "UNBEATABLE Arcade"
+discord = "https://discord.com/channels/731205301247803413/1454317500329099317"
+default_url = "https://github.com/AllPoland/unbeatAP/releases/download/v{{version}}/unbeatable_arcade.apworld"
+
+  [worlds.versions]
+  "0.1.0-alpha" = ""
+  "0.1.1-alpha" = ""
+  "0.1.2-alpha" = ""
+  "0.2.0-alpha" = ""
+  "0.2.1-alpha" = ""
+  "0.3.0-alpha" = ""
+  "0.4.0-alpha" = ""
+  "0.5.0-alpha" = ""
+
+[[worlds]]
+name = "unfair_flips"
+display_name = "Unfair Flips"
+discord = "https://discord.com/channels/731205301247803413/1443942587974029322"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases/download/{{version}}/unfair_flips.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+  "1.0.2" = ""
+  "1.0.3" = ""
+  "1.0.4" = ""
+  "1.1.0" = ""
+  "1.2.0" = ""
+  "1.2.1" = ""
+
+# another one with an invalid `random` choice
+# [[worlds]]
+# name = "untitled_goose_game"
+# display_name = "Untitled Goose Game"
+# discord = "https://discord.com/channels/731205301247803413/1350670556545941536"
+# default_url = "https://github.com/PixelShake92/Untitled-Goose-Game-Archipelago/releases/download/{{version}}/untitled_goose_game.apworld"
+
+#   [worlds.versions]
+#   "0.1.0-alpha" = { as = "playable" }
+#   "0.1.1-alpha" = { as = "Alpha_1.1" }
+#   "0.2.0-alpha" = { as = "Alpha_2.0" }
+#   "0.2.1-alpha" = { as = "Alpha_2.1" }
+#   "0.2.2-alpha" = { as = "Alpha_2.2" }
+
+[[worlds]]
+name = "aus"
+display_name = "An Untitled Story"
+discord = "https://discord.com/channels/731205301247803413/1194062970230165554"
+default_url = "https://github.com/ThatOneGuy27/Archipelago-aus/releases/download/v{{version}}/aus.apworld"
+
+  [worlds.versions]
+  "1.1.0-beta" = { as = "1.1-beta" }
+  "1.2.0-beta" = { as = "1.2-beta" }
+  "1.3.0-beta" = { as = "1.3-beta" }
+  "1.4.0-beta" = { as = "1.4-beta" }
+  "1.5.0-beta" = { as = "1.5-beta" }
+
+[[worlds]]
+name = "uzdoom"
+display_name = "UZDoom"
+discord = "https://discord.com/channels/731205301247803413/1344142763842601090"
+default_url = "https://github.com/ToxicFrog/doom-mods/releases/download/gzap-{{version}}/uzdoom.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.2.0" = ""
+  "0.3.0" = ""
+  "0.3.1" = ""
+  "0.3.2" = ""
+  "0.3.3" = ""
+  "0.3.4" = ""
+  "0.3.5" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
+  "0.6.1" = ""
+  "0.6.2" = ""
+  "0.6.3" = ""
+  "0.6.4" = ""
+  "0.6.5" = ""
+  "0.6.6" = ""
+  "0.7.0" = ""
+  "0.7.1" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
+  "0.8.3" = ""
+  "0.8.4" = ""
+  "0.8.5" = ""
