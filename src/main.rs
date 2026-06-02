@@ -2,7 +2,7 @@ use std::{
     collections::BTreeMap,
     fs::{self, File, OpenOptions},
     hash::{DefaultHasher, Hash, Hasher as _},
-    io::{BufReader, Read, Seek, Write},
+    io::{BufReader, Read, Seek, SeekFrom, Write},
     path::PathBuf,
     process::Command,
     sync::LazyLock,
@@ -244,6 +244,7 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
         _ => fix_zip(&mut download, &mut file)?,
     }
 
+    file.seek(SeekFrom::Start(0))?;
     if should_cache {
         let file_hash = hash_file(&mut file)?;
         cache.insert(
