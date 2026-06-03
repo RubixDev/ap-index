@@ -35,6 +35,7 @@ tags = ["ad"]'
 name = "$name"
 display_name = "$display"$tags
 discord = "$discord"
+status = "custom"
 default_url = "$url"
 
   [worlds.versions]

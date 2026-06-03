@@ -18,6 +18,9 @@ use zip::{ZipArchive, ZipWriter, write::SimpleFileOptions};
 
 static CLIENT: LazyLock<Client> = LazyLock::new(Client::new);
 
+// TODO: make this have the same source of truth as the dockerfile
+const AP_VERSION: Version = Version::new(0, 6, 7);
+
 #[derive(Debug, serde::Deserialize)]
 struct Index {
     worlds: Vec<World>,
@@ -30,9 +33,19 @@ struct World {
     #[serde(default)]
     tags: Vec<Tag>,
     discord: Option<String>,
-    default_url: Option<String>,
-    default_path_in_zip: Option<PathBuf>,
-    versions: BTreeMap<Version, WorldVersion>,
+    #[serde(flatten)]
+    status: Status,
+}
+
+#[derive(Debug, Hash, serde::Deserialize)]
+#[serde(tag = "status", rename_all = "lowercase")]
+enum Status {
+    Core,
+    Custom {
+        default_url: Option<String>,
+        default_path_in_zip: Option<PathBuf>,
+        versions: BTreeMap<Version, WorldVersion>,
+    },
 }
 
 #[serde_as]
@@ -106,9 +119,9 @@ fn main() -> Result<()> {
     }
 
     println!("generating schema");
-    // TODO: pass list of worlds (once core worlds are in index)
     Command::new("python")
         .arg("GenerateOptionSchema.py")
+        .args(toml.worlds.iter().map(|world| &world.name))
         .status()?;
 
     println!("creating index.json");
@@ -126,9 +139,12 @@ fn main() -> Result<()> {
             ))
             .with_context(|| format!("reading {}", entry.path().display()))?;
             let info = toml.worlds.iter().find(|w| w.name == schema.name);
-            schema.sane_version = info
-                .and_then(|w| w.versions.last_key_value())
-                .map(|entry| entry.0.clone());
+            schema.sane_version = info.and_then(|w| match &w.status {
+                Status::Core => Some(AP_VERSION),
+                Status::Custom { versions, .. } => {
+                    versions.last_key_value().map(|entry| entry.0.clone())
+                }
+            });
             schema.display_name = info.map(|w| w.display_name.clone());
             schema.tags = info.map(|w| w.tags.clone()).unwrap_or_default();
             schema.wiki = info.map(|w| {
@@ -170,12 +186,20 @@ fn hash_file(file: &mut File) -> Result<[u8; 32]> {
 }
 
 fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
+    let Status::Custom {
+        default_url,
+        default_path_in_zip,
+        versions,
+    } = &world.status
+    else {
+        return Ok(());
+    };
     let filename = format!("custom_worlds/{}.apworld", world.name);
     let world_hash = hash(world);
     // don't cache if the world has only a single 0.0.0 version, as that
     // indicates unversioned, "latest-only" links
-    let should_cache = !(world.versions.len() == 1
-        && matches!(world.versions.first_key_value(), Some((v, _)) if *v == Version::new(0, 0, 0)));
+    let should_cache = !(versions.len() == 1
+        && matches!(versions.first_key_value(), Some((v, _)) if *v == Version::new(0, 0, 0)));
     if should_cache
         && let Some(hashes) = cache.get(&world.name)
         && hashes.info == world_hash
@@ -188,14 +212,12 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
         }
     }
 
-    let (version, version_info) = world
-        .versions
+    let (version, version_info) = versions
         .last_key_value()
         .context("at least one version is required")?;
     let url = match version_info {
         WorldVersion::Url(Some(url)) | WorldVersion::Full { url: Some(url), .. } => url.clone(),
-        WorldVersion::Url(None) => world
-            .default_url
+        WorldVersion::Url(None) => default_url
             .as_ref()
             .context("default_url must be set when version-specific url is missing")?
             .replace("{{version}}", &version.to_string()),
@@ -203,8 +225,7 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
             url: None,
             as_version,
             ..
-        } => world
-            .default_url
+        } => default_url
             .as_ref()
             .context("default_url must be set when version-specific url is missing")?
             .replace(
@@ -225,7 +246,7 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
         .truncate(true)
         .open(&filename)?;
 
-    match (&world.default_path_in_zip, version_info) {
+    match (default_path_in_zip, version_info) {
         (
             _,
             WorldVersion::Full {
