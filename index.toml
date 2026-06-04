@@ -4321,7 +4321,7 @@ default_url = "https://github.com/hasherwi/Archipelago-kirbyam/releases/download
   "0.1.0" = ""
   "0.1.1" = ""
   "0.1.2" = ""
-  "0.2.0-rc.6" = { as = "0.2.0-rc6" }
+  "0.2.0-rc.6" = { as = "0.2.0-rc7" }
 
 [[worlds]]
 name = "k64"
@@ -10053,6 +10053,7 @@ default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{
   "0.2.2" = ""
   "0.3.0" = ""
   "0.4.0" = ""
+  "0.4.1" = ""
 
 [[worlds]]
 name = "Twilight Princess"
