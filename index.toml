@@ -1098,6 +1098,7 @@ default_url = "https://github.com/Nichologeam/CUAP/releases/download/v{{version}
   "0.9.1" = ""
   "0.9.2" = ""
   "0.9.3" = ""
+  "0.10.0" = ""
 
 [[worlds]]
 name = "cat_quest"
@@ -2072,19 +2073,11 @@ default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/downloa
   "1.2.0" = ""
   "1.2.1" = ""
   "2.0.0-beta.1" = { as = "2.0.0+beta-1" }
-  "2.0.0-beta.2" = { as = "2.0.0+beta2" }
-  "2.0.0-beta.2.a" = { as = "2.0.0+beta2a" }
-  "2.0.0-beta.2.b" = { as = "2.0.0+beta2b" }
-  "2.0.0-beta.2.c" = { as = "2.0.0+beta2c" }
-  "2.0.0-beta.2.d" = { as = "2.0.0+beta2d" }
-  "2.0.0-beta.3" = { as = "2.0.0+beta3" }
-  "2.0.0-beta.3.a" = { as = "2.0.0+beta3a" }
-  "2.0.0-beta.3.b" = { as = "2.0.0+beta3b-hotfix" }
-  "2.0.0-beta.3.c" = { as = "2.0.0+beta3c" }
-  "2.0.0-pre.1" = { as = "2.0.0+pre-release-1" }
-  "2.0.0-pre.1.b" = { as = "2.0.0+pre-release-1b" }
-  "2.0.0-pre.1.c" = { as = "2.0.0+pre-release-1c" }
-  "2.0.0-pre.2" = { as = "2.0.0+pre-release-2" }
+  "2.0.0-beta.2" = { as = "2.0.0+beta2d" }
+  "2.0.0-beta.3" = { as = "2.0.0+beta3c" }
+  "2.0.0-pre.1" = { as = "2.0.0+pre-release-1c" }
+  "2.0.0-pre.2" = { as = "2.0.0+pre-release-2b" }
+  "2.0.0-pre.3" = { as = "2.0.0+pre-release-3" }
 
 [[worlds]]
 name = "dmc3"
