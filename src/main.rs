@@ -95,6 +95,8 @@ struct WorldSchema {
     wiki: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     discord: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    download: Option<String>,
 }
 
 fn main() -> Result<()> {
@@ -154,6 +156,18 @@ fn main() -> Result<()> {
                 )
             });
             schema.discord = info.and_then(|w| w.discord.clone());
+            schema.download = info.and_then(|w| {
+                let Status::Custom {
+                    default_url,
+                    versions,
+                    ..
+                } = &w.status
+                else {
+                    return None;
+                };
+                let (version, version_info) = versions.last_key_value()?;
+                download_url_for_world(default_url.as_deref(), version, version_info).ok()
+            });
             index.push(schema);
         }
     }
@@ -195,6 +209,31 @@ fn hash_file(file: &mut File) -> Result<[u8; 32]> {
     Ok(hasher.0.finalize().0)
 }
 
+fn download_url_for_world(
+    default_url: Option<&str>,
+    version: &Version,
+    version_info: &WorldVersion,
+) -> Result<String> {
+    Ok(match version_info {
+        WorldVersion::Url(Some(url)) | WorldVersion::Full { url: Some(url), .. } => url.clone(),
+        WorldVersion::Url(None) => default_url
+            .as_ref()
+            .context("default_url must be set when version-specific url is missing")?
+            .replace("{{version}}", &version.to_string()),
+        WorldVersion::Full {
+            url: None,
+            as_version,
+            ..
+        } => default_url
+            .as_ref()
+            .context("default_url must be set when version-specific url is missing")?
+            .replace(
+                "{{version}}",
+                &as_version.clone().unwrap_or_else(|| version.to_string()),
+            ),
+    })
+}
+
 fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
     let Status::Custom {
         default_url,
@@ -225,24 +264,7 @@ fn download_world(world: &World, cache: &mut Cache) -> Result<()> {
     let (version, version_info) = versions
         .last_key_value()
         .context("at least one version is required")?;
-    let url = match version_info {
-        WorldVersion::Url(Some(url)) | WorldVersion::Full { url: Some(url), .. } => url.clone(),
-        WorldVersion::Url(None) => default_url
-            .as_ref()
-            .context("default_url must be set when version-specific url is missing")?
-            .replace("{{version}}", &version.to_string()),
-        WorldVersion::Full {
-            url: None,
-            as_version,
-            ..
-        } => default_url
-            .as_ref()
-            .context("default_url must be set when version-specific url is missing")?
-            .replace(
-                "{{version}}",
-                &as_version.clone().unwrap_or_else(|| version.to_string()),
-            ),
-    };
+    let url = download_url_for_world(default_url.as_deref(), version, version_info)?;
 
     let mut resp = CLIENT.get(url).send()?.error_for_status()?;
     const MAX_SPOOL_SIZE: usize = 20 * 1024 * 1024; // 20 MiB
