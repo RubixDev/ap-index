@@ -8,7 +8,7 @@ use std::{
     sync::LazyLock,
 };
 
-use anyhow::{Context, Result};
+use anyhow::{Context, Result, bail};
 use digest_io::IoWrapper;
 use reqwest::blocking::Client;
 use semver::Version;
@@ -169,6 +169,16 @@ fn main() -> Result<()> {
         &index,
     )
     .context("writing index.json")?;
+
+    let missing_worlds = toml
+        .worlds
+        .iter()
+        .map(|world| world.name.as_str())
+        .filter(|&world| !index.iter().any(|w| world == w.name))
+        .collect::<Vec<_>>();
+    if !missing_worlds.is_empty() {
+        bail!("some worlds failed to generate a schema: {missing_worlds:?}");
+    }
 
     Ok(())
 }
