@@ -114,6 +114,18 @@ fn main() -> Result<()> {
 
     fs::create_dir_all("custom_worlds")?;
     _ = fs::create_dir_all("Players");
+    // remove existing worlds that are not in the index
+    for entry in fs::read_dir("custom_worlds")?.filter_map(|e| e.ok()) {
+        if entry.path().is_file()
+            && entry.path().file_name().is_some_and(|f| {
+                f.to_string_lossy()
+                    .strip_suffix(".apworld")
+                    .is_some_and(|name| !toml.worlds.iter().any(|world| world.name == name))
+            })
+        {
+            _ = fs::remove_file(entry.path());
+        }
+    }
     for world in &toml.worlds {
         println!("downloading {}", world.name);
         download_world(world, &mut cache)
@@ -121,6 +133,7 @@ fn main() -> Result<()> {
     }
 
     println!("generating schema");
+    _ = fs::remove_dir_all("schema");
     Command::new("python")
         .arg("GenerateOptionSchema.py")
         .args(toml.worlds.iter().map(|world| &world.name))
