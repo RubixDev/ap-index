@@ -2077,6 +2077,7 @@ default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/downloa
   "2.0.0-beta.3" = { as = "2.0.0+beta3c" }
   "2.0.0-pre.1" = { as = "2.0.0+pre-release-1c" }
   "2.0.0-pre.2" = { as = "2.0.0+pre-release-2b" }
+  "2.0.0-pre.3" = { as = "2.0.0+pre-release-3" }
 
 [[worlds]]
 name = "dmc3"
@@ -2594,6 +2595,7 @@ default_url = "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago/re
   [worlds.versions]
   "0.1.0" = ""
   "0.2.0" = ""
+  "0.3.0" = ""
 
 [[worlds]]
 name = "everhood_2"
@@ -2878,6 +2880,8 @@ default_url = "https://github.com/FFX-AP/Archipelago/releases/download/v{{versio
   "0.6.1" = ""
   "0.7.0" = ""
   "0.7.1" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
 
 [[worlds]]
 name = "ff12_open_world"
@@ -4730,6 +4734,7 @@ default_url = "https://github.com/Str8UpWHITE64/Librarian-AP/releases/download/{
   "1.1.0-beta.5" = { as = "1.1.0-beta5" }
   "1.1.0-beta.6" = { as = "1.1.0-beta6.2" }
   "1.1.0-rc.1" = { as = "1.1.0-rc1" }
+  "1.1.0-rc.2" = { as = "1.1.0-rc2" }
 
 [[worlds]]
 name = "lobap"
@@ -10952,6 +10957,7 @@ default_url = "https://github.com/energymaster22/YARGArchipelago/releases/downlo
   "0.0.15" = ""
   "0.0.16" = ""
   "0.0.17" = ""
+  "0.0.18" = ""
 
 [[worlds]]
 name = "YARGAllSetlists"
