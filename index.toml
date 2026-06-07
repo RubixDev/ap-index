@@ -4408,6 +4408,7 @@ default_url = "https://github.com/Crownmuri/Archipelago/releases/download/v{{ver
   "0.7.5" = ""
   "0.8.0" = ""
   "0.8.1" = ""
+  "0.8.2" = ""
 
 [[worlds]]
 name = "laika_aged_through_blood"
@@ -8305,6 +8306,7 @@ default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{
   "0.4.4" = ""
   "0.4.5" = ""
   "0.4.6" = ""
+  "0.4.7" = ""
 
 [[worlds]]
 name = "shadowgate64"
