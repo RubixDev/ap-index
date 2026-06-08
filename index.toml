@@ -2283,6 +2283,7 @@ default_url = "https://github.com/2dos/DK64-Randomizer-Release/releases/download
   "1.5.1" = ""
   "1.5.3" = ""
   "1.5.5" = ""
+  "1.5.7" = ""
 
 [[worlds]]
 name = "dkc"
@@ -8776,6 +8777,18 @@ default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHom
   "1.0.9" = ""
 
 [[worlds]]
+name = "sm64ex_spicy"
+display_name = "SM64: Spicy Mycena 64"
+discord = "https://discord.com/channels/731205301247803413/1513072274167824435"
+status = "custom"
+default_url = "https://github.com/Alchav/Archipelago/releases/download/spicy-{{version}}/sm64ex_spicy.apworld"
+
+  [worlds.versions]
+  "0.0.1" = ""
+  "0.0.2" = ""
+  "0.0.3" = ""
+
+[[worlds]]
 name = "waffles"
 display_name = "SMW: Spicy Mycena Waffles"
 discord = "https://discord.com/channels/731205301247803413/1435322478024200202"
@@ -8919,6 +8932,7 @@ default_url = "https://github.com/SilicDev/Archipelago/releases/download/scds-v{
   "0.1.0" = ""
   "0.2.0" = ""
   "0.2.1" = ""
+  "0.2.2" = ""
 
 [[worlds]]
 name = "SonicFrontiers"
@@ -10886,6 +10900,7 @@ default_url = "https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/downlo
   "0.2.1" = ""
   "0.2.2" = ""
   "0.3.0" = ""
+  "0.3.1" = ""
 
 [[worlds]]
 name = "x2wotc"
