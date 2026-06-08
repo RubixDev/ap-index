@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# useful helix macros (yank with "@y):
+# yank versions by line for pasting to helper script: %<A-s><S-A><space><del><esc>,glhgh<space>y
+# give an alias to a version: glhvlc{<space>as<space>=<space>""<space><esc>ghwllmi"yglhh<S-P>jghwl
+
 while true; do
   printf "Display Name: "
   read -r display
