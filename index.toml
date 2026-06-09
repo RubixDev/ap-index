@@ -1243,6 +1243,7 @@ default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/downloa
   "1.1.6" = ""
   "1.1.7" = ""
   "1.2.0" = ""
+  "1.2.1" = ""
 
 [[worlds]]
 name = "ctjot"
@@ -2084,6 +2085,8 @@ default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/downloa
   "2.0.0-pre.1" = { as = "2.0.0+pre-release-1c" }
   "2.0.0-pre.2" = { as = "2.0.0+pre-release-2b" }
   "2.0.0-pre.3" = { as = "2.0.0+pre-release-3" }
+  "2.0.1" = ""
+  "2.0.2" = ""
 
 [[worlds]]
 name = "dmc3"
@@ -4205,6 +4208,7 @@ default_url = "https://github.com/nickdavies/Archipelago/releases/download/v{{ve
   "0.4.0" = ""
   "0.4.1" = ""
   "0.4.3" = ""
+  "0.5.0" = ""
 
 [[worlds]]
 name = "keymasters_keep"
@@ -4329,7 +4333,7 @@ default_url = "https://github.com/hasherwi/Archipelago-kirbyam/releases/download
   "0.1.0" = ""
   "0.1.1" = ""
   "0.1.2" = ""
-  "0.2.0-rc.8" = { as = "0.2.0-rc8" }
+  "0.2.0" = ""
 
 [[worlds]]
 name = "k64"
@@ -4479,6 +4483,7 @@ default_url = "https://github.com/IcyPenguin28/DotDAP/releases/download/{{versio
   "0.0.1" = ""
   "0.0.2" = ""
   "0.1.0" = ""
+  "0.1.1" = ""
 
 [[worlds]]
 name = "tloz_ooa"
@@ -6656,6 +6661,7 @@ default_url = "https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/download/
   "0.7.4" = ""
   "0.7.5" = ""
   "1.0.0" = ""
+  "1.0.1" = ""
 
 [[worlds]]
 name = "peak"
@@ -9626,6 +9632,7 @@ default_url = "https://github.com/barretg/Taskipelago/releases/download/v{{versi
   "0.8.3" = ""
   "0.9.0" = { as = "0.9" }
   "0.9.1" = ""
+  "0.9.2" = ""
 
 [[worlds]]
 name = "tcg_card_shop_simulator"
@@ -9924,6 +9931,7 @@ default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/downlo
   "0.9.13" = ""
   "0.10.0" = ""
   "0.10.1" = ""
+  "0.10.2" = ""
 
 [[worlds]]
 name = "tabs"
@@ -11150,6 +11158,7 @@ default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_
   "0.0.5" = ""
   "0.0.6" = ""
   "0.1.0" = ""
+  "0.1.1" = ""
 
 [[worlds]]
 name = "yoku"
