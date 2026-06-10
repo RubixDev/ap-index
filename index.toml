@@ -7120,6 +7120,7 @@ default_url = "https://github.com/gerbiljames/Archipelago-Crystal/releases/downl
   "5.4.3" = ""
   "5.4.4" = ""
   "5.4.5" = ""
+  "5.4.6" = ""
 
 [[worlds]]
 name = "pokemon_frlg"
@@ -9942,6 +9943,7 @@ default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/downlo
   "0.10.0" = ""
   "0.10.1" = ""
   "0.10.2" = ""
+  "0.10.3" = ""
 
 [[worlds]]
 name = "tabs"
@@ -10925,6 +10927,7 @@ default_url = "https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/downlo
   "0.2.2" = ""
   "0.3.0" = ""
   "0.3.1" = ""
+  "0.3.2" = ""
 
 [[worlds]]
 name = "x2wotc"
