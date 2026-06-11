@@ -145,6 +145,7 @@ default_url = "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases/down
   "0.4.2" = ""
   "0.4.3" = ""
   "0.4.4" = ""
+  "0.5.0" = ""
 
 [[worlds]]
 name = "apeescape"
@@ -340,6 +341,7 @@ default_url = "https://github.com/EmilyEmmi/Babapelago/releases/download/{{versi
   "0.0.0-beta.1.1" = { as = "b1.1" }
   "0.0.0-beta.1.2" = { as = "b1.2h" }
   "0.0.0-beta.2.0" = { as = "b2.0h" }
+  "0.0.0-beta.3.0" = { as = "b3.0" }
 
 [[worlds]]
 name = "backlog_expedition"
@@ -1579,33 +1581,36 @@ default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/d
   "0.6.7" = ""
   "0.6.8" = ""
   "0.6.9" = ""
+  "0.6.10" = ""
+  "0.6.11" = ""
   "0.7.0-pre.1" = ""
   "0.7.0-pre.2" = ""
   "0.7.0-pre.3" = ""
-  "0.6.10" = ""
-  "0.6.11" = ""
   "0.7.0" = ""
   "0.7.1" = ""
   "0.7.2" = ""
   "0.7.3" = ""
   "0.7.4" = ""
-  "0.8.0-pre.1" = ""
   "0.7.5" = ""
-  "0.8.0-pre.2" = ""
   "0.7.6" = ""
   "0.7.7" = ""
-  "0.8.0-pre.3" = ""
   "0.7.8" = ""
+  "0.8.0-pre.1" = ""
+  "0.8.0-pre.2" = ""
+  "0.8.0-pre.3" = ""
   "0.8.0" = ""
   "0.8.1" = ""
   "0.8.2-pre.1" = ""
   "0.8.2" = ""
   "0.8.3" = ""
-  "0.9.0-pre.1" = ""
   "0.8.4" = ""
-  "0.9.0-pre.2" = ""
   "0.8.5" = ""
+  "0.9.0-pre.1" = ""
+  "0.9.0-pre.2" = ""
   "0.9.0-pre.3" = ""
+  "0.9.0" = ""
+  "0.9.1" = ""
+  "0.9.2" = ""
 
 [[worlds]]
 name = "cotnd"
@@ -3199,6 +3204,7 @@ default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{vers
   "0.5.0-beta" = { as = "v0.5.0-beta" }
   "0.5.1-beta" = ""
   "0.5.2-beta" = ""
+  "0.5.3-beta" = ""
 
 [[worlds]]
 name = "gmod_apadv"
@@ -5250,6 +5256,7 @@ default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/
   "0.3.3" = ""
   "0.3.4" = ""
   "0.3.5" = ""
+  "0.3.6" = ""
 
 [[worlds]]
 name = "mario_super_sluggers"
@@ -5868,6 +5875,7 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/mhfu_{{v
 
   [worlds.versions]
   "0.0.1" = ""
+  "0.0.2" = ""
 
 [[worlds]]
 name = "mhrise"
@@ -6026,6 +6034,8 @@ default_url = "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/d
   "0.5.1" = ""
   "0.5.2" = ""
   "0.5.3" = ""
+  "0.5.4" = ""
+  "0.5.5" = ""
 
 # has invalid `random` choice
 # [[worlds]]
@@ -7264,28 +7274,30 @@ default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/pkmn
   "1.0.3" = ""
 
 [[worlds]]
-name = "PokemonStadium"
+name = "pokemon_stadium"
 display_name = "Pokémon Stadium"
 discord = "https://discord.com/channels/731205301247803413/1378008091450146816"
 status = "custom"
-default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v{{version}}/PokemonStadium.apworld"
+default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v{{version}}/pokemon_stadium.apworld"
 
   [worlds.versions]
-  "0.1.0" = ""
-  "0.2.0" = ""
-  "0.2.1" = ""
-  "0.3.0" = ""
-  "0.3.1" = ""
-  "0.4.0" = ""
-  "0.4.1" = ""
-  "0.4.2" = ""
-  "0.5.0" = ""
-  "0.5.1" = ""
-  "0.5.2" = ""
-  "0.5.3" = ""
-  "0.5.4" = ""
-  "0.5.5" = ""
-  "0.5.6" = ""
+  # they just silently renamed the world from PokemonStadium to pokemon_stadium in v0.5.7
+  # "0.1.0" = ""
+  # "0.2.0" = ""
+  # "0.2.1" = ""
+  # "0.3.0" = ""
+  # "0.3.1" = ""
+  # "0.4.0" = ""
+  # "0.4.1" = ""
+  # "0.4.2" = ""
+  # "0.5.0" = ""
+  # "0.5.1" = ""
+  # "0.5.2" = ""
+  # "0.5.3" = ""
+  # "0.5.4" = ""
+  # "0.5.5" = ""
+  # "0.5.6" = ""
+  "0.5.7" = ""
 
 [[worlds]]
 name = "pokepark"
@@ -8270,6 +8282,7 @@ default_url = "https://github.com/Totox00/Archipelago-sotm/releases/download/v{{
   "0.4.3" = ""
   "0.4.4" = ""
   "0.4.5" = ""
+  "0.4.6" = ""
 
 [[worlds]]
 name = "SettlersHeritageOfKings"
@@ -8330,6 +8343,7 @@ default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{
   "0.4.5" = ""
   "0.4.6" = ""
   "0.4.7" = ""
+  "0.4.8" = ""
 
 [[worlds]]
 name = "shadowgate64"
@@ -8540,6 +8554,7 @@ default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelag
   [worlds.versions]
   "0.1.0" = ""
   "1.0.0" = ""
+  "1.0.1" = ""
 
 [[worlds]]
 name = "ss"
@@ -8678,6 +8693,7 @@ default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{v
   "0.5.2" = ""
   "0.6.0" = ""
   "0.7.0" = ""
+  "0.7.1" = ""
 
 [[worlds]]
 name = "slotlock"
@@ -8810,6 +8826,7 @@ default_url = "https://github.com/Alchav/Archipelago/releases/download/spicy-{{v
   "0.0.1" = ""
   "0.0.2" = ""
   "0.0.3" = ""
+  "0.0.4" = ""
 
 [[worlds]]
 name = "waffles"
@@ -11275,6 +11292,7 @@ default_url = "https://github.com/JustinMarshall98/Archipelago---YuGiOh-Dungeon-
   "0.3.1" = ""
   "0.3.2" = ""
   "0.3.3" = ""
+  "0.3.4" = ""
 
 [[worlds]]
 name = "fm"
