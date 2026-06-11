@@ -3204,7 +3204,7 @@ default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{vers
   "0.5.0-beta" = { as = "v0.5.0-beta" }
   "0.5.1-beta" = ""
   "0.5.2-beta" = ""
-  "0.5.3-beta" = ""
+  "0.5.3-beta" = { as = "v0.5.3-beta" }
 
 [[worlds]]
 name = "gmod_apadv"
