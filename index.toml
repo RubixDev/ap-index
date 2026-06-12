@@ -870,6 +870,7 @@ default_url = "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/re
   "0.5.1" = ""
   "0.5.2" = ""
   "0.6.0" = ""
+  "0.7.0" = ""
 
 [[worlds]]
 name = "brotato"
@@ -1769,6 +1770,7 @@ default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/down
   "0.3.0" = { as = "0.3" }
   "0.4.0" = { as = "0.4" }
   "0.5.0" = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/Latest/cyberpunk2077.apworld"
+  "0.6.0" = { as = "0.6" }
 
 [[worlds]]
 name = "adofai"
@@ -3205,7 +3207,7 @@ default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{vers
   "0.5.0-beta" = { as = "v0.5.0-beta" }
   "0.5.1-beta" = ""
   "0.5.2-beta" = ""
-  "0.5.3-beta" = { as = "v0.5.3-beta" }
+  "0.5.3-beta" = ""
 
 [[worlds]]
 name = "gmod_apadv"
@@ -3853,6 +3855,7 @@ default_url = "https://github.com/DotsofdarknessArchipelago/HuniePopArchipelago/
   "2.1.2" = ""
   "2.2.0" = ""
   "2.3.0" = ""
+  "2.3.1" = ""
 
 [[worlds]]
 name = "huniepop2"
@@ -5453,6 +5456,7 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v{{v
   "1.1.0" = ""
   "1.1.1" = ""
   "1.2.0" = ""
+  "1.2.1" = ""
 
 [[worlds]]
 name = "mmx3"
@@ -5476,6 +5480,7 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v{{v
   "1.4.0" = ""
   "1.5.0" = ""
   "1.5.1" = ""
+  "1.5.2" = ""
 
 [[worlds]]
 name = "mmx4"
@@ -6682,6 +6687,7 @@ default_url = "https://github.com/CATEM1NAL/PD2-Criminal-Dawn/releases/download/
   "0.7.5" = ""
   "1.0.0" = ""
   "1.0.1" = ""
+  "1.0.2" = ""
 
 [[worlds]]
 name = "peak"
@@ -7574,6 +7580,7 @@ default_url = "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases/downl
   "1.4.7" = ""
   "1.5.0" = ""
   "1.5.1" = ""
+  "1.5.2" = ""
 
 [[worlds]]
 name = "rain_world"
@@ -7969,6 +7976,7 @@ default_url = "https://github.com/studkid/RiftArchipelago/releases/download/v{{v
   "0.10.0" = ""
   "0.11.0" = ""
   "0.12.0" = ""
+  "0.13.0" = ""
 
 [[worlds]]
 name = "riftwizard"
@@ -10151,6 +10159,7 @@ default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{
   "0.3.0" = ""
   "0.4.0" = ""
   "0.4.1" = ""
+  "0.4.2" = ""
 
 [[worlds]]
 name = "Twilight Princess"
@@ -10557,6 +10566,7 @@ default_url = "https://github.com/Studmuffin2227/VHAPMod/releases/download/v{{ve
   "1.2.1" = ""
   "1.2.2" = ""
   "1.2.3" = { as = ".1.2.3" }
+  "1.2.4-pre.1" = { as = ".1.2.4-pre" }
 
 [[worlds]]
 name = "very_very_valet"
