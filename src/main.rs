@@ -1,5 +1,5 @@
 use std::{
-    collections::BTreeMap,
+    collections::{BTreeMap, HashSet},
     fs::{self, File, OpenOptions},
     hash::{DefaultHasher, Hash, Hasher as _},
     io::{BufReader, Read, Seek, SeekFrom, Write},
@@ -335,6 +335,7 @@ fn save_cache(cache: &Cache) -> Result<()> {
 
 /// Fixes zip archives with invalid backslash path separators to use forward slashes.
 fn fix_zip(input: impl Read + Seek, output: impl Write + Seek) -> Result<()> {
+    let mut files = HashSet::new();
     let mut src = ZipArchive::new(input)?;
     let mut dst = ZipWriter::new(output);
 
@@ -345,6 +346,11 @@ fn fix_zip(input: impl Read + Seek, output: impl Write + Seek) -> Result<()> {
         let mut filename = file.name().replace('\\', "/");
         if file.is_dir() && !filename.ends_with('/') {
             filename.push('/');
+        }
+
+        // only copy the first instance of each file
+        if !files.insert(filename.clone()) {
+            continue;
         }
 
         // copy metadata
