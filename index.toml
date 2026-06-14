@@ -1771,7 +1771,7 @@ default_url = "https://github.com/247Tossing/cyberpunk_archipelago/releases/down
   "0.3.0" = { as = "0.3" }
   "0.4.0" = { as = "0.4" }
   "0.5.0" = { as = "0.5" }
-  "0.6.0" = { as = "0.6" }
+  "0.6.0" = "https://github.com/247Tossing/cyberpunk_archipelago/releases/download/Latest/cyberpunk2077.apworld"
 
 [[worlds]]
 name = "adofai"
