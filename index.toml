@@ -74,6 +74,7 @@ default_url = "https://github.com/1-800-thewolf/AoM-Archipelago/releases/downloa
   "1.3.0" = ""
   "1.3.1" = ""
   "1.3.2" = ""
+  "1.3.3" = ""
 
 [[worlds]]
 name = "air_delivery"
@@ -1925,6 +1926,7 @@ default_url = "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/d
   "0.1.1" = ""
   "0.1.2" = ""
   "0.1.3" = ""
+  "0.1.4" = ""
 
 [[worlds]]
 name = "drdr"
@@ -5793,6 +5795,7 @@ default_url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/downl
 
   [worlds.versions]
   "0.1.0-alpha" = { as = "alpha" }
+  "0.2.0-alpha" = ""
 
 [[worlds]]
 name = "tmc"
@@ -7040,6 +7043,7 @@ default_url = "https://github.com/CazIsABoi/Archipelago/releases/download/{{vers
   "0.2.6-beta.2" = { as = "0.2.6.2" }
   "0.2.6-beta.3" = { as = "0.2.6.3" }
   "0.2.6-beta.4" = { as = "0.2.6.4" }
+  "0.2.6-beta.5" = { as = "0.2.6.5" }
 
 [[worlds]]
 name = "plok"
@@ -8477,6 +8481,7 @@ default_url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/downlo
   "1.1.0" = { as = "1.1.0-Hotfix" }
   "1.2.0" = ""
   "1.2.1" = ""
+  "1.3.0" = ""
 
 [[worlds]]
 name = "pocket_dungeon"
@@ -9967,6 +9972,16 @@ default_url = "https://github.com/bbernardoni/Archipelago.TOEM/releases/download
   "2.0.6" = ""
 
 [[worlds]]
+name = "tr1r"
+display_name = "Tomb Raider 1 Remastered"
+discord = "https://discord.com/channels/731205301247803413/1213990322036543558"
+status = "custom"
+default_url = "https://github.com/ReynierMatth/archipelago-tomb-raider-1-remastered/releases/download/v{{version}}/tr1r.apworld"
+
+  [worlds.versions]
+  "0.1.5" = ""
+
+[[worlds]]
 name = "aptombola"
 display_name = "AP Tombola"
 discord = "https://discord.com/channels/731205301247803413/1475176727235002571"
@@ -10242,6 +10257,7 @@ default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{
   "0.4.0" = ""
   "0.4.1" = ""
   "0.4.2" = ""
+  "0.4.3" = ""
 
 [[worlds]]
 name = "Twilight Princess"
