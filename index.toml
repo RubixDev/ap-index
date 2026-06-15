@@ -9971,15 +9971,16 @@ default_url = "https://github.com/bbernardoni/Archipelago.TOEM/releases/download
   "2.0.5" = ""
   "2.0.6" = ""
 
-[[worlds]]
-name = "tr1r"
-display_name = "Tomb Raider 1 Remastered"
-discord = "https://discord.com/channels/731205301247803413/1213990322036543558"
-status = "custom"
-default_url = "https://github.com/ReynierMatth/archipelago-tomb-raider-1-remastered/releases/download/v{{version}}/tr1r.apworld"
+# fails with some missing file or something
+# [[worlds]]
+# name = "tr1r"
+# display_name = "Tomb Raider 1 Remastered"
+# discord = "https://discord.com/channels/731205301247803413/1213990322036543558"
+# status = "custom"
+# default_url = "https://github.com/ReynierMatth/archipelago-tomb-raider-1-remastered/releases/download/v{{version}}/tr1r.apworld"
 
-  [worlds.versions]
-  "0.1.5" = ""
+#   [worlds.versions]
+#   "0.1.5" = ""
 
 [[worlds]]
 name = "aptombola"
