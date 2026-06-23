@@ -424,6 +424,7 @@ default_url = "https://github.com/zane31415/ArchipelagoBG3/releases/download/v{{
   "0.4.4" = ""
   "0.4.5" = ""
   "0.5.0" = ""
+  "0.6.0" = ""
 
 [[worlds]]
 name = "bg3tot"
@@ -1329,6 +1330,7 @@ default_url = "https://github.com/1313e/Civ-V-AP-World/releases/download/v{{vers
   "0.9.7" = ""
   "0.9.8" = ""
   "0.10.0" = ""
+  "0.10.1" = ""
 
 [[worlds]]
 name = "clair_obscur"
@@ -2195,6 +2197,8 @@ default_path_in_zip = "apworld/diablo2_archipelago.apworld"
   "1.9.10-beta" = { as = "Beta-1.9.10" }
   "1.9.11-beta" = { as = "Beta-1.9.11" }
   "1.9.12-beta" = { as = "Beta-1.9.12" }
+  "1.9.13-beta" = { as = "Beta-1.9.13" }
+  "2.0.0" = { as = "Stable-2.0.0" }
 
 [[worlds]]
 name = "diceydungeons"
@@ -4898,6 +4902,7 @@ default_url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v{{vers
   "1.0.0-pre.2" = { as = "1.0.0-beta" }
   "1.0.0-pre.3" = { as = "1.0.0-gamma" }
   "1.0.0-pre.4" = { as = "1.0.0-delta" }
+  "1.0.0-pre.5" = { as = "1.0.0-epsilon" }
 
 [[worlds]]
 name = "liesofp"
@@ -5366,6 +5371,7 @@ default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/
   "1.0.1" = ""
   "1.0.2" = ""
   "1.0.4" = ""
+  "1.0.5" = ""
 
 [[worlds]]
 name = "mario_super_sluggers"
@@ -6222,6 +6228,7 @@ default_url = "https://github.com/StefanDucharme/nonogram-archipelago/releases/d
   "0.5.0" = { as = "0.5" }
   "0.6.3" = ""
   "0.6.7" = ""
+  "0.6.8" = ""
 
 [[worlds]]
 name = "nothing_archipelago"
@@ -7429,6 +7436,7 @@ default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/down
   # "0.5.5" = ""
   # "0.5.6" = ""
   "0.5.7" = ""
+  "0.5.8" = ""
 
 [[worlds]]
 name = "pokepark"
@@ -7669,6 +7677,7 @@ default_url = "https://github.com/tjwombo/RNSArchipelago/releases/download/v{{ve
   "0.3.1" = { as = "0.3.1-fix" }
   "0.3.2" = { as = "0.3.2-fix3" }
   "0.3.3" = ""
+  "0.3.4" = ""
 
 [[worlds]]
 name = "rabi_ribi"
@@ -8852,6 +8861,7 @@ default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{v
   "0.7.0" = ""
   "0.7.1" = ""
   "0.8.0" = ""
+  "0.9.0" = ""
 
 [[worlds]]
 name = "slotlock"
@@ -10355,6 +10365,7 @@ default_url = "https://github.com/chikakoo/Turok-2-AP-World/releases/download/v{
   "0.4.2" = ""
   "0.4.3" = ""
   "0.4.4" = ""
+  "0.4.5" = ""
 
 [[worlds]]
 name = "Twilight Princess"
@@ -10942,6 +10953,7 @@ default_url = "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/releases/d
   "0.4.0" = ""
   "0.4.1" = ""
   "0.5.0" = ""
+  "0.5.1" = ""
 
 [[worlds]]
 name = "wl4"
@@ -11010,6 +11022,7 @@ default_url = "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/release
 
   [worlds.versions]
   "0.1.0" = ""
+  "0.1.1" = ""
 
 [[worlds]]
 name = "webfishing"
@@ -11424,6 +11437,7 @@ default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_
   "0.0.6" = ""
   "0.1.0" = ""
   "0.1.1" = ""
+  "0.1.2" = ""
 
 [[worlds]]
 name = "yoku"
