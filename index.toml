@@ -7788,7 +7788,7 @@ default_url = "https://github.com/EnzoBagnis/RataloricaAP/releases/download/{{ve
   "1.2.0" = ""
 
 [[worlds]]
-name = "RAC1"
+name = "rac1"
 display_name = "Ratchet & Clank"
 discord = "https://discord.com/channels/731205301247803413/1146024297324879872"
 status = "custom"
@@ -7799,7 +7799,7 @@ default_url = "https://github.com/Panda291/Archipelago/releases/download/v{{vers
   "0.1.1" = ""
   "0.1.2" = ""
   "0.1.3" = ""
-  "0.2.0-beta" = { as = "0.2b" }
+  # "0.2.0-beta" = { as = "0.2b" }  # named RAC1 (uppercase) for some reason
   "0.2.1-beta" = { as = "0.2.1b" }
 
 [[worlds]]
