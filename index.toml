@@ -3957,19 +3957,21 @@ default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{versi
   "0.15.0" = { as = "0.15.0-hotfix" }
   "0.15.1" = ""
 
-[[worlds]]
-name = "Hades2Rogue"
-display_name = "Hades2Rogue"
-discord = "https://discord.com/channels/731205301247803413/1521929337954238624"
-status = "custom"
-default_url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v{{version}}/Hades2Rogue.apworld"
+# invalid 'random' option: https://github.com/BrittisH39/Hades2Archipelago/issues/1
+# [[worlds]]
+# name = "Hades2Rogue"
+# display_name = "Hades2Rogue"
+# discord = "https://discord.com/channels/731205301247803413/1521929337954238624"
+# status = "custom"
+# default_url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v{{version}}/Hades2Rogue.apworld"
 
-  [worlds.versions]
-  "0.1.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.0/Hades2Rogue.apworld"
-  "0.1.5" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.5/Hades2Rogue.apworld"
-  "0.2.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.2.0/Hades2Rogue.apworld"
-  "0.3.0" = ""
-  "0.4.0" = ""
+#   [worlds.versions]
+#   # "0.1.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.0/Hades2Rogue.apworld"
+#   # "0.1.5" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.5/Hades2Rogue.apworld"
+#   # changed world name
+#   "0.2.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.2.0/Hades2Rogue.apworld"
+#   "0.3.0" = ""
+#   "0.4.0" = ""
 
 [[worlds]]
 name = "halo_mcc"
