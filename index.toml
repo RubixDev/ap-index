@@ -164,6 +164,8 @@ default_url = "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases/down
   "0.4.3" = ""
   "0.4.4" = ""
   "0.5.0" = ""
+  "0.5.1" = ""
+  "0.5.2" = ""
 
 [[worlds]]
 name = "rummy"
@@ -211,6 +213,17 @@ default_url = "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/d
   "0.9.7" = ""
   "0.9.8" = ""
   "0.9.9" = ""
+
+[[worlds]]
+name = "ae2"
+display_name = "Ape Escape 2"
+discord = "https://discord.com/channels/731205301247803413/1401349387229073438"
+status = "custom"
+default_url = "https://github.com/dannybonz/ae2_archipelago/releases/download/v{{version}}/ae2.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
 
 [[worlds]]
 name = "ape_escape_3"
@@ -298,6 +311,7 @@ default_url = "https://github.com/Totox00/ap-ahlcg/releases/download/v{{version}
   "0.0.4" = ""
   "0.1.1" = ""
   "0.1.3" = ""
+  "0.1.4" = ""
 
 [[worlds]]
 name = "armoredcore"
@@ -662,6 +676,7 @@ default_url = "https://github.com/NaveTK/Archipelago/releases/download/v{{versio
   "0.4.0" = ""
   "0.4.1" = ""
   "0.4.2" = ""
+  "0.4.3" = ""
 
 [[worlds]]
 name = "APBingo"
@@ -740,6 +755,7 @@ default_url = "https://github.com/furret78/Archipelago/releases/download/{{versi
   "0.3.3-beta" = { as = "unstable-0.3.3" }
   "0.4.0-beta" = { as = "unstable-0.4.0" }
   "0.4.1-beta" = { as = "unstable-0.4.1" }
+  "0.4.2-beta" = { as = "unstable-0.4.2" }
 
 [[worlds]]
 name = "cod_bo3"
@@ -773,6 +789,8 @@ default_url = "https://github.com/colin969/bo3_archipelago/releases/download/{{v
   "0.5.4" = ""
   "0.5.5" = ""
   "0.5.6" = ""
+  "0.5.7" = ""
+  "0.5.8" = ""
 
 [[worlds]]
 name = "blasphemous2"
@@ -793,6 +811,7 @@ default_url = "https://github.com/GBFound/BlenderArchipelago/releases/download/{
 
   [worlds.versions]
   "0.1.0" = ""
+  "0.2.0" = ""
 
 [[worlds]]
 name = "blockupelago"
@@ -935,6 +954,7 @@ default_url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v{{ve
   "0.5.1" = ""
   "0.5.2" = ""
   "0.5.3" = ""
+  "0.5.4" = ""
 
 [[worlds]]
 name = "bfm"
@@ -1029,6 +1049,9 @@ default_url = "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/release
   [worlds.versions]
   "1.0.0" = { as = "1.0" }
   "1.1.0" = { as = "1.1" }
+  "1.2.0" = { as = "1.2" }
+  "1.2.1" = ""
+  "1.2.2" = ""
 
 [[worlds]]
 name = "buckshot"
@@ -1176,6 +1199,7 @@ default_url = "https://github.com/anonymous-heap/Archipelago/releases/download/c
   "2026.6.17" = { as = "2026.06.17" }
   "2026.6.20" = { as = "2026.06.20.6" }
   "2026.6.22" = { as = "2026.06.22" }
+  "2026.7.13" = { as = "2026.07.13" }
 
 [[worlds]]
 name = "cvhodis"
@@ -1223,6 +1247,17 @@ default_url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download
   "1.1.0" = { as = "1.1" }
 
 [[worlds]]
+name = "cv_ooe"
+display_name = "Castlevania: Order of Ecclesia"
+discord = "https://discord.com/channels/731205301247803413/1526805395086119033"
+status = "custom"
+default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvooe{{version}}/cv_ooe.apworld"
+
+  [worlds.versions]
+  "1.0.0" = { as = "1.0" }
+  "1.0.1" = ""
+
+[[worlds]]
 name = "cv_por"
 display_name = "Castlevania: Portrait of Ruin"
 discord = "https://discord.com/channels/731205301247803413/1499830100886032466"
@@ -1239,6 +1274,7 @@ default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvpor
   "1.2.2" = ""
   "1.3.0" = { as = "1.3" }
   "1.3.1" = ""
+  "1.3.2" = ""
 
 [[worlds]]
 name = "casualtiesunknown"
@@ -1430,6 +1466,7 @@ default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/downloa
   "1.2.1" = ""
   "1.2.2" = ""
   "1.2.3" = { as = "1.2.3.1" }
+  "1.2.5" = ""
 
 [[worlds]]
 name = "chrono_gear"
@@ -1505,6 +1542,7 @@ default_url = "https://github.com/1313e/Civ-V-AP-World/releases/download/v{{vers
   "0.10.3" = ""
   "0.10.4" = ""
   "0.10.5" = ""
+  "0.10.6" = ""
 
 [[worlds]]
 name = "clair_obscur"
@@ -1751,6 +1789,17 @@ default_url = "https://github.com/Sim10XXX/C2AP/releases/download/v{{version}}/c
   "0.4.1" = ""
 
 [[worlds]]
+name = "ctr"
+display_name = "Crash Team Racing"
+discord = "https://discord.com/channels/731205301247803413/1222304293751750777"
+status = "custom"
+default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{version}}/ctr.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
 name = "crazy_taxi"
 display_name = "Crazy Taxi"
 discord = "https://discord.com/channels/731205301247803413/1504734028132257813"
@@ -1855,6 +1904,7 @@ default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/d
   "0.9.1" = ""
   "0.9.2" = ""
   "0.9.3" = ""
+  "0.9.4" = ""
 
 [[worlds]]
 name = "cotnd"
@@ -1915,6 +1965,8 @@ default_url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/downlo
   "0.14.0" = ""
   "0.15.0" = ""
   "0.15.1" = ""
+  "0.16.0" = ""
+  "0.17.0" = ""
 
 [[worlds]]
 name = "crystalis"
@@ -1944,7 +1996,7 @@ default_url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/
   [worlds.versions]
   "0.0.1-alpha" = { as = "alpha01f" }
   "0.0.2-alpha" = { as = "alpha02i.1" }
-  "0.0.3-alpha" = { as = "alpha03f" }
+  "0.0.3-alpha" = { as = "alpha03h" }
 
 [[worlds]]
 name = "Cursed_Mario_64"
@@ -2354,6 +2406,7 @@ default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/downloa
   "2.0.3" = ""
   "2.0.4" = ""
   "2.0.5" = ""
+  "2.0.6" = ""
 
 [[worlds]]
 name = "dmc3"
@@ -2660,6 +2713,7 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/toluca-v{
   "0.2.3" = ""
   "1.0.0" = ""
   "1.0.1" = ""
+  "1.0.2" = ""
 
 [[worlds]]
 name = "dtdds"
@@ -2778,6 +2832,19 @@ default_url = "https://github.com/kid2407/ArchipelagoDQIX/releases/download/{{ve
   "0.1.1" = ""
 
 [[worlds]]
+name = "dqm2"
+display_name = "Dragon Quest Monsters 2"
+discord = "https://discord.com/channels/731205301247803413/1469907140951933021"
+status = "custom"
+default_url = "https://github.com/Whizzlefern/Archipelago/releases/download/dqm2-v{{version}}/dqm2.apworld"
+
+  [worlds.versions]
+  "0.0.1-alpha.1" = { as = "0.0.1-alpha" }
+  "0.0.1-alpha.2" = { as = "0.0.1-alpha-2" }
+  "0.0.1" = ""
+  "0.0.2" = ""
+
+[[worlds]]
 name = "dragon_warrior"
 display_name = "Dragon Warrior"
 discord = "https://discord.com/channels/731205301247803413/1132150057852997733"
@@ -2855,6 +2922,7 @@ default_url = "https://github.com/randomcodegen/NBloodAP/releases/download/{{ver
   [worlds.versions]
   "0.0.5" = ""
   "0.0.6" = ""
+  "0.0.7" = ""
 
 # see https://github.com/agilbert1412/Clawrchipelago/issues/1
 # [[worlds]]
@@ -2991,6 +3059,8 @@ default_url = "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago/re
   "0.2.0" = ""
   "0.3.0" = ""
   "0.3.1" = ""
+  "0.4.0" = ""
+  "0.4.1" = ""
 
 [[worlds]]
 name = "everhood_2"
@@ -3081,6 +3151,8 @@ default_url = "https://github.com/lepideble/factorio-apworld/releases/download/p
   "0.3.0" = ""
   "0.4.0" = ""
   "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
 
 [[worlds]]
 name = "factorio_space_age"
@@ -3125,6 +3197,7 @@ default_url = "https://github.com/silasary/Archipelago/releases/download/factori
   "0.9.0" = ""
   "0.9.1" = ""
   "0.9.2" = ""
+  "0.9.3" = ""
 
 [[worlds]]
 name = "fakutori"
@@ -3219,6 +3292,7 @@ default_url = "https://github.com/wildham0/FF1PRAP/releases/download/{{version}}
   "0.6.0" = ""
   "0.6.1" = ""
   "0.6.2" = ""
+  "0.6.3" = ""
 
 [[worlds]]
 name = "ff4fe"
@@ -3412,6 +3486,17 @@ default_url = "https://github.com/Rurusachi/Archipelago/releases/download/{{vers
   "0.0.9" = { as = "FFTA2_0.0.9" }
 
 [[worlds]]
+name = "ff132"
+display_name = "Final Fantasy XIII-2"
+discord = "https://discord.com/channels/731205301247803413/1502061975335604504"
+status = "custom"
+default_url = "https://github.com/MLSTRM/ArchipelagoFF132/releases/download/ff132%2F{{version}}/ff132.apworld"
+
+  [worlds.versions]
+  "0.1.0" = ""
+  "0.1.1" = ""
+
+[[worlds]]
 name = "fe8"
 display_name = "Fire Emblem Sacred Stones"
 discord = "https://discord.com/channels/731205301247803413/1098762105445953546"
@@ -3434,19 +3519,20 @@ default_url = "https://github.com/CT075/Archipelago/releases/download/fe8-{{vers
   "0.4.0" = ""
   "0.4.1" = ""
   "0.4.2" = ""
+  "0.5.0-rc.1" = { as = "alpha-0.5.0-rc1" }
 
 [[worlds]]
 name = "fnafw"
 display_name = "FNaFW"
 discord = "https://discord.com/channels/731205301247803413/1519051628169134340"
 status = "custom"
-default_url = "https://github.com/EviVirus/Archipelago/releases/download/v{{version}}/fnafw.apworld"
+default_url = "https://github.com/EviVirus/Archipelago-FNaFW-FFPS/releases/download/FNaFW-v{{version}}/fnafw.apworld"
 
   [worlds.versions]
   "1.0.1" = ""
   "1.0.2" = ""
   "1.0.3" = ""
-  "1.0.4" = ""
+  "1.0.4" = "https://github.com/EviVirus/Archipelago-FNaFW-FFPS/releases/download/FNaFW-v.1.0.4/fnafw.apworld"
   "1.1.0" = ""
 
 [[worlds]]
@@ -3516,16 +3602,17 @@ default_url = "https://github.com/Witchybun/FlipwitchAPClient/releases/download/
   "1.1.6" = ""
   "1.1.7" = ""
 
-[[worlds]]
-name = "flowersanity"
-display_name = "Flowersanity"
-discord = "https://discord.com/channels/731205301247803413/1515715866082414623"
-status = "custom"
-default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/flowersanity_{{version}}/flowersanity.apworld"
+# banned from Discord server and Wiki
+# [[worlds]]
+# name = "flowersanity"
+# display_name = "Flowersanity"
+# discord = "https://discord.com/channels/731205301247803413/1515715866082414623"
+# status = "custom"
+# default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/flowersanity_{{version}}/flowersanity.apworld"
 
-  [worlds.versions]
-  "1.0.0" = ""
-  "1.1.0" = ""
+#   [worlds.versions]
+#   "1.0.0" = ""
+#   "1.1.0" = { as = "1.1.0_fix" }
 
 [[worlds]]
 name = "forgedcurse"
@@ -3554,6 +3641,16 @@ default_url = "https://github.com/IveBenGamin/Archipelago---APWorld-For-Forty-Fi
   "1.0.2" = ""
   "1.1.0" = ""
   "1.1.1" = ""
+
+[[worlds]]
+name = "ffps"
+display_name = "FFPS"
+discord = "https://discord.com/channels/731205301247803413/1078423429310582806"
+status = "custom"
+default_url = "https://github.com/EviVirus/Archipelago-FNaFW-FFPS/releases/download/FFPS-v{{version}}/ffps.apworld"
+
+  [worlds.versions]
+  "1.0.0-pre.1" = { as = "1.0.0-pre1" }
 
 [[worlds]]
 name = "fp2"
@@ -3613,6 +3710,7 @@ default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelag
   "1.5.2" = ""
   "1.6.0" = ""
   "1.6.1" = ""
+  "1.6.2" = ""
 
 [[worlds]]
 name = "garfkart"
@@ -3637,6 +3735,7 @@ default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{vers
   "0.5.2-beta" = ""
   "0.5.3-beta" = ""
   "0.5.4-beta" = ""
+  "1.0.0" = ""
 
 [[worlds]]
 name = "gmod_apadv"
@@ -3929,6 +4028,8 @@ default_url = "https://github.com/MarioSpore/Grinch-AP/releases/download/v{{vers
   "1.6.0-pre.4" = { as = "1.6.0-PR4" }
   "1.6.0-pre.5" = { as = "1.6.0-PR5" }
   "1.6.0-pre.6" = { as = "1.6.0-PR6" }
+  "1.6.0-pre.7" = { as = "1.6.0-PR7" }
+  "1.6.0-pre.8" = { as = "1.6.0-PR8" }
 
 [[worlds]]
 name = "gtfo"
@@ -3998,7 +4099,7 @@ default_url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/down
   [worlds.versions]
   "0.0.2" = { as = "alpha-2-hotfix1" }
   "0.0.3" = { as = "alpha-3-hotfix-2" }
-  "0.0.4" = ""
+  "0.0.4" = { as = "alpha-4" } # idk which version the tag 0.0.4 should be when this alpha is newer
 
 [[worlds]]
 name = "hades"
@@ -4041,23 +4142,24 @@ default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{versi
   "0.15.1" = ""
   "0.16.0" = ""
   "0.16.1" = ""
+  "0.16.2" = ""
 
-# invalid 'random' option: https://github.com/BrittisH39/Hades2Archipelago/issues/1
-# [[worlds]]
-# name = "Hades2Rogue"
-# display_name = "Hades2Rogue"
-# discord = "https://discord.com/channels/731205301247803413/1521929337954238624"
-# status = "custom"
-# default_url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v{{version}}/Hades2Rogue.apworld"
+[[worlds]]
+name = "Hades2Rogue"
+display_name = "Hades2Rogue"
+discord = "https://discord.com/channels/731205301247803413/1521929337954238624"
+status = "custom"
+default_url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v{{version}}/Hades2Rogue.apworld"
 
-#   [worlds.versions]
-#   # "0.1.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.0/Hades2Rogue.apworld"
-#   # "0.1.5" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.5/Hades2Rogue.apworld"
-#   # changed world name
-#   "0.2.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.2.0/Hades2Rogue.apworld"
-#   "0.3.0" = ""
-#   "0.4.0" = ""
-#   "0.5.0" = ""
+  [worlds.versions]
+  # "0.1.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.0/Hades2Rogue.apworld"
+  # "0.1.5" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.1.5/Hades2Rogue.apworld"
+  # changed world name
+  "0.2.0" = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/0.2.0/Hades2Rogue.apworld"
+  "0.3.0" = ""
+  "0.4.0" = ""
+  "0.5.0" = ""
+  "0.6.0" = ""
 
 [[worlds]]
 name = "halo_mcc"
@@ -4173,6 +4275,7 @@ default_url = "https://github.com/funjeff/HenryStickminArchipelagoIntegration/re
   "0.0.3-alpha" = { as = "alpha3" }
   "0.1.0" = { as = "release1" }
   "0.2.0" = { as = "release2" }
+  "0.3.0" = { as = "release3" }
 
 [[worlds]]
 name = "hcniko"
@@ -4434,6 +4537,7 @@ default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/dow
   "0.1.2" = ""
   "0.1.3" = ""
   "0.2.0" = ""
+  "0.2.1" = ""
 
 [[worlds]]
 name = "ihyps"
@@ -4445,6 +4549,7 @@ default_url = "https://github.com/chloebangbang/Archipelago/releases/download/ih
   [worlds.versions]
   "0.1.0" = "https://github.com/chloebangbang/Archipelago/releases/download/v0.1.0/ihyps.apworld"
   "0.2.0" = ""
+  "0.3.0" = ""
 
 [[worlds]]
 name = "exocolonist"
@@ -4768,6 +4873,10 @@ default_url = "https://github.com/nickdavies/Archipelago/releases/download/v{{ve
   "0.7.0" = ""
   "0.7.1" = ""
   "0.7.2" = ""
+  "0.7.3" = ""
+  "0.8.0" = ""
+  "0.8.1" = ""
+  "0.8.2" = ""
 
 [[worlds]]
 name = "keymasters_keep"
@@ -4893,6 +5002,8 @@ default_url = "https://github.com/hasherwi/Archipelago-kirbyam/releases/download
   "0.1.1" = ""
   "0.1.2" = ""
   "0.2.0" = ""
+  "0.3.0-rc.1" = { as = "0.3.0-rc1" }
+  "0.3.0-rc.2" = { as = "0.3.0-rc2" }
 
 [[worlds]]
 name = "k64"
@@ -4974,6 +5085,15 @@ default_url = "https://github.com/Silvris/Archipelago/releases/download/kss_{{ve
   "0.1.6" = ""
   "0.1.7" = ""
   "0.1.9" = ""
+
+[[worlds]]
+name = "lamulana"
+display_name = "La-Mulana"
+discord = "https://discord.com/channels/731205301247803413/1111776501654880396"
+status = "custom"
+
+  [worlds.versions]
+  "0.0.0" = "https://github.com/jcbantuelle/la-mulana-multiworld/raw/refs/heads/main/bin/lamulana.apworld"
 
 [[worlds]]
 name = "lamulana2"
@@ -5092,6 +5212,8 @@ default_url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/down
   "0.5.0" = ""
   "0.5.1" = ""
   "0.5.2" = ""
+  "1.0.0" = ""
+  "1.0.1" = ""
 
 [[worlds]]
 name = "tloz_oos"
@@ -5264,6 +5386,7 @@ default_url = "https://github.com/jradcode23/LHP2-APWorld/releases/download/v{{v
   "1.0.2" = ""
   "1.0.4" = ""
   "1.1.0" = ""
+  "1.1.1" = ""
 
 [[worlds]]
 name = "lego_star_wars_tcs"
@@ -5538,6 +5661,7 @@ default_url = "https://github.com/Littlemuzz5/Luck-Be-a-Landlord-AP/releases/dow
 
   [worlds.versions]
   "0.1.0-beta" = { as = "Luck_be_a_Landlord_beta_1" }
+  "0.2.0-beta" = { as = "Luck_be_a_Landlord_beta_2" }
 
 [[worlds]]
 name = "luigismansion"
@@ -5780,6 +5904,7 @@ default_url = "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases/
   [worlds.versions]
   "0.0.1" = ""
   "0.0.2" = ""
+  "0.0.3" = ""
 
 [[worlds]]
 name = "mk64"
@@ -5840,6 +5965,7 @@ default_url = "https://github.com/toent/Archipelago-MKWii/releases/download/v{{v
   "0.2.0" = ""
   "0.2.1" = ""
   "0.2.2" = ""
+  "0.2.3" = ""
 
 [[worlds]]
 name = "mpadv"
@@ -5890,6 +6016,11 @@ default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/
   "1.1.0" = ""
   "1.1.1" = ""
   "1.1.2" = ""
+  "2.0.0" = ""
+  "2.0.1" = ""
+  "2.0.2" = ""
+  "2.0.3" = ""
+  "2.0.4" = ""
 
 [[worlds]]
 name = "mario_super_sluggers"
@@ -6669,6 +6800,7 @@ default_url = "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/relea
   "0.1.0" = ""
   "0.2.0" = ""
   "0.2.1" = ""
+  "0.2.2" = "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/download/V0.2.2/nsmbw.apworld"
 
 [[worlds]]
 name = "nine_sols"
@@ -6867,6 +6999,7 @@ default_url = "https://github.com/Ragmoa/Archipelago/releases/download/{{version
   "0.4.5" = ""
   "0.4.6" = ""
   "0.5.0-pre.1" = { as = "0.5.0-preview-1" }
+  "0.5.0" = ""
 
 [[worlds]]
 name = "osrsm"
@@ -7511,6 +7644,7 @@ default_url = "https://github.com/Amphyros/Phoenotopia-Awakening-AP-client/relea
   "0.3.0" = ""
   "0.3.1" = ""
   "0.3.2" = ""
+  "0.3.3" = ""
 
 [[worlds]]
 name = "pikmin"
@@ -7804,6 +7938,7 @@ default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{ve
   "0.3.34" = ""
   "0.3.35" = ""
   "0.3.36" = ""
+  "0.3.37" = ""
 
 # no pre-releases for this one, there's just too many
 [[worlds]]
@@ -8090,6 +8225,7 @@ default_url = "https://github.com/Mekurushi/Archipelago_Pokepark/releases/downlo
   "1.2.1" = ""
   "1.2.2" = ""
   "1.2.3" = ""
+  "1.2.4" = ""
 
 [[worlds]]
 name = "pokepelago"
@@ -8475,6 +8611,12 @@ default_url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac
   "0.3.2" = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac-size-matters-v0.3.2/rac_size_matters.apworld"
   "0.3.3" = ""
   "0.4.0" = ""
+  "0.4.1" = ""
+  "0.4.2" = ""
+  "0.4.3" = ""
+  "0.4.4" = ""
+  "0.4.5" = ""
+  "0.4.6" = ""
 
 [[worlds]]
 name = "rayman2"
@@ -9220,6 +9362,9 @@ default_url = "https://github.com/ethentianknight/shellipelago/releases/download
   "0.1.9" = { as = "1.9" }
   "0.1.10" = { as = "1.10n+1.1h" }
   "0.1.11" = { as = "1.11" }
+  "0.1.12" = { as = "1.12" }
+  "0.1.13" = { as = "1.13" }
+  "0.1.14" = { as = "1.14" }
 
 [[worlds]]
 name = "shining_itd"
@@ -9263,6 +9408,7 @@ default_url = "https://github.com/Mitchell1711/Archipelago/releases/download/v{{
   "0.2.0" = ""
   "0.2.1" = ""
   "0.2.2" = ""
+  "0.3.0" = ""
 
 [[worlds]]
 name = "signalis"
@@ -9543,6 +9689,7 @@ default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{v
   "0.9.2" = ""
   "0.9.3" = ""
   "0.10.0" = ""
+  "0.11.0" = ""
 
 [[worlds]]
 name = "slotlock"
@@ -9850,6 +9997,7 @@ default_url = "https://github.com/OnakuTV/SonicFrontiersAPWorld/releases/downloa
   # "0.1.2" = ""
   # "0.1.3" = ""
   "0.1.7" = { as = "0.1.7.1" }
+  "0.2.0" = ""
 
 [[worlds]]
 name = "SonicGenerations"
@@ -10001,6 +10149,8 @@ default_url = "https://github.com/Kylogias/Spark3-Archipelago/releases/download/
   "0.7.1-alpha" = ""
   "0.10.0-beta" = ""
   "0.10.1-beta" = ""
+  "0.11.0-beta" = ""
+  "0.11.1-beta" = ""
 
 [[worlds]]
 name = "spelunky2"
@@ -10075,6 +10225,7 @@ default_url = "https://github.com/DotsofdarknessArchipelago/Spirit-Valley-Archip
   "1.0.2" = ""
   "2.0.0" = ""
   "2.0.1" = ""
+  "2.1.0" = ""
 
 [[worlds]]
 name = "splasher"
@@ -10270,6 +10421,17 @@ default_url = "https://github.com/guigui0246/StatusLock/releases/download/v{{ver
   "0.4.1" = ""
 
 [[worlds]]
+name = "sternly_worded_adventures"
+display_name = "Sternly Worded Adventures"
+discord = "https://discord.com/channels/731205301247803413/1526068157461041172"
+status = "custom"
+default_url = "https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula/releases/download/V{{version}}/sternly_worded_adventures.apworld"
+
+  [worlds.versions]
+  "1.0.0" = ""
+  "1.0.1" = ""
+
+[[worlds]]
 name = "stick_ranger"
 display_name = "Stick Ranger"
 discord = "https://discord.com/channels/731205301247803413/1368511758662373517"
@@ -10335,6 +10497,7 @@ default_url = "https://github.com/FrederikRasmussen/APWorldSULFUR/releases/downl
 
   [worlds.versions]
   "1.0.0-alpha" = { as = "alpha1.0.0" }
+  "2.0.0-alpha" = { as = "alpha2.0.0" }
 
 [[worlds]]
 name = "scp"
@@ -10391,6 +10554,7 @@ default_url = "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/dow
   "0.0.6" = ""
   "0.0.7" = ""
   "0.0.8" = ""
+  "0.0.9" = ""
 
 [[worlds]]
 name = "sms"
@@ -10483,6 +10647,7 @@ default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/melee
   "1.0.2" = ""
   "1.1.0" = { as = "1.1" }
   "2.0.0" = { as = "2.0" }
+  "2.0.1" = ""
 
 [[worlds]]
 name = "supraland"
@@ -10590,6 +10755,7 @@ default_url = "https://github.com/barretg/Taskipelago/releases/download/v{{versi
   "0.9.3" = ""
   "0.9.4" = ""
   "0.9.5" = ""
+  "0.9.6" = ""
 
 [[worlds]]
 name = "tcg_card_shop_simulator"
@@ -10758,6 +10924,7 @@ default_url = "https://github.com/aurabot24/Archipelago-ALttPR/releases/download
   "1.2.1" = ""
   "1.2.2" = ""
   "1.2.3" = ""
+  "1.3.0" = ""
 
 [[worlds]]
 name = "three_goblin_wobblin"
@@ -10869,6 +11036,7 @@ default_url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/{{v
 
   [worlds.versions]
   "0.0.1" = { as = "Latest" }
+  "0.0.2" = { as = "Beverly-Hills" }
 
 [[worlds]]
 name = "tony_hawks_pro_skater_1_2"
@@ -10952,6 +11120,7 @@ default_url = "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/downlo
   "0.10.8" = ""
   "0.10.9" = ""
   "0.10.10" = ""
+  "0.10.11" = ""
 
 [[worlds]]
 name = "tabs"
@@ -11640,6 +11809,7 @@ default_url = "https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/do
 
   [worlds.versions]
   "1.0.0" = ""
+  "1.0.1" = ""
 
 [[worlds]]
 name = "votv"
@@ -12084,6 +12254,7 @@ default_url = "https://github.com/MaragonMH/Archipelago/releases/download/{{vers
   "0.1.12" = ""
   "0.1.13" = { as = "XenoX0.1.13" }
   "0.1.14" = { as = "XenoX0.1.14" }
+  "0.2.0" = { as = "XenoX0.2.0" }
 
 [[worlds]]
 name = "yarg"
@@ -12115,6 +12286,7 @@ default_url = "https://github.com/energymaster22/YARGArchipelago/releases/downlo
   "0.0.20" = ""
   "0.0.21" = ""
   "0.0.22" = ""
+  "0.0.23" = ""
 
 [[worlds]]
 name = "YARGAllSetlists"
@@ -12244,11 +12416,11 @@ status = "custom"
 default_url = "https://github.com/soopercool101/Archipelago/releases/download/YTGV.v{{version}}/yellowtaxi.apworld"
 
   [worlds.versions]
-  "0.1.0" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.0/yellowtaxi.apworld"
-  "0.1.1" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.1/yellowtaxi.apworld"
-  "0.1.2" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.2/yellowtaxi.apworld"
-  "0.1.3" = "https://github.com/soopercool101/Archipelago/releases/download/v0.1.3/yellowtaxi.apworld"
-  "0.2.0" = "https://github.com/soopercool101/Archipelago/releases/download/v0.2.0/yellowtaxi.apworld"
+  "0.1.0" = ""
+  "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
+  "0.2.0" = ""
   "0.3.0" = ""
   "0.3.1" = ""
   "0.3.2" = ""
@@ -12361,6 +12533,7 @@ default_url = "https://github.com/junglechief87/Ys-8-AP-World/releases/download/
   "1.0.3" = ""
   "1.1.0-beta" = { as = "1.1.0b" }
   "1.1.1-beta" = { as = "1.1.1" }
+  "1.2.0-beta" = { as = "1.2.0b" }
 
 [[worlds]]
 name = "ys_chronicles"
@@ -12445,6 +12618,8 @@ default_url = "https://github.com/nebbii/za-gdx/releases/download/v{{version}}/z
   "0.0.6" = ""
   "0.1.0" = ""
   "0.1.1" = ""
+  "0.1.2" = ""
+  "0.1.3" = ""
 
 [[worlds]]
 name = "zork_grand_inquisitor"
