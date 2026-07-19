@@ -10,6 +10,7 @@ use std::{
 
 use anyhow::{Context, Result, bail};
 use digest_io::IoWrapper;
+use itertools::Itertools as _;
 use reqwest::blocking::Client;
 use semver::Version;
 use serde_with::{NoneAsEmptyString, hex::Hex, serde_as};
@@ -134,10 +135,14 @@ fn main() -> Result<()> {
 
     println!("generating schema");
     _ = fs::remove_dir_all("schema");
-    Command::new("python")
-        .arg("GenerateOptionSchema.py")
-        .args(toml.worlds.iter().map(|world| &world.name))
-        .status()?;
+    // chunk world list to max of 500 at once to let python clear out its ram
+    // (500 barely fits under the 16GB limit by the GitHub runner)
+    for chunk in &toml.worlds.iter().map(|world| &world.name).chunks(500) {
+        Command::new("python")
+            .arg("GenerateOptionSchema.py")
+            .args(chunk)
+            .status()?;
+    }
 
     println!("creating index.json");
     let mut index = vec![];
